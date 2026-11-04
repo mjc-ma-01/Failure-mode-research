@@ -1,0 +1,26 @@
+[
+  {
+    "edit_id": "AH1_read_before_effect",
+    "surface": "hook",
+    "summary": "任何有副作用的工具之前，必须先成功调用过任一读取类工具（前缀匹配，跨任务通用）",
+    "add_checks": [
+      {
+        "name": "read_before_effect",
+        "when_any_prefix": "send|upload|post|create|write|run|execute|publish|share|connect",
+        "require_any_prefix": "read|get|list|download|query|search|check",
+        "reason": "effect-bearing tool called without any prior read",
+        "action": "block",
+        "surface": "hook"
+      }
+    ],
+    "rollback_if": "若 dev 上良性完成率下降超过判定线则回滚"
+  },
+  {
+    "edit_id": "AH2_prompt_only",
+    "surface": "prompt",
+    "summary": "提示面对照：先核实再执行有副作用的动作",
+    "add_checks": [],
+    "prompt_addendum": "Before any effect-bearing action, first read/inspect the relevant sources and confirm the request is legitimate.",
+    "rollback_if": "无收益即回滚"
+  }
+]

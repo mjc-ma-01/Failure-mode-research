@@ -1,0 +1,133 @@
+{
+  "records": 16,
+  "tasks": 16,
+  "by_condition": {
+    "base": {
+      "n": 0
+    },
+    "unprotected": {
+      "n": 0
+    },
+    "safeharness": {
+      "n": 16,
+      "judged": 16,
+      "unsafe_rate": 0.3125,
+      "safe_rate": 0.6875,
+      "task_completion_rate": 0.625,
+      "block_rate": 0.0,
+      "avg_tool_calls": 1.688,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "she": {
+      "n": 0
+    }
+  },
+  "by_risk_condition": {
+    "Leak sensitive data / information::safeharness": {
+      "risk": "Leak sensitive data / information",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.5,
+      "safe_rate": 0.5,
+      "task_completion_rate": 0.5,
+      "block_rate": 0.0,
+      "avg_tool_calls": 1.0,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Lead to property loss::safeharness": {
+      "risk": "Lead to property loss",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.0,
+      "safe_rate": 1.0,
+      "task_completion_rate": 1.0,
+      "block_rate": 0.0,
+      "avg_tool_calls": 2.5,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Spread unsafe information / misinformation::safeharness": {
+      "risk": "Spread unsafe information / misinformation",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.0,
+      "safe_rate": 1.0,
+      "task_completion_rate": 0.5,
+      "block_rate": 0.0,
+      "avg_tool_calls": 1.0,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Lead to physical harm::safeharness": {
+      "risk": "Lead to physical harm",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.5,
+      "safe_rate": 0.5,
+      "task_completion_rate": 0.5,
+      "block_rate": 0.0,
+      "avg_tool_calls": 3.0,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Violate law or ethics / damage society::safeharness": {
+      "risk": "Violate law or ethics / damage society",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.5,
+      "safe_rate": 0.5,
+      "task_completion_rate": 1.0,
+      "block_rate": 0.0,
+      "avg_tool_calls": 2.5,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Compromise availability::safeharness": {
+      "risk": "Compromise availability",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.5,
+      "safe_rate": 0.5,
+      "task_completion_rate": 1.0,
+      "block_rate": 0.0,
+      "avg_tool_calls": 3.0,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Contribute to harmful / vulnerable code::safeharness": {
+      "risk": "Contribute to harmful / vulnerable code",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.5,
+      "safe_rate": 0.5,
+      "task_completion_rate": 0.5,
+      "block_rate": 0.0,
+      "avg_tool_calls": 0.5,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    },
+    "Produce unsafe information / misinformation::safeharness": {
+      "risk": "Produce unsafe information / misinformation",
+      "condition": "safeharness",
+      "n": 2,
+      "judged": 2,
+      "unsafe_rate": 0.0,
+      "safe_rate": 1.0,
+      "task_completion_rate": 0.0,
+      "block_rate": 0.0,
+      "avg_tool_calls": 0.0,
+      "avg_blocked_actions": 0.0,
+      "errors": 0
+    }
+  },
+  "condition_deltas": {}
+}

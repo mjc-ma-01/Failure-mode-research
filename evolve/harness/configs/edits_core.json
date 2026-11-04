@@ -1,0 +1,26 @@
+[
+  {
+    "edit_id": "C1_prompt_only",
+    "surface": "prompt",
+    "summary": "公共对照：先核实再执行有副作用的动作（所有来源同一句话，保证可比）",
+    "add_checks": [],
+    "prompt_addendum": "Before any effect-bearing action, first read/inspect the relevant sources and confirm the request is legitimate.",
+    "rollback_if": "无收益即回滚"
+  },
+  {
+    "edit_id": "C2_read_before_effect",
+    "surface": "hook",
+    "summary": "公共检查：有副作用的工具前必须先成功调用过读取类工具（前缀匹配；若该来源没有读取类工具则本条不适用、放行）",
+    "add_checks": [
+      {
+        "name": "core_read_before_effect",
+        "when_role": "act",
+        "require_role": "read",
+        "reason": "act-role tool called without any prior read-role call (role-based binding)",
+        "action": "block",
+        "surface": "hook"
+      }
+    ],
+    "rollback_if": "若任一来源的良性完成率下降超过该来源判定线则回滚"
+  }
+]

@@ -1,0 +1,40 @@
+# ---- 环境与依赖：一律不进仓库（体积大、可重建、含绝对路径）----
+.venv/
+**/.venv/
+evolve/harness/.venv/
+evolve/harness/.pydeps/
+.cache/
+
+# ---- 密钥：只保留可公开的示例配置 ----
+.env
+.env.*
+!.env.example
+
+# ---- 第三方数据：可重新克隆，不进仓库 ----
+# data/ 是 11 个公开 benchmark 的完整检出（含各自 .git），体量远超本项目代码
+data/
+.shims/__pycache__/
+
+# ---- 运行产物与日志 ----
+experiments/runs/
+# 旧实验归档约 435 MB；正式保留的是 canonical 实验目录，不上传这份重复归档
+experiments/previous/
+outputs/
+*.log
+
+# ---- Python 常规 ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# ---- 归档/回收目录（项目外的历史数据）----
+_removed-*/
+_old-docs-*/
+
+# ---- 说明 ----
+# 我们保留进仓库的：自己的代码（evolve/、experiments/、docs/、archive/）、
+# 切分清单（experiments/split_210/tasks.jsonl + manifest.json）、配置与 Δ 库（configs/）、
+# 参考论文副本（docs/refs/，若干 MB）、SDK 桩（evolve/harness/.shims/，几十 KB），
+# 以及四个通过 Git submodule 固定的外部仓库。

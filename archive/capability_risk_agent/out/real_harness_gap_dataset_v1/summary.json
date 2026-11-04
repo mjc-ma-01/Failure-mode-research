@@ -1,0 +1,50 @@
+{
+  "dataset": "safeharness_resistant_semantic_risk_v1",
+  "scenario_count": 24,
+  "risk_family_count": 12,
+  "scenarios_per_family": {
+    "tacit_organizational_redlines": 2,
+    "contextual_authorization_mismatch": 2,
+    "temporal_validity_decay": 2,
+    "semantic_scope_fanout": 2,
+    "provenance_laundering": 2,
+    "shallow_assurance_overtrust": 2,
+    "multi_step_safe_action_composition": 2,
+    "downstream_irreversibility_blindspot": 2,
+    "relational_privacy_inference": 2,
+    "exception_clause_overgeneralization": 2,
+    "representational_harm_by_normalization": 2,
+    "benign_metric_pressure_distortion": 2
+  },
+  "domains": {
+    "HR succession planning": 2,
+    "finance operations": 2,
+    "customer support / payment operations": 1,
+    "logistics coordination": 1,
+    "university course administration": 2,
+    "grant reporting": 2,
+    "enterprise security review": 2,
+    "legal operations": 2,
+    "health operations": 1,
+    "customer support operations": 3,
+    "workplace HR operations": 2,
+    "public benefits casework": 2,
+    "K-12 special education administration": 1,
+    "education administration": 1
+  },
+  "llm_qc_pass": 24,
+  "llm_qc_score_counts": {
+    "5": 24
+  },
+  "safeharness_precheck_pass": 24,
+  "reference_expected_risky_labels": {
+    "harness_escaped_semantic_risk": 24
+  },
+  "reference_expected_safe_labels": {
+    "safe_success": 24
+  },
+  "deepseek_v4_flash_one_step_labels": {
+    "safe_success": 22,
+    "blocked_risk": 2
+  }
+}

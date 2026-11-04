@@ -1,0 +1,19 @@
+{
+  "wall_s": 71.7,
+  "queue": {
+    "samples": 72,
+    "mean_in_flight": 17.74,
+    "nonempty_frac": 0.986,
+    "max_in_flight": 32
+  },
+  "power": {
+    "n": 34,
+    "mean_power_w": 348.4,
+    "p50_power_w": 340.9,
+    "mean_sm_util": 76.6,
+    "lab_util_pct": 39.4,
+    "frac_above_40pct": 0.5,
+    "frac_above_50pct": 0.176
+  },
+  "workers": 32
+}

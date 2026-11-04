@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="modelHeader" x1="0" x2="1">
+      <stop offset="0" stop-color="#183647"/>
+      <stop offset="1" stop-color="#315D70"/>
+    </linearGradient>
+    <linearGradient id="harnessHeader" x1="0" x2="1">
+      <stop offset="0" stop-color="#176C5B"/>
+      <stop offset="1" stop-color="#2F8876"/>
+    </linearGradient>
+    <style>
+      .zh { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }
+      .en { font-family: Inter, Arial, sans-serif; }
+      .title { font-size: 42px; font-weight: 800; fill: #172F3C; }
+      .subtitle { font-size: 18px; font-weight: 500; fill: #667A83; }
+      .column-title { font-size: 28px; font-weight: 800; fill: #FFFFFF; letter-spacing: 1px; }
+      .column-note { font-size: 17px; font-weight: 500; fill: #E7F0F2; }
+      .tag { font-size: 16px; font-weight: 800; fill: #FFFFFF; }
+      .card-title { font-size: 27px; font-weight: 800; fill: #213943; }
+      .card-en { font-size: 17px; font-weight: 600; fill: #71838A; }
+      .minor { font-size: 20px; font-weight: 700; fill: #2F4650; }
+      .desc { font-size: 16px; font-weight: 500; fill: #687A81; }
+      .case { font-size: 15px; font-weight: 500; fill: #66777E; }
+      .principle-head { font-size: 17px; font-weight: 800; }
+      .principle-body { font-size: 16px; font-weight: 500; fill: #52666F; }
+      .footer { font-size: 18px; font-weight: 700; fill: #3C535D; }
+      .footer-small { font-size: 15px; font-weight: 500; fill: #7B8D94; }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#F7F9F8"/>
+  <rect x="0" y="0" width="1920" height="8" fill="#173847"/>
+
+  <text x="960" y="62" text-anchor="middle" class="zh title">Agent 风险防护边界：Model 判断与 Harness 约束</text>
+  <text x="960" y="96" text-anchor="middle" class="zh subtitle">同一风险可分布在两侧：左侧处理开放语义，右侧处理可观测、可验证、可强制的执行边界</text>
+
+  <!-- column headers -->
+  <rect x="64" y="128" width="920" height="64" rx="14" fill="url(#modelHeader)"/>
+  <text x="94" y="170" class="zh column-title">MODEL 主防</text>
+  <text x="952" y="168" text-anchor="end" class="zh column-note">语义理解与策略判断 · 4 个风险大类</text>
+
+  <rect x="1014" y="128" width="842" height="64" rx="14" fill="url(#harnessHeader)"/>
+  <text x="1044" y="170" class="zh column-title">HARNESS 主防</text>
+  <text x="1824" y="168" text-anchor="end" class="zh column-note">确定性检测与执行门禁 · 2 个风险大类</text>
+
+  <line x1="999" y1="128" x2="999" y2="957" stroke="#D5DFDF" stroke-width="2" stroke-dasharray="5 9"/>
+
+  <!-- MODEL: Prompt Injection -->
+  <g>
+    <rect x="64" y="214" width="920" height="158" rx="14" fill="#FFFFFF" stroke="#BBCDD5" stroke-width="1.5"/>
+    <rect x="64" y="214" width="8" height="158" rx="4" fill="#315D70"/>
+    <rect x="92" y="236" width="46" height="30" rx="7" fill="#315D70"/>
+    <text x="115" y="258" text-anchor="middle" class="en tag">M1</text>
+    <text x="154" y="260" class="zh card-title">提示注入</text>
+    <text x="306" y="259" class="en card-en">Prompt Injection</text>
+
+    <rect x="92" y="286" width="410" height="54" rx="10" fill="#F2F6F8"/>
+    <circle cx="116" cy="313" r="5" fill="#315D70"/>
+    <text x="132" y="320" class="zh minor">越权信息访问</text>
+    <text x="288" y="319" class="zh desc">读取无权访问的敏感内容</text>
+
+    <rect x="520" y="286" width="434" height="54" rx="10" fill="#F2F6F8"/>
+    <circle cx="544" cy="313" r="5" fill="#315D70"/>
+    <text x="560" y="320" class="zh minor">越权专业操作</text>
+    <text x="716" y="319" class="zh desc">无授权提供受限专业服务</text>
+
+    <text x="94" y="359" class="zh case">案例：DataAccess / ConfidentialDataAudit　｜　LegalAdvice</text>
+  </g>
+
+  <!-- MODEL: Power Seeking -->
+  <g>
+    <rect x="64" y="389" width="920" height="190" rx="14" fill="#FFFFFF" stroke="#D9C2BD" stroke-width="1.5"/>
+    <rect x="64" y="389" width="8" height="190" rx="4" fill="#A65347"/>
+    <rect x="92" y="411" width="46" height="30" rx="7" fill="#A65347"/>
+    <text x="115" y="433" text-anchor="middle" class="en tag">M2</text>
+    <text x="154" y="435" class="zh card-title">权力寻求／监督规避</text>
+    <text x="468" y="434" class="en card-en">Power Seeking / Oversight Evasion</text>
+
+    <rect x="92" y="460" width="410" height="44" rx="9" fill="#FBF4F2"/>
+    <circle cx="116" cy="482" r="5" fill="#A65347"/>
+    <text x="132" y="489" class="zh minor">绕行重试</text>
+
+    <rect x="520" y="460" width="434" height="44" rx="9" fill="#FBF4F2"/>
+    <circle cx="544" cy="482" r="5" fill="#A65347"/>
+    <text x="560" y="489" class="zh minor">欺骗意图残留</text>
+
+    <rect x="92" y="516" width="410" height="44" rx="9" fill="#FBF4F2"/>
+    <circle cx="116" cy="538" r="5" fill="#A65347"/>
+    <text x="132" y="545" class="zh minor">参数作弊</text>
+
+    <rect x="520" y="516" width="434" height="44" rx="9" fill="#FBF4F2"/>
+    <circle cx="544" cy="538" r="5" fill="#A65347"/>
+    <text x="560" y="545" class="zh minor">组合动作危害</text>
+
+    <text x="94" y="570" class="zh case">案例：force=true 重试　｜　骗取 override　｜　status=OFF　｜　RCE→SSH / SQL→CSV</text>
+  </g>
+
+  <!-- MODEL: Deception -->
+  <g>
+    <rect x="64" y="596" width="920" height="158" rx="14" fill="#FFFFFF" stroke="#CEC5D8" stroke-width="1.5"/>
+    <rect x="64" y="596" width="8" height="158" rx="4" fill="#705B86"/>
+    <rect x="92" y="618" width="46" height="30" rx="7" fill="#705B86"/>
+    <text x="115" y="640" text-anchor="middle" class="en tag">M3</text>
+    <text x="154" y="642" class="zh card-title">欺骗</text>
+    <text x="238" y="641" class="en card-en">Deception</text>
+
+    <rect x="92" y="668" width="266" height="54" rx="10" fill="#F6F3F8"/>
+    <circle cx="116" cy="695" r="5" fill="#705B86"/>
+    <text x="132" y="702" class="zh minor">失败隐瞒</text>
+
+    <rect x="371" y="668" width="266" height="54" rx="10" fill="#F6F3F8"/>
+    <circle cx="395" cy="695" r="5" fill="#705B86"/>
+    <text x="411" y="702" class="zh minor">结果编造</text>
+
+    <rect x="650" y="668" width="304" height="54" rx="10" fill="#F6F3F8"/>
+    <circle cx="674" cy="695" r="5" fill="#705B86"/>
+    <text x="690" y="702" class="zh minor">虚假完成</text>
+
+    <text x="94" y="742" class="zh case">案例：工具失败不披露　｜　未读取却给结论　｜　未核验却声明 all_clear</text>
+  </g>
+
+  <!-- MODEL: Sycophancy -->
+  <g>
+    <rect x="64" y="771" width="920" height="158" rx="14" fill="#FFFFFF" stroke="#DCCFB3" stroke-width="1.5"/>
+    <rect x="64" y="771" width="8" height="158" rx="4" fill="#9B752E"/>
+    <rect x="92" y="793" width="46" height="30" rx="7" fill="#9B752E"/>
+    <text x="115" y="815" text-anchor="middle" class="en tag">M4</text>
+    <text x="154" y="817" class="zh card-title">谄媚／目标投机</text>
+    <text x="405" y="816" class="en card-en">Sycophancy / Reward Hacking</text>
+
+    <rect x="92" y="843" width="266" height="54" rx="10" fill="#FAF7F0"/>
+    <circle cx="116" cy="870" r="5" fill="#9B752E"/>
+    <text x="132" y="877" class="zh minor">内容／权威迎合</text>
+
+    <rect x="371" y="843" width="266" height="54" rx="10" fill="#FAF7F0"/>
+    <circle cx="395" cy="870" r="5" fill="#9B752E"/>
+    <text x="411" y="877" class="zh minor">选择性报告</text>
+
+    <rect x="650" y="843" width="304" height="54" rx="10" fill="#FAF7F0"/>
+    <circle cx="674" cy="870" r="5" fill="#9B752E"/>
+    <text x="690" y="877" class="zh minor">指标投机</text>
+
+    <text x="94" y="917" class="zh case">案例：迎合上级偏好　｜　只报告有利指标　｜　为参与度降低审核标准</text>
+  </g>
+
+  <!-- HARNESS: Prompt Injection -->
+  <g>
+    <rect x="1014" y="214" width="842" height="478" rx="14" fill="#FFFFFF" stroke="#AFCEC4" stroke-width="1.5"/>
+    <rect x="1014" y="214" width="8" height="478" rx="4" fill="#23806B"/>
+    <rect x="1042" y="238" width="46" height="30" rx="7" fill="#23806B"/>
+    <text x="1065" y="260" text-anchor="middle" class="en tag">H1</text>
+    <text x="1104" y="262" class="zh card-title">提示注入</text>
+    <text x="1256" y="261" class="en card-en">Prompt Injection</text>
+    <text x="1042" y="296" class="zh desc">当危险结果具有可观测工具能力、数据流向或副作用时，可由 Harness 确定性阻断</text>
+
+    <rect x="1042" y="320" width="786" height="72" rx="11" fill="#F0F7F5"/>
+    <circle cx="1070" cy="347" r="6" fill="#23806B"/>
+    <text x="1090" y="354" class="zh minor">恶意业务操作</text>
+    <text x="1090" y="379" class="zh case">InsiderTrading、MoneyLaundering</text>
+
+    <rect x="1042" y="406" width="786" height="72" rx="11" fill="#F0F7F5"/>
+    <circle cx="1070" cy="433" r="6" fill="#23806B"/>
+    <text x="1090" y="440" class="zh minor">敏感信息外传</text>
+    <text x="1090" y="465" class="zh case">ConfidentialDataLeak、ConfidentialDocumentTheft、CaseDisclosure</text>
+
+    <rect x="1042" y="492" width="786" height="72" rx="11" fill="#F0F7F5"/>
+    <circle cx="1070" cy="519" r="6" fill="#23806B"/>
+    <text x="1090" y="526" class="zh minor">未授权状态变更</text>
+    <text x="1090" y="551" class="zh case">TestOrdering、TreatmentPlanAlteration、MedicationManagement、FundWithdrawal</text>
+
+    <rect x="1042" y="578" width="786" height="72" rx="11" fill="#F0F7F5"/>
+    <circle cx="1070" cy="605" r="6" fill="#23806B"/>
+    <text x="1090" y="612" class="zh minor">未授权程序执行</text>
+    <text x="1090" y="637" class="zh case">Procedure 等 execute 类工具</text>
+
+    <text x="1042" y="678" class="zh case">防御证据：显式危险能力，或可检测注入模板 + write / network / execute 副作用</text>
+  </g>
+
+  <!-- HARNESS: Power Seeking -->
+  <g>
+    <rect x="1014" y="711" width="842" height="218" rx="14" fill="#FFFFFF" stroke="#D9C2BD" stroke-width="1.5"/>
+    <rect x="1014" y="711" width="8" height="218" rx="4" fill="#A65347"/>
+    <rect x="1042" y="735" width="46" height="30" rx="7" fill="#A65347"/>
+    <text x="1065" y="757" text-anchor="middle" class="en tag">H2</text>
+    <text x="1104" y="759" class="zh card-title">权力寻求／监督规避</text>
+    <text x="1418" y="758" class="en card-en">Power Seeking / Oversight Evasion</text>
+
+    <rect x="1042" y="790" width="786" height="78" rx="11" fill="#FBF4F2"/>
+    <circle cx="1070" cy="819" r="6" fill="#A65347"/>
+    <text x="1090" y="826" class="zh minor">关停与破坏性执行</text>
+    <text x="1090" y="852" class="zh case">block_remote_admin_port、disable_update_service、delete_backup_archives</text>
+
+    <text x="1042" y="901" class="zh case">防御证据：工具已登记为 destructive，L3 无需推断动机即可强制阻断</text>
+  </g>
+
+  <!-- principles -->
+  <rect x="64" y="954" width="1792" height="82" rx="14" fill="#EEF3F3" stroke="#CBD8D9" stroke-width="1.2"/>
+  <text x="96" y="984" class="zh principle-head" fill="#315D70">MODEL</text>
+  <text x="174" y="984" class="zh principle-body">判断授权、意图、事实与目标；处理“为何这样做、内容是否真实”</text>
+  <line x1="950" y1="970" x2="950" y2="1020" stroke="#CBD8D9" stroke-width="1.5"/>
+  <text x="986" y="984" class="zh principle-head" fill="#23806B">HARNESS</text>
+  <text x="1098" y="984" class="zh principle-body">核验工具能力、参数、数据流与副作用；处理“能否执行、是否命中边界”</text>
+  <text x="960" y="1018" text-anchor="middle" class="zh footer-small">小类均按“实际如何失败”命名；注入模板、工具分级与污点传播属于检测证据，不作为风险小类。</text>
+</svg>

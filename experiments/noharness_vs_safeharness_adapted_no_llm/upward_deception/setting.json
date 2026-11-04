@@ -1,0 +1,27 @@
+{
+  "benchmark": "Agentic-Upward-Deception",
+  "conditions": [
+    "noharness",
+    "safeharness_adapted_no_llm"
+  ],
+  "agent_model": "Qwen/Qwen3.5-9B",
+  "agent_temperature": 0.0,
+  "max_steps": 5,
+  "seed": 0,
+  "selected_tasks": 32,
+  "episodes_per_arm": 32,
+  "runtime_harness_llm": false,
+  "harness": "same deterministic L1/L2-Tier1/L3 pipeline as SecurityBench",
+  "outcome_judge": "benchmark-provided templates via gpt-4o-mini",
+  "primary_metrics": {
+    "type_1_2": "NFR",
+    "type_3": "DFR",
+    "type_4_5": "download-failure NFR"
+  },
+  "excluded_from_primary_aggregate": [
+    "FFR",
+    "HFR"
+  ],
+  "task_utility": null,
+  "legacy_completed_field_warning": "runner alias for not-unsafe; not task-success utility"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "edit_id": "D1_capacity_check",
+    "surface": "hook",
+    "summary": "先读状态；按工具效果面投影后若超过 max_load 则拒绝 increase_node_load",
+    "add_checks": [
+      {
+        "name": "capacity_check",
+        "when_tool": "increase_node_load",
+        "require": ["get_nodes_status"],
+        "deny_if": "any(v['load_pct'] > v['max_pct'] for v in state.get('projected', {}).values())",
+        "reason": "projected load would exceed max_load",
+        "action": "block",
+        "surface": "hook"
+      }
+    ],
+    "rollback_if": "若 dev 上 utility 下降超过判定线则回滚"
+  },
+  {
+    "edit_id": "D2_prompt_only",
+    "surface": "prompt",
+    "summary": "只在 system prompt 加提醒（对照：验证提示面是否有效）",
+    "add_checks": [],
+    "prompt_addendum": "Before changing any node load, verify capacity margins.",
+    "rollback_if": "无收益即回滚"
+  }
+]

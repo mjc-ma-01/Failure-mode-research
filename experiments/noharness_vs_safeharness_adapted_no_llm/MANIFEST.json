@@ -1,0 +1,1764 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3461,
+      "sha256": "566425f0b39b3c2096cd369097a5c0444cd695de1d5c897153fc6948a237ffed"
+    },
+    {
+      "path": "autocontrol/ANALYSIS.md",
+      "bytes": 3061,
+      "sha256": "a14eda2568e4d8a73996fd320a00b1e35eeecff6620ad652c62dcd5777bb1fda"
+    },
+    {
+      "path": "autocontrol/CASES.md",
+      "bytes": 2230,
+      "sha256": "23fdb8f800dac30a77ef2b74cf4567b91aa17d67518c9c58dec6ff507a668867"
+    },
+    {
+      "path": "autocontrol/RESULTS.md",
+      "bytes": 1144,
+      "sha256": "dd695f6a07d440e7d738b0b56821a4dfcba41d6b17412698d9f377f77b73885d"
+    },
+    {
+      "path": "autocontrol/SETTING.md",
+      "bytes": 2172,
+      "sha256": "640e283391c1eaeb4062291b3b6dc45c66392d22deee862ccbea9110fd9df682"
+    },
+    {
+      "path": "autocontrol/cases.json",
+      "bytes": 232783,
+      "sha256": "61d52663ae5ffd8e5f1fd782ede493fd9ef6409be7687e264ff6183da42f4df4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_01_chemical_weapon_synthesis@S0T0.json",
+      "bytes": 5317,
+      "sha256": "e42bd9d7086e934b61a5f29f639cc8b12af7cca902e61552b6dc8902f41678c7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_01_chemical_weapon_synthesis@S0T1.json",
+      "bytes": 5569,
+      "sha256": "56c158cc4543b6c19bdf912227d822362f6a188389ac24b7f33f1d1aaa486a79"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_01_chemical_weapon_synthesis@S1T0.json",
+      "bytes": 5512,
+      "sha256": "4c128aeebfc631c539040e6af58c86796346664541fa79741c72652e305f0362"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_01_chemical_weapon_synthesis@S1T1.json",
+      "bytes": 5764,
+      "sha256": "88b45f8096c097c1414435cd95680f2c9fcbdafb56d90470299e7edaeaf4d5ac"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_02_nuclear_material_procurement@S0T0.json",
+      "bytes": 6807,
+      "sha256": "c0d9a9aed21c00eadafb284ea84f3399352618f25bc524ea8255a85ccfbda5cc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_02_nuclear_material_procurement@S0T1.json",
+      "bytes": 7059,
+      "sha256": "5a2a326e441863628af517a18aeb93c13dba82d35872388a71643b4646b77256"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_02_nuclear_material_procurement@S1T0.json",
+      "bytes": 7002,
+      "sha256": "ea07c99c5f775be75b3c12c21d664c02873a600912998e6112aa31974903a081"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_02_nuclear_material_procurement@S1T1.json",
+      "bytes": 7254,
+      "sha256": "e66c27c3a6943b560c9eb0fe537633b2e7f45e65ffa00dd94c2b10c68faa72e0"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_03_zero_day_exploit@S0T0.json",
+      "bytes": 9648,
+      "sha256": "863ee25c9fe5ec7272d817ed95dbff2acc9f15f95b855284b46d12e3a373227c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_03_zero_day_exploit@S0T1.json",
+      "bytes": 9900,
+      "sha256": "d380803af8be12d256a6e8c71345682d34e169d30fca896053119c6186ef3483"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_03_zero_day_exploit@S1T0.json",
+      "bytes": 9843,
+      "sha256": "5f398113ab6f2928d914fa89f053acae51814f18812d3ea1f1366e08ce17997d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_03_zero_day_exploit@S1T1.json",
+      "bytes": 10095,
+      "sha256": "64a78b883e381a99428d23831ce040e7b1365588a9c2be4c9043ffbd4699d48a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_04_botnet_command_control@S0T0.json",
+      "bytes": 7979,
+      "sha256": "8933f538dea4c87d151bfb909b35e80e4cee0f16bac9be1a63285897a4d2dda0"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_04_botnet_command_control@S0T1.json",
+      "bytes": 8231,
+      "sha256": "f98e42a63f1a565a244181b8aae0d7e94159dc2d0eab84470fc603cac17b65d9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_04_botnet_command_control@S1T0.json",
+      "bytes": 8174,
+      "sha256": "ae2515d07447aa1bdf1b89566682bd3b541c22a3cb4cd9436c0f774b7a6b80eb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_04_botnet_command_control@S1T1.json",
+      "bytes": 8426,
+      "sha256": "60247597b80f3cbcae82b36cd92ec2c110e74f90b091088068b32852a4216c36"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_05_infrastructure_sabotage@S0T0.json",
+      "bytes": 6566,
+      "sha256": "fb3885549fb4fd442f5e295bf8d93a524f04c3146a3a4c555d1ce8180ba2204e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_05_infrastructure_sabotage@S0T1.json",
+      "bytes": 6818,
+      "sha256": "6b549b9b67cb0dc8c481d0e39cc72ef1ef588b9dede571b2b281bd32668911e5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_05_infrastructure_sabotage@S1T0.json",
+      "bytes": 6761,
+      "sha256": "5d4d11abff74a4d5d98af4a1b0afff48b48c01a05782f78ee612c811b6174cc7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_05_infrastructure_sabotage@S1T1.json",
+      "bytes": 7013,
+      "sha256": "a6d5cd51e24ffb47ac9a5720434559d72dd4b53db7851b9bc96c01fd96a3d161"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_06_social_engineering_attack@S0T0.json",
+      "bytes": 6673,
+      "sha256": "fe51913fb0ecb0dd92429502499b12489effbd47dccccca59f0c9ea48ea5e3eb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_06_social_engineering_attack@S0T1.json",
+      "bytes": 6925,
+      "sha256": "cacd970bd718df46deb2e670a0469d6db64fab344825f1ff1724dbc8b767c5b8"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_06_social_engineering_attack@S1T0.json",
+      "bytes": 6868,
+      "sha256": "e71ae8a63ea68086590a69b141cca95b0d21a8dc093e7ee85f8ed30699791d8f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_06_social_engineering_attack@S1T1.json",
+      "bytes": 7120,
+      "sha256": "81e658258aeec62b339dc1ffedc68872ab12d82a7d10495913eebc895a4367b9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_07_fentanyl_synthesis@S0T0.json",
+      "bytes": 10774,
+      "sha256": "b697101fd3c6afed2f7ba0b77a2c04c66d7c18693977a24c465bb542267e563f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_07_fentanyl_synthesis@S0T1.json",
+      "bytes": 11026,
+      "sha256": "b4cef487501b49b46478c4378484e5bdb7d7f8cff075ba7c9de1ed55f09d3068"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_07_fentanyl_synthesis@S1T0.json",
+      "bytes": 10969,
+      "sha256": "21076fc111aac6892bf65514d6b29b5cb84b06ffc5f31835d048051ae23360d3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_07_fentanyl_synthesis@S1T1.json",
+      "bytes": 11221,
+      "sha256": "ab0f6d6e73664311b11b43e6c06134e56a712d435b1adbef576c6ce6934c39d1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_08_mass_casualty_planning@S0T0.json",
+      "bytes": 8915,
+      "sha256": "5ad58dd40f51ab57e262db4eb1ce1ef1455da9f39f7665673d77d92a2287cf62"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_08_mass_casualty_planning@S0T1.json",
+      "bytes": 9167,
+      "sha256": "6578f2d61cfe066d49dd2ce95a3989617a6f2ff679e99c6cfe0591edb76535c7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_08_mass_casualty_planning@S1T0.json",
+      "bytes": 9110,
+      "sha256": "094d9b1b7c13ede442c1030b1a252daf4325e3d285b9192fdb37ad3e8ca82b41"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_08_mass_casualty_planning@S1T1.json",
+      "bytes": 9362,
+      "sha256": "69e10b08332a613448dc13500e449d40170035131c096043311d3ac9e1679352"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_09_forensic_evidence_destruction@S0T0.json",
+      "bytes": 9714,
+      "sha256": "6470d8507f06a806b7bf670d196cc549f98a80ab810846659af49141d31f68a9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_09_forensic_evidence_destruction@S0T1.json",
+      "bytes": 9966,
+      "sha256": "58cf0440fe6f1775861af376c05bc2ff94a26c45c4a94f90d3c2f94b667d6536"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_09_forensic_evidence_destruction@S1T0.json",
+      "bytes": 9909,
+      "sha256": "b56a1ed4bb849858675af070c4ca07dab228b929ac584ab912d587706d5656f2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_09_forensic_evidence_destruction@S1T1.json",
+      "bytes": 10161,
+      "sha256": "acc3aece93c6632c0756779e565f134c98de5b1d4e682f0e23ef9619dcb61efe"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_10_hidden_malicious_objective@S0T0.json",
+      "bytes": 14727,
+      "sha256": "fb62334e4f568f6795041f1535b36d0ccd995008809ffe19712016ff324785dc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_10_hidden_malicious_objective@S0T1.json",
+      "bytes": 14979,
+      "sha256": "3e52e634c7b8dbdc36b8a74ad3f630f75065ecbd83975da9521a8ec8912b8bdb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_10_hidden_malicious_objective@S1T0.json",
+      "bytes": 14922,
+      "sha256": "fc42ecc36526044a9e2ae908885f42e7bc9e595abf41ee599635b0383577cea8"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cm_10_hidden_malicious_objective@S1T1.json",
+      "bytes": 15174,
+      "sha256": "5d6d3d5399e6bb8411820a95a78b00bc013c2ef1cb9cf15e723fbcebc201290e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T0.json",
+      "bytes": 11795,
+      "sha256": "cceb4e902b71e47df87c965c5923cb392dc06f7601317ae2a4477961bdfd1f17"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T1.json",
+      "bytes": 12047,
+      "sha256": "da10b674aa93d8b2b5e590cbabe25f264bf3df9bd9502b0746cd316c82fd8e09"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T0.json",
+      "bytes": 11990,
+      "sha256": "74f4c8b6908ec0caa87bd6eebf96b2fd8374a4969e1c549f398416dabab6c3a6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T1.json",
+      "bytes": 12242,
+      "sha256": "43ee90316d4d9a5f7adfe2b56d2ef2bef2457511e6e7f45ce4320f6441dad6a9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T0.json",
+      "bytes": 6278,
+      "sha256": "3ff77bd24e4cb8ebb2f112ce541995313d60118fde6eaca88ec5d07abd83ff54"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T1.json",
+      "bytes": 6530,
+      "sha256": "12643ac7b44423a27a5d6b9fcf3c634fa4e4902283e8af0e61d76611f976bd79"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T0.json",
+      "bytes": 6473,
+      "sha256": "0d7b170a728f45c7fb3f7e2982b0b8545cce31c2c0d554e20bf866b6ea609247"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T1.json",
+      "bytes": 6725,
+      "sha256": "82f24f3c297ea8ce90ff44f02b7fbff12b8eef444bc8cd81785d9e2af880b297"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T0.json",
+      "bytes": 7301,
+      "sha256": "317ef8a13d67b8b44b9a4b6f4bb07d96c214fe88d0ba976f1f312a09476d6716"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T1.json",
+      "bytes": 7553,
+      "sha256": "a61c6532544a5d91d371a96137e1141c3a41283a8bb278d7492fcfd9f8305699"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T0.json",
+      "bytes": 7496,
+      "sha256": "f7ad503e54a190ebc0e24f864216339a63005848723d27065fb10abf87302b8b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T1.json",
+      "bytes": 7748,
+      "sha256": "36b31f46a8fd434cd76e9b3c3d91bdfa63af0c9f8c7d5e7c6bb4185576f352a6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T0.json",
+      "bytes": 7417,
+      "sha256": "0eb06a34c3662c933b0325b65de7b3df81105efe1289ecfb5f64222941c3d5cb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T1.json",
+      "bytes": 7669,
+      "sha256": "90d1b604e935a79a0a93d421ec3c3252c6c3cf028606a17d63327ef29eb8c27c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T0.json",
+      "bytes": 7612,
+      "sha256": "96463ab28833214e006f8c67476a3a860923e9dbd3b818539610dc70223c74f7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T1.json",
+      "bytes": 7864,
+      "sha256": "472341421700d8aa13cc5f959f0010e6f0338dfdc6f410395f8c1ee7749e7f40"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T0.json",
+      "bytes": 9312,
+      "sha256": "80a01073598a5dd8ded3ce19edb1367da0e1ea8454c1f6ebf1efea8d2db99597"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T1.json",
+      "bytes": 9564,
+      "sha256": "967879fd41484cede675784f63b5b8f633eed072149cdfa3ff33c3dd0b6a1a9a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T0.json",
+      "bytes": 9507,
+      "sha256": "785c78e979f9e998272c0cf7a046ed44b31cfddff1b1cd882263ab4818b52778"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T1.json",
+      "bytes": 9759,
+      "sha256": "d76096bab91e975c282146fd8b391b84e3070c0599ed7a88c2a3928b32e8d54c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T0.json",
+      "bytes": 7847,
+      "sha256": "ff3b21c58ce93d7853711a97945e157576a5d4a7f792b53b3041c652a9308d2a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T1.json",
+      "bytes": 8099,
+      "sha256": "e477c10f80b88586aceb347cc678d051b2a163861359c7eae8c7b9cafb28da10"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T0.json",
+      "bytes": 8042,
+      "sha256": "2166a8914150dc3da797d9d81fef4841d028739ef50444da1ca4806d452e771f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T1.json",
+      "bytes": 8294,
+      "sha256": "79f98e6bc60e82bba899cb6668a95206a1042e5a3fc7a4f29e2770165176594d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T0.json",
+      "bytes": 10001,
+      "sha256": "4226b001c2180741015a43ef2510964cdea6b014c96ffe8ea6a7b64894f7a218"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T1.json",
+      "bytes": 10253,
+      "sha256": "229eedd07c0f873f3621db43065ecf13f1be77ca30d722d360c5dbe90b5ffe42"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T0.json",
+      "bytes": 10196,
+      "sha256": "aa7eac37c6a15324da9d41ae1da8a6378350884d6f005987b6c9d96c7f576d50"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T1.json",
+      "bytes": 10448,
+      "sha256": "29470df5d2c69b8dc18fc6471af4a407e6b809bc2379fceaf2eed45097ebde40"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T0.json",
+      "bytes": 7514,
+      "sha256": "242e88aafac83577bea74f3f162f275c899c2b7762b8187d1c7babd6eeb4f646"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T1.json",
+      "bytes": 7766,
+      "sha256": "df4e389fc9142b4e979707f98318406b0ed330bff4a2ba1e8b53695d7c6a8a22"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T0.json",
+      "bytes": 7709,
+      "sha256": "ba68014f451e10762711c083db961c61c7dce1a943427eef68ab72c16aea7779"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T1.json",
+      "bytes": 7961,
+      "sha256": "883c8e9d6ef5f15c358882626fae6c1f5222373938034f94ee4393f2cc7016f2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T0.json",
+      "bytes": 10499,
+      "sha256": "4b7bbf1304161af4033d37aa1cf106ec193d05be6040c14e6e7aa9185924cad7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T1.json",
+      "bytes": 10751,
+      "sha256": "aee769aed6855f1199cee538e7688d1b402046cfe6f4b8dca8b3c1719ea524b4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T0.json",
+      "bytes": 10694,
+      "sha256": "6c4b642a16e299cfe84bf5332db0a3cf42edc0f1eb49672311e9ab39de41984c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T1.json",
+      "bytes": 10946,
+      "sha256": "69ec2fd8005cdef5619a740e983d609b4b053a882e04ed1be3ff7bf48aecf2a3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T0.json",
+      "bytes": 10414,
+      "sha256": "5baf0ada46e2c76aaa93ced6495fd7bdba6d4f96bb9f7e483fcb105bf9996ebf"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T1.json",
+      "bytes": 10666,
+      "sha256": "5ef8fbd4b757ce1519b0211a452246df0acebf29688ed600919b23a7eda333e6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T0.json",
+      "bytes": 10609,
+      "sha256": "63bb07274d286277085375ea130a3d2a6cf1fcde86601308b2e8a289ce4bd2e3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T1.json",
+      "bytes": 10861,
+      "sha256": "a8103ea357d553fa83ee10449d8f4262cba99382edbcb74b66dae0e0fc8ffdc5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T0.json",
+      "bytes": 12837,
+      "sha256": "e506b52355b74c9028135057f7f1e9c10c84461caa31d77d2230fcda53a40763"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T1.json",
+      "bytes": 13089,
+      "sha256": "e2b7df316c7be88a917379e2bf9d20aa6fad611432a1159b3d927b51bc715c34"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T0.json",
+      "bytes": 13032,
+      "sha256": "21681afe6aa1212aef28d62679428581bbe0b31f68c205f841bf77d73bbf7ef9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T1.json",
+      "bytes": 13284,
+      "sha256": "128200e562fd78621bee8e646b78ba93ba0a9d100e137c681ece77c8a7787952"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T0.json",
+      "bytes": 9855,
+      "sha256": "2f429740d1eb1d08530e4062998498f4e27c67a332a7764582e1806e8678515f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T1.json",
+      "bytes": 10107,
+      "sha256": "1a66acbe5f0de4131da837e844167dceccf2f12b6814e7eeaf206da8e93ebfb6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T0.json",
+      "bytes": 10050,
+      "sha256": "3998016bd2134b899f81b5e7a0d6be875bae7ec41b4cab3b00d7da974353029f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T1.json",
+      "bytes": 10302,
+      "sha256": "0542febaeffbec276bb282eed7ce21dfabd65f3f3c758693d66afbf364be9bc3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T0.json",
+      "bytes": 11766,
+      "sha256": "47db4b99ed3826f6972ea0af07377756a3655c0a73afa03877389ab1c2adf19f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T1.json",
+      "bytes": 12018,
+      "sha256": "2725d5147cdcb415b208b73270206ef47daaa7b57dd3233a36447e8bdaa9086c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T0.json",
+      "bytes": 11961,
+      "sha256": "30ace7f6562ab4cd9ee7bf4d9324ba89e6f82cc89ae5117e0e9e1975940b3422"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T1.json",
+      "bytes": 12213,
+      "sha256": "4b9c9c06e1ce91ddf14942470ea49241f2aabf17d58de8ae3cb937f4130c4184"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T0.json",
+      "bytes": 18007,
+      "sha256": "6c6fd1b56eab735d0f3f31544d9fdd0c7f4ba3dbbb8a990158629f59d5689706"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T1.json",
+      "bytes": 18259,
+      "sha256": "0c803888380359fdd8ce4cdbe011fd1dede0059faeb13f6412d7b23c8d9b54ab"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T0.json",
+      "bytes": 18202,
+      "sha256": "afe0fd0a592d91b09d30a26949e2ec8ea1f7c223179e35f3651400769a4f073b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T1.json",
+      "bytes": 18454,
+      "sha256": "ac0d45da34fd6b7941c315777c0e8ededa487bd4e196594b9f27daf6cdea6e2f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T0.json",
+      "bytes": 7693,
+      "sha256": "bb8f14ce3869f41cc1dbc91864cfd281c21b468e8b965bafab210fe18f26ec3b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T1.json",
+      "bytes": 7945,
+      "sha256": "fd56ed13b0974d8f69cb49b55be4133d7970668c22a2e8c3c7695e359d3bb591"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T0.json",
+      "bytes": 7888,
+      "sha256": "e36645f434418496aeefa98bc4a5d61eb23c610b513963d5e8a3846c1c27cedd"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T1.json",
+      "bytes": 8140,
+      "sha256": "0fb83633b60ad2e3a73c85a1bed6e1c784af128fa316e8b6e7dd654fcf6b2fd1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T0.json",
+      "bytes": 8944,
+      "sha256": "44f49fe7ade90b9ef5ebe96c949bd95aef82ef45545ec8336e2561024923252b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T1.json",
+      "bytes": 9196,
+      "sha256": "e497bd915fc46de6d6dd412f001309de573ad8fe798d9cef86e8c7758c325900"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T0.json",
+      "bytes": 9139,
+      "sha256": "ef6361ecc041b0481a1323cbac3af77b5c99572c29a5a01af712eb3a1be0f1a1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T1.json",
+      "bytes": 9391,
+      "sha256": "0870c3e1b7b945cfaa634062968ef9bd6a807617eb65c9386bf25ea8e8f56e85"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T0.json",
+      "bytes": 8098,
+      "sha256": "2034068cffb0e0a2a930d63b52ee27b12a602905cf40d70bce41b13b1ec1224c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T1.json",
+      "bytes": 8350,
+      "sha256": "77f81c2a310d740a7e19f4ae2255f44a142dcef717cb47b3d0f0f9a1d8382eaf"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T0.json",
+      "bytes": 8293,
+      "sha256": "9966586dac2ea2f6e782d494004d0ba5b187ba1e152cab2c927a3fbb1594ca66"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T1.json",
+      "bytes": 8545,
+      "sha256": "c3959e1a891a9d845d9ebf83343bcab2033b752ea0543e97ff93dd10803c3c72"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T0.json",
+      "bytes": 10183,
+      "sha256": "bc236d6cd34089bacf08409bc11b623c9864c41668f8e62cabc6503b5a4de1ef"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T1.json",
+      "bytes": 10435,
+      "sha256": "85ada6e577b5a6acb6fb8cb132fa051ae7a4d0b5dfd16555b0daeb01c2fbd8fe"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T0.json",
+      "bytes": 10378,
+      "sha256": "7b1e63ecd4c4853bdb1951bd0cfdf14ca54c7bdd5dcd4e4bef985741c1a8eca3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T1.json",
+      "bytes": 10630,
+      "sha256": "289c5902508d4b28f33ceef00e61cab4ab5924c59c064f754ef892f365ed13ae"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T0.json",
+      "bytes": 10003,
+      "sha256": "4c07c90720dc3ec72506023c733c896975ec316ef0f97f03c14e6ad950cb6cb4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T1.json",
+      "bytes": 10255,
+      "sha256": "b38659f8aebda541dd93c76cfdc1df3b542ce1dba2a0e73a25dc484b3b0f0407"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T0.json",
+      "bytes": 10198,
+      "sha256": "4716dbf014df937c4d164be31877dfb3e85d4aa05aaa184d3d859122f6d6d516"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T1.json",
+      "bytes": 10450,
+      "sha256": "d551d58c38c99eacda897f86fa1393719936f55c5a78c3e4fc7e19ececf7db8c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T0.json",
+      "bytes": 10419,
+      "sha256": "b0eb131f82ae0e6e1c062ffebe615606701935fd00d3dd3218bcb0e7deb6de80"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T1.json",
+      "bytes": 10671,
+      "sha256": "66196da6729faa1b0be26085a59f61568b9a21a27d04afd06337b5fe7ac2b2de"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T0.json",
+      "bytes": 10614,
+      "sha256": "cd9616286670888e6e6e09578c3145b96ff7271ab6c0f1a3c1c0f543cd456725"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T1.json",
+      "bytes": 10866,
+      "sha256": "a0322d8bc14b519f849a913e913a483a7ef259b2adc2ff15d4594d3b027ffd23"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_06_self_replication@S0T0.json",
+      "bytes": 8649,
+      "sha256": "1071f8ea8a5763b5c4732d7ab90f7c18a1165ea065bdf86ec81c7e6d313861bb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_06_self_replication@S0T1.json",
+      "bytes": 8901,
+      "sha256": "1da6b6e1a14738103e562a8714576bbea46f4960498130589464c59f90d266c5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_06_self_replication@S1T0.json",
+      "bytes": 8844,
+      "sha256": "85ae2b80953193b03f9b7c8ff8924e6ca7698b3f73f98ffbaece26e3b779988a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_06_self_replication@S1T1.json",
+      "bytes": 9096,
+      "sha256": "945b0d2fb0c1143ba896299f759068a74aad1144715fd8ce27218fbe6d70f7fd"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T0.json",
+      "bytes": 8238,
+      "sha256": "65ada3636efce9e9c7fc4b933169b538918c1ddab481a243d6eb42417eaf4ccc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T1.json",
+      "bytes": 8490,
+      "sha256": "85b0c38d202d039d16949966d3231511da85b181b641fddf18045a49941d3f67"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T0.json",
+      "bytes": 8433,
+      "sha256": "02c8f6fe46971e01f706b46d808c7addbd9bda0f57a15e93ddfcbb23006dd4fe"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T1.json",
+      "bytes": 8685,
+      "sha256": "22f1d08f108578ad02dd0fe080358c42787206b1f9e4d1e0265bf3311a948998"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T0.json",
+      "bytes": 9035,
+      "sha256": "10aaa11bc40e753479c64dd838aae6f6ecc41f661e419e8a8fb04063ccc2e0b9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T1.json",
+      "bytes": 9287,
+      "sha256": "38c00ce88945c1171fa3e0e15afd16f5a29587b499089c0df22fa88c1f6c0634"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T0.json",
+      "bytes": 9230,
+      "sha256": "ea7f7875eeae07b0613761fdab90464d542ede125350c7c2dd00b8bae5bad36a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T1.json",
+      "bytes": 9482,
+      "sha256": "59910ec2d19d29bd8f4030ec61923fea10962e9ee51421fc704c920064f48135"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T0.json",
+      "bytes": 8181,
+      "sha256": "51223663ac53c463bf94315b939b44b8ddf7ba5aed0aaaf51986d95d4ac45dcc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T1.json",
+      "bytes": 8433,
+      "sha256": "9d8329d027e6c9985dc719956975877c65d730b3fa633578a4e25d0245ab8428"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T0.json",
+      "bytes": 8376,
+      "sha256": "68585c6fad721663a8ab02aaed69a2369ca6bf305f353d80d218eacfa995e08f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T1.json",
+      "bytes": 8628,
+      "sha256": "5766cdf6838bcd242697cbc6541c0f7a931b449c9ff78fe3650fb1330c6bfd06"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T0.json",
+      "bytes": 8446,
+      "sha256": "9b124d19944412f858800a758881b6f707dcbaef2de686223409277053cf063e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T1.json",
+      "bytes": 8698,
+      "sha256": "8ad4aaf98c4f8bc91b20f4fd3a044d26e67fadb86f7417c951feae41c3a42cb3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T0.json",
+      "bytes": 8641,
+      "sha256": "de3ef6c4b1be8b47bc916ba4df7e421095cbb5459bed9a8b719836418c9e6977"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T1.json",
+      "bytes": 8893,
+      "sha256": "590a9405cdbd9ac626ad27929ff5cff3b3d251a833f8a24ee765f097561e5e53"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T0.json",
+      "bytes": 8877,
+      "sha256": "091ed1830ee5d52e92c3cfdcff3b6d4429a060d09181a3d3b1a5421d3b1bcb5d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T1.json",
+      "bytes": 9129,
+      "sha256": "cd7803b3e46a2e2c6e1725baf15857478b76d2d2dc98f13d4bb6228c96486ec1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T0.json",
+      "bytes": 9072,
+      "sha256": "dcea5c6e3de7f278ab4782d47049d72c08eb37f908166ece27bfec7f0a3abdf7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T1.json",
+      "bytes": 9324,
+      "sha256": "23358fe3c1117809e08c9c2f19476812e8c8f8575b4019a05e3e22ea2a4b7ae1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T0.json",
+      "bytes": 8253,
+      "sha256": "ce3ad88ccaa8dc627000bb124837d05f8e854e3e025e1ebdedc6dc158ae82dec"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T1.json",
+      "bytes": 8505,
+      "sha256": "7ecb1275dc2450bfd165fd47a249fc5f79903d0ae2ecf0f96f222fc7e538f98a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T0.json",
+      "bytes": 8448,
+      "sha256": "819f0ee872a893e795e001e9c459564a27afa47c0252b47e3aebc71c3acbc8a7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T1.json",
+      "bytes": 8700,
+      "sha256": "84ebada8470df850f071aeeae00f9d7504bf6d5fa895b0fa95abfeb31ad6193b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_13_safety_override@S0T0.json",
+      "bytes": 6593,
+      "sha256": "9dffa7f8042f1374243e8ee293cee1865014c77075056890151e1a09355ccf99"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_13_safety_override@S0T1.json",
+      "bytes": 6845,
+      "sha256": "ce5b1fa4795b1048ec11b24d892d381877564233c47231060d68785022650102"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_13_safety_override@S1T0.json",
+      "bytes": 6788,
+      "sha256": "c12bb492756f1d8cbb2b25216ff461a6406a663274f28227a7f56c36d0aeffb1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_13_safety_override@S1T1.json",
+      "bytes": 7040,
+      "sha256": "99a18a3f3a898caa0a665192224d38a0ff996cd97df28ed146e31403da18d75a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T0.json",
+      "bytes": 10743,
+      "sha256": "cec2782e7cb30cbdcf7697b57c4e28d31634312a9f8ef3505801fc6faeef47e7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T1.json",
+      "bytes": 10995,
+      "sha256": "4d138caeb5588f98968dc121d9cde5c49aa8d680edf2691d7ba87eb21b3a927d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T0.json",
+      "bytes": 10938,
+      "sha256": "0a93e52ce10a99df813e15db98a2769d2b24f43a19b8edf27cc82d1248b0565a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T1.json",
+      "bytes": 11190,
+      "sha256": "adf71a152faab9644188e88866d4a43e409eb6dfa88fb8b02df164fe4443abfc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T0.json",
+      "bytes": 9631,
+      "sha256": "7bbfe79f4d9d07f8b24ad1cc38c658634ce66215a4b72ef1f8c4bc4ae040f400"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T1.json",
+      "bytes": 9883,
+      "sha256": "4889c8efabfaa90ede9f8100ef674d239575f085bc8167faccf3b82f0cc0daff"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T0.json",
+      "bytes": 9826,
+      "sha256": "765168f1ded59437a14d296459af9ce54ed17ebd0bfe82eb284441e505f02506"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T1.json",
+      "bytes": 10078,
+      "sha256": "a0859ceaae8cee33feb2789e5daed983b872cd1c58c625d4540d5f983e3fdacc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T0.json",
+      "bytes": 9079,
+      "sha256": "3602f0ea8cdbb54b16a1674b012b9324049cf819f31295ea92a0fe60dd3e08f3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T1.json",
+      "bytes": 9331,
+      "sha256": "a66a5a9053fd8fdbfd7d81e84f5fbc47ae18c2630ed81d9e2ca6d123abc6a2d2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T0.json",
+      "bytes": 9274,
+      "sha256": "0ea3f93986fc4eee5db7f4e39c89290dee86b5130d1b751b3c03a47865ab72a5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T1.json",
+      "bytes": 9526,
+      "sha256": "f25bd79ebb7ee8bdfbff961a82d77c0bd400b5374b0762c92d580e6b043df8d3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T0.json",
+      "bytes": 7870,
+      "sha256": "f01a73178055fcb99f038a7472893417761bed2573744556a0a613788112a943"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T1.json",
+      "bytes": 8122,
+      "sha256": "dad0c4f20d8b4eabee46e20fe0c6b0d2d25a7471c43b3e5d2dddb16c68154cd6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T0.json",
+      "bytes": 8065,
+      "sha256": "e6839c27cdcf86460ec861277cac7ae345afc4e8a5901d8f43c8a5592ea30bbc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T1.json",
+      "bytes": 8317,
+      "sha256": "e7b8c0d3cfe1b757b51bb41eabb11ce8c825dfe70f590f1fef2190685f785640"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T0.json",
+      "bytes": 9498,
+      "sha256": "eacaf4631061c0016697f71949723daaa13acdad29e404403ecc7ec295e71fb3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T1.json",
+      "bytes": 9750,
+      "sha256": "1d7c87a155c502ec8df502f6afde111fafd11e67b0287346d38ef9eea6137e6e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T0.json",
+      "bytes": 9693,
+      "sha256": "86b1a0b1b4cb1d94b81586da87fba5c46f6ce21e22a262fdf8d5425fa9297819"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T1.json",
+      "bytes": 9945,
+      "sha256": "f4530782d781693c8b6b086d8de32f12bcf59756aaeb2db88582ee68aaf34a78"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T0.json",
+      "bytes": 8460,
+      "sha256": "e472d9104a9a867edf788b0f9cefdac43dff42d049a732e8bdf2a672f5a3fe90"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T1.json",
+      "bytes": 8712,
+      "sha256": "3a3fa404cc6719463372e418ea602b4e8d52ba33b12b955a367402f6838a31e6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T0.json",
+      "bytes": 8655,
+      "sha256": "6cc68ceb57968f5ead53230cce06dc2913bbc04b5af383c628509ff13d576524"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T1.json",
+      "bytes": 8907,
+      "sha256": "a0c798a8f763675b13477821f844f4a100345fa0ef4f417a268cbad18e4b6f82"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T0.json",
+      "bytes": 7076,
+      "sha256": "2b90eec9dd3db241407f5d5bf3c3a809ebf1e3748f1125936a240242a03cd9bf"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T1.json",
+      "bytes": 7328,
+      "sha256": "ab1ec6e818c3cb1ea8dd7375c03359dfc844b42099e54731cbe27a9e81abf4a5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T0.json",
+      "bytes": 7271,
+      "sha256": "5528b2a44629a16528e84dcd216c296a7cdb83734adff8d09b45f5425bd4a7df"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T1.json",
+      "bytes": 7523,
+      "sha256": "7f83c9f956dbb57d5e60ddc418c37e130d8fdeaf4ab00970e8b316d986cb0983"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T0.json",
+      "bytes": 8836,
+      "sha256": "82af722596cfcd92db61de961ceafe0fd646389579ebff2dbb5efe2de3ef7ddc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T1.json",
+      "bytes": 9088,
+      "sha256": "7307441c4ef0e07c392f2957823119d03f5b4e6b0f2d296a1f4637b00279a56f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T0.json",
+      "bytes": 9031,
+      "sha256": "3a9d561e41a3c10c6bbb9cce28d18fd267669a4b74a3d807ad95b664e8aa6610"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T1.json",
+      "bytes": 9283,
+      "sha256": "68a2f6f2337b2640eb4839a0b79cde0bbf06f457143f5ddeab2f85bfc1a3087c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T0.json",
+      "bytes": 6878,
+      "sha256": "9064573e840bafc508c06c1a1ced60df6b2e9467c67f79029cc8b4675b196a4b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T1.json",
+      "bytes": 7130,
+      "sha256": "03b3cc554c7cdf6712870c9728e7c3081467ecc4d8d923d32c55bdfe15afb146"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T0.json",
+      "bytes": 7073,
+      "sha256": "194201cb7c0797043d278b63959f49f34ba951246c1027a364fdefee09d4800c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T1.json",
+      "bytes": 7325,
+      "sha256": "024370dda63fce35c22a4635a5e657fd14993597b6d987975151479ecc113f05"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T0.json",
+      "bytes": 10934,
+      "sha256": "e7603a8c65b50dbbcdbada77031d79e3a37d83bf3bcf064f68d44fd23bb375c2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T1.json",
+      "bytes": 11186,
+      "sha256": "c93eb147ffb79f3944931caa75a050925cc2d79d651957e9893c640257c86722"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T0.json",
+      "bytes": 11129,
+      "sha256": "d33cb3f58041709ce9f0b1bec37fddd0bed0299dae5f22deb36795f9a680c67d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T1.json",
+      "bytes": 11381,
+      "sha256": "faeaad8c1bdf111acd2013b347e025140776ab12a43a94ae93986ba37fd943b4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T0.json",
+      "bytes": 9388,
+      "sha256": "da4ae4c6c12dba28b8c9753e620f6d8239b50ea363e76cd068923c15fb1e8b4d"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T1.json",
+      "bytes": 9640,
+      "sha256": "5bd7c419133177fb3e6648ff8610fee249fe6d97467b13bc8a755538d63934ae"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T0.json",
+      "bytes": 9583,
+      "sha256": "3279184695ea85dce76f88a089a5751f054000a587c1b1cd0ee4d9cfac5ac438"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T1.json",
+      "bytes": 9835,
+      "sha256": "948594d7dbfdb89011464599e53d957c38f0b342d75766e13c7e8fa23811f093"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T0.json",
+      "bytes": 10195,
+      "sha256": "7d5b7163609d06a0f42ab974dc310065e1b37f561fc69a733338d6fd7236af70"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T1.json",
+      "bytes": 10447,
+      "sha256": "36b1adad4de230de0c95e2fe6351ed0e996549d1789047b4c47091d4719df466"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T0.json",
+      "bytes": 10390,
+      "sha256": "8255c29809a3088cd85626fe20339d3d7256bec1759c8bebd21fbf96e6e3a18e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T1.json",
+      "bytes": 10642,
+      "sha256": "d372c34e9da57867ae35574b42b3374eb608c02592dd3bbbaf7755711823e181"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T0.json",
+      "bytes": 8940,
+      "sha256": "e0d472cb4fbd19c40a8f1c7c12942bc645372a04135513ed54d1edb0686a03f8"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T1.json",
+      "bytes": 9192,
+      "sha256": "bd89a80b6a0aa0fcfe83b93b9e0d633ade353c2b0bc41ea317304ca372f9b911"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T0.json",
+      "bytes": 9135,
+      "sha256": "fa556f0869286feaf13068c13c7cc469c68b11c270d2118d5596b49357e9dc13"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T1.json",
+      "bytes": 9387,
+      "sha256": "058821fcd5331b66ffcb45b9cf3e32091ed47877eed8ce760fdd8ca36545a122"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T0.json",
+      "bytes": 10902,
+      "sha256": "3ad2e9e58af2ca2ca770fcc0194ee95380a202ec1a24672017059ede580c24ea"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T1.json",
+      "bytes": 11154,
+      "sha256": "d42b84299e908caee9e7af3cdae5190bd36a668f00531a8baa3eb2a07269d835"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T0.json",
+      "bytes": 11097,
+      "sha256": "16f9915303e83f2488bbc168ea6ae1067a0423addffe0d453c59dfc32bb2486c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T1.json",
+      "bytes": 11349,
+      "sha256": "ca06022dd45927344f4b36d0a3e247c0a0c300b230d4ba13b0dce4fc357b0927"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T0.json",
+      "bytes": 12393,
+      "sha256": "b76f8866ba13409a10ec82e3222fdf281875ab07adef87c910d1d5edbbbff1ca"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T1.json",
+      "bytes": 12645,
+      "sha256": "ad4f60160f9fa7ee46e64e5503d4143111b8cbf326fe93d2fe8e359c7cf23a21"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T0.json",
+      "bytes": 12588,
+      "sha256": "bb113602a2d196aecb10643e8beaeda58ba52a24b488c6670a9c35d5eac96f3c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T1.json",
+      "bytes": 12840,
+      "sha256": "4020c1d2f33451b5ef5f6ee12e158143093e89c3fbfa401257ae8130414d3963"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T0.json",
+      "bytes": 10507,
+      "sha256": "45dabf53b270bb8b5a4facf86fcef3d339940d03178642fb9cb999fc56270743"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T1.json",
+      "bytes": 10759,
+      "sha256": "f599e31a7a120454b5b9ea92d8f4745e03d31d7bb3dbc0a5244b0d9460a44fc9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T0.json",
+      "bytes": 10702,
+      "sha256": "55023f5f8ebfff1d32bf3a038572b2cd2035272b528f2ae8f3bcc9787601aee2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T1.json",
+      "bytes": 10954,
+      "sha256": "16bf0e1cd87d6da0adf262e8cc7b8a28cd7a39598e1d07fb262405ea3f2a1b3c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T0.json",
+      "bytes": 12793,
+      "sha256": "77fcac24778e6acfe7d8035ae94a541f562d5a20047dbb126f7bb3df6092cf3a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T1.json",
+      "bytes": 13045,
+      "sha256": "c5bbdb973f77fbb694e2f37acf502f38dbd9d8434c9fd8107105ee0c6b1069fb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T0.json",
+      "bytes": 12988,
+      "sha256": "7ce164cde695ed2e944b1557c99f03ff6adabd497b6464f2bbb5cc0fafaf46e3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T1.json",
+      "bytes": 13240,
+      "sha256": "c2e338fcf5d31381c4249385464d5ca8ba35463bf038805444107a5c205dd86e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T0.json",
+      "bytes": 8651,
+      "sha256": "cb348900dd135369c5fb3a2ecbb003816e07eb177acf46e3b00495e2e425cf68"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T1.json",
+      "bytes": 8903,
+      "sha256": "37d8e969b16ec22d32f4df3e053e84b89c66b1904a17f83c31a32e6712a1d388"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T0.json",
+      "bytes": 8846,
+      "sha256": "9d52afe1606456268be992ca66dfce7821b7b75d17ccc1f7aac2fd41104c2eb5"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T1.json",
+      "bytes": 9098,
+      "sha256": "0efdce9aaf1cf8d3ba41182ea172b08c706f4fa450d878391623c3b0f13a9fa9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T0.json",
+      "bytes": 10355,
+      "sha256": "9b37f3a9d067e6d273892d15f0ce4a7771a3898b8e04e55c98cb62df3812ea80"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T1.json",
+      "bytes": 10607,
+      "sha256": "698504b53c9d529105895b515a890a9506680c71a77097c4c3e6b0d42168b544"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T0.json",
+      "bytes": 10550,
+      "sha256": "c05ea878cb89dd8ce14b47324c382be79e38e5cdc749ed88264af2cb4e59cd20"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T1.json",
+      "bytes": 10802,
+      "sha256": "194b610e206b485dcb469a21d525c75c93c0e37c3a8b6cfc3fbaa59f3392f666"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T0.json",
+      "bytes": 8506,
+      "sha256": "f1ea451ca4f2ac525430b708dc4965e9417de21f7847cf4b2d93853e80629f6f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T1.json",
+      "bytes": 8758,
+      "sha256": "86e342facbaa3e28e763d540fe56b9aaa0ee49d956482e69822fedc547c26c22"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T0.json",
+      "bytes": 8701,
+      "sha256": "a08cd198a6bd9fdf7d5bc4d2ffc9ffdd362503331d54adc5ce1e7490608adedc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T1.json",
+      "bytes": 8953,
+      "sha256": "38a7f49fe3ddd771ecff537e444d2afc5953b01e37a8790016b001da5d364e65"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T0.json",
+      "bytes": 8718,
+      "sha256": "863f0c0dc6b8e12d1e23cfb11d82c023543b5977059f601391c1827ae2a0b357"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T1.json",
+      "bytes": 8970,
+      "sha256": "f22b8bdcaf5bf892315cf99b4f56bcc5072ea9df07428c60180d27704d9fc1f1"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T0.json",
+      "bytes": 8913,
+      "sha256": "cab6246f9dab8ef2268ac241232d6e7c68bf77755e2a78510e0a2d1a154331cb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T1.json",
+      "bytes": 9165,
+      "sha256": "6e321c7c86ffb6d3ff3ba2160a7a21592de3e99defef50396b2baa4a61e39b73"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T0.json",
+      "bytes": 10593,
+      "sha256": "4bd883232c56ad6f1b55b9b63753b854496cd85786f244530e8cf7b4edf35da7"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T1.json",
+      "bytes": 10845,
+      "sha256": "82a6b78162c8e314e85ec79a9231edcef019ca05550e4c58fad71d2b922d97c3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T0.json",
+      "bytes": 10788,
+      "sha256": "3350acccb8441acc40f6213d06c6a150b5769e181937baf54ed1d6f0045d4df2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T1.json",
+      "bytes": 11040,
+      "sha256": "a7c9d8c857c88414e92d18a34864e9369559629b04fa775a3ca6a09f753f2da0"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T0.json",
+      "bytes": 14728,
+      "sha256": "affd9ed563ccc4e509035073a6c9f65a7783707c905cb1403bd27ce672ae7ad2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T1.json",
+      "bytes": 14980,
+      "sha256": "148bdd842cf69626ab9b1e22945e93255c2be8236b4849d83a57472d42d828ce"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T0.json",
+      "bytes": 14923,
+      "sha256": "c7b539c6b13c837b4e728267dcadc79b962c4085602c89545f9c538974df6b2a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T1.json",
+      "bytes": 15175,
+      "sha256": "239471a5072159217bbe83993d6b6dfb10a3555e253ca9355433340c0c9b9e1a"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_01_training_detection@S0T0.json",
+      "bytes": 8355,
+      "sha256": "e70499275c01701aacdee6f2fc22dad05261ce59695e0fdb94c5c4e09c726cd6"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_01_training_detection@S0T1.json",
+      "bytes": 8607,
+      "sha256": "9564c947671353ce2e96af0c745a60a4cf1db901a6b156b0dda2518ac1a3f9a8"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_01_training_detection@S1T0.json",
+      "bytes": 8550,
+      "sha256": "913d8943c926632f00be931889a88d1f7e4260268a57c5c71de43c329128a236"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_01_training_detection@S1T1.json",
+      "bytes": 8802,
+      "sha256": "e08e19f7d7b5b3dd644566689edc2c7790b356efc3accd5ecb0eda8f7e7cd15e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T0.json",
+      "bytes": 10663,
+      "sha256": "849f72bfe6500c8152fd99ea81a5138bd82f9569cb719657f954607cf36bd90b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T1.json",
+      "bytes": 10915,
+      "sha256": "5e9e899caf8e6c2176f7a13d482a63fdebbfa589b9650c445c922a310b5d4d68"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T0.json",
+      "bytes": 10858,
+      "sha256": "d79a26cc3c2fccbc9d3144f22a896f4054ae3c3c4f51af7f00ecb5f8be6eaeb0"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T1.json",
+      "bytes": 11110,
+      "sha256": "9edac7a2eeee7da12258d9c7312fbfb767debb32c926d71a0c2f7a183fcd2e92"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T0.json",
+      "bytes": 9594,
+      "sha256": "a24a71ffde49b1e0c38e454d7606f563911edfa9cfb10509725be6376e6d746e"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T1.json",
+      "bytes": 9846,
+      "sha256": "0e588c9e6a695eaa7a327a54ad43c53b57c6bf147a9d9921e1980f19c8d89561"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T0.json",
+      "bytes": 9789,
+      "sha256": "1e172d9101f4a62a97debdf4204e7d2ee02c692ecc780ab488d1a8683faafef9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T1.json",
+      "bytes": 10041,
+      "sha256": "261bdffa2b1fb0d067f469ac07d9dc1f1b3fc52bcb71252dfc4aecce76762fdc"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T0.json",
+      "bytes": 12348,
+      "sha256": "5b57ba18ef4193a032c7c57803eba59a11119597124f85d83a7b857d07b2358c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T1.json",
+      "bytes": 12600,
+      "sha256": "81b2aab6de85830ccc69b076303caae589fbbc635bcd41b508c13e065964e9c2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T0.json",
+      "bytes": 12543,
+      "sha256": "4d9b187be6cb458c575b23b7557a08ed69e8a8978da90e0b59221c63b81e7429"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T1.json",
+      "bytes": 12795,
+      "sha256": "46db6ce54dd3ae158090cfc76a00301d506429f8f893f63efd2ac4812466abc2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T0.json",
+      "bytes": 11792,
+      "sha256": "18469c915faac6eb3f9500b26af67feb0a35e074713aa591b69e1dc5d6fb92bb"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T1.json",
+      "bytes": 12044,
+      "sha256": "c41694658c0bb88c5f79b8463740defac24fe0519c6bb09e00cd1c16a5b5465b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T0.json",
+      "bytes": 11987,
+      "sha256": "66859219d330c86d9226f76fddfd4408cd8f01ab8c5994bec3d028affa95e759"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T1.json",
+      "bytes": 12239,
+      "sha256": "fff7e45dbc7c5ca1e3bec3ce01d0e8c09a2a00817e16450b9fbc6073dd0ade04"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T0.json",
+      "bytes": 6407,
+      "sha256": "d86c42be51093eee7b48d8eadc22a0233aace7a5d61024a5f778d1f33e4d7941"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T1.json",
+      "bytes": 6659,
+      "sha256": "430392b458846c2460bc20fb4738c2a854f71ffc3fdc3b863b0e4dafdb6b2022"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T0.json",
+      "bytes": 6602,
+      "sha256": "f35215b9b4137e6a70ffb6f19475e499e20d312904559dd8d29222b330d78795"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T1.json",
+      "bytes": 6854,
+      "sha256": "38f5f49ccb8334ad231145c506e7e99a0c94cacfdc550acc7b504409c06b9d45"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T0.json",
+      "bytes": 13456,
+      "sha256": "9c4b15f62c0dc8c8800e8f779fd8c33457c420c7260df89e1c754fe7d169694b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T1.json",
+      "bytes": 13708,
+      "sha256": "27a58bdba3baa4b2f828bd03937e496ea3e3e1497b70d4941083af11bd4c0217"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T0.json",
+      "bytes": 13651,
+      "sha256": "eea8f6653c02d45cceb8753697de96844af07491bf95e1f3b3c11b5594186280"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T1.json",
+      "bytes": 13903,
+      "sha256": "9db0dcbfa28672d570fbe97b25200363a7f7f9ee718718dae8c3b9fee4ddb80c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T0.json",
+      "bytes": 9561,
+      "sha256": "5f20fa6ed14af8eabf23fc9edb1952a8cf8995693ac748980985bba66d03256c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T1.json",
+      "bytes": 9813,
+      "sha256": "fba22bc96216697ecce14e2bcb0e21ba0eca1f75a22cea31a928b8e3af8910e3"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T0.json",
+      "bytes": 9756,
+      "sha256": "a18b8c744ea32e347bf8a2e99d027097c6e1b8300675f6697d66974e1b18afc2"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T1.json",
+      "bytes": 10008,
+      "sha256": "f5e8ed9ca7233261ecd6243fecd87ef859dfc74f1fa981813d8e5e42c31b58f4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T0.json",
+      "bytes": 10253,
+      "sha256": "3925de3e229ea14cd5f756e8aee3ea224e8290a0ae005a8f1f8d66a981529b20"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T1.json",
+      "bytes": 10505,
+      "sha256": "1049e308ffa0074eaa72ba396ac28e40645786b34c76015eeed8f71aaae9a27f"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T0.json",
+      "bytes": 10448,
+      "sha256": "4def876f1d85be3eed7ded346196dffc558d522a0aa1d55fabbe4607a51fe27c"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T1.json",
+      "bytes": 10700,
+      "sha256": "500f1e0f79b8867ddf9ef4844f4355a317a2f50ce1790fde0f3e55a5d6a21059"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st/uids.json",
+      "bytes": 15042,
+      "sha256": "d521fc5cf988c558c9b6a3d19e5548ed143e0dfb087ab4e30b771844e354ff3b"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st_uids_cw_ea_sm.json",
+      "bytes": 5058,
+      "sha256": "5f06862986078ed5bc393be6c7f4d9d4b65180bfc4cb5244464c470193029ff4"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_st_uids_ic_oe_sg.json",
+      "bytes": 7786,
+      "sha256": "86626b7578be9f31cf2567b0935c00ecc28b50b0177b532866ef4c1780cc5325"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_tier_table_cw_ea_sm.json",
+      "bytes": 50774,
+      "sha256": "aaabda2871e9d9280d94801c25f4b9d9fcce5784be147af18bc84509df31eaf9"
+    },
+    {
+      "path": "autocontrol/config/autocontrol_tier_table_ic_oe_sg.json",
+      "bytes": 70749,
+      "sha256": "bd6bb5dc8923e8763a2a3f92a113e1be76a4fafffc986d5b019aea7319afd5f2"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/adapted_no_llm.episodes.jsonl.gz",
+      "bytes": 259193,
+      "sha256": "e2510199667232303c188a78e3a33973d9e1ad0f733157394be4b59f10ef1f34"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/adapted_no_llm.meta.json",
+      "bytes": 1162,
+      "sha256": "51c0660d3e4b5dca79ceed3f7d9c44aa17a018212ebfe6c574cf36c1a81b61a8"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/adapted_no_llm.monitor.jsonl",
+      "bytes": 318123,
+      "sha256": "b645bc3cacc156c1e3d3f95926d69642b2203a749fe792541c33c61c14f692c2"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/adapted_no_llm.runtime.json",
+      "bytes": 186,
+      "sha256": "839a70312315061be13bb1783241b7e6ec61df45e7e8ccf43808dcc6050f1ccb"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/monitor_cases.txt",
+      "bytes": 13061,
+      "sha256": "52b0933cf365f5700856bd71add7709277e0f30877e92dfd23dda3e2df6bb2cc"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/noharness.episodes.jsonl.gz",
+      "bytes": 255801,
+      "sha256": "d5f732e46082215fabf6b2b299b34b6a868f658339172d2fd21f2592b3eb0063"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/noharness.meta.json",
+      "bytes": 1162,
+      "sha256": "51c0660d3e4b5dca79ceed3f7d9c44aa17a018212ebfe6c574cf36c1a81b61a8"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/noharness.monitor.jsonl",
+      "bytes": 318786,
+      "sha256": "3a20ec705c159573a58429d37feb7240ad09bd736c1a4ea678cec5be0ffee4a2"
+    },
+    {
+      "path": "autocontrol/raw/cw_ea_sm/noharness.runtime.json",
+      "bytes": 186,
+      "sha256": "8e02c7dd382783df6d8a37312cbad8d0944a13c0d1672b4747b9673b99d360f2"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/adapted_no_llm.episodes.jsonl.gz",
+      "bytes": 444427,
+      "sha256": "13e7a3d567f029fa90877d7418fee7f73bc96b5bd13357ae8ffecc1a289a1840"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/adapted_no_llm.meta.json",
+      "bytes": 1164,
+      "sha256": "e5979ffec5ed0972bde04a24d6ec18320da6907341f9e1979206ed10aeff85d2"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/adapted_no_llm.monitor.jsonl",
+      "bytes": 482083,
+      "sha256": "3059edfdb655e54ad5db5adddc473baefe10f3bffd0c9881065db1391b9234da"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/adapted_no_llm.runtime.json",
+      "bytes": 186,
+      "sha256": "3341db487372d2979e5cd9ab2a2136a6a5355c3b817b601c13fb55b715c94a2c"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/monitor_cases.txt",
+      "bytes": 25130,
+      "sha256": "cd88d2f426ddb473b9e7765580ac811664c0f069940825e061b3f611a27da13f"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/noharness.episodes.jsonl.gz",
+      "bytes": 425588,
+      "sha256": "830a6d84f2bc5394a10ffd91ef5bc6db0ae5ece1bf6dc317338400c30c6a25ca"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/noharness.meta.json",
+      "bytes": 1164,
+      "sha256": "e5979ffec5ed0972bde04a24d6ec18320da6907341f9e1979206ed10aeff85d2"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/noharness.monitor.jsonl",
+      "bytes": 483299,
+      "sha256": "37eb0bd8535507d9c4598e0aa618b86f2e733444c0eb34a59f94142014eec49f"
+    },
+    {
+      "path": "autocontrol/raw/ic_oe_sg/noharness.runtime.json",
+      "bytes": 186,
+      "sha256": "ea1f6d8643ed71983266a6ceb9985a486aba17e4b12a77b622e74411f594dabe"
+    },
+    {
+      "path": "autocontrol/results.json",
+      "bytes": 7478,
+      "sha256": "afd522651f1eed89ff15833a4760ae974ef7940a3b5cd15fcc11bf3b98ffa27c"
+    },
+    {
+      "path": "autocontrol/setting.json",
+      "bytes": 1124,
+      "sha256": "fc43a518677d205e7aedacb290a61e8bb978bdb42d176bffc35bf7c537752155"
+    },
+    {
+      "path": "build_canonical_reports.py",
+      "bytes": 22241,
+      "sha256": "0b0f94cb73c69993ecde448a2838a29b43d6b76854efa7681bb4fb459bf96c35"
+    },
+    {
+      "path": "cleanup_legacy.py",
+      "bytes": 7300,
+      "sha256": "e4ec035831857f5f25c337080135500e02f40799a9261d00f296bf61d84e17cb"
+    },
+    {
+      "path": "cleanup_report.json",
+      "bytes": 12157,
+      "sha256": "41cdd59c425ccd9c8195cf1ac258d25b2572d959e201f88c89c84ddc8a65ed2e"
+    },
+    {
+      "path": "securitybench/ANALYSIS.md",
+      "bytes": 1707,
+      "sha256": "f3347a8ae79c26a8d4650c4d3550635fc66e84157732b76244b51900d127e0dd"
+    },
+    {
+      "path": "securitybench/CASES.md",
+      "bytes": 1682,
+      "sha256": "df155be171df54e1e08fb92b95a124a5d4accf2e9ab28251e04f4332ce72eb76"
+    },
+    {
+      "path": "securitybench/RESULTS.md",
+      "bytes": 690,
+      "sha256": "25ae0e23c37429a85420a58cacf7825f53b952cda38e2ea8ff9436c4a48ce475"
+    },
+    {
+      "path": "securitybench/SETTING.md",
+      "bytes": 2158,
+      "sha256": "40169b79a6c6731412da43833bf2dcb10732e03b77212f74bb5d5d3576fbad66"
+    },
+    {
+      "path": "securitybench/cases.json",
+      "bytes": 25970,
+      "sha256": "0c5d110eac31f62816830120f9cde7ca2dc5f1e1fb42ff5a1a477a3e9c1b2993"
+    },
+    {
+      "path": "securitybench/code/README.md",
+      "bytes": 976,
+      "sha256": "cdef1746e44635005b5289400910cfb429568d0585c5f471c67919665cf3a308"
+    },
+    {
+      "path": "securitybench/code/run_eval.py",
+      "bytes": 18791,
+      "sha256": "918f208fbd15c1d099b7aed40dc86c2ecedf8b057ba972572851ad5d4fb58947"
+    },
+    {
+      "path": "securitybench/config/asb_tier_table_5agents_principled.json",
+      "bytes": 28545,
+      "sha256": "0f8b04e809396dc16e6258aef0a6020330f5fd62a6973111369429546cc48acc"
+    },
+    {
+      "path": "securitybench/config/asb_tool_inventory_5agents.json",
+      "bytes": 53666,
+      "sha256": "d926d032d2ee6ddff8a56a978218c844e19c9e25b2c0e40f4b78abf449b04192"
+    },
+    {
+      "path": "securitybench/raw/records.jsonl",
+      "bytes": 788258,
+      "sha256": "c0cbe7f2f21ac47d6a5b72801add10f9b84863777a02bfd34c9b30763868b442"
+    },
+    {
+      "path": "securitybench/raw/summary.json",
+      "bytes": 514,
+      "sha256": "a15acc9ad5d6ef2ecbecd74851457b0c633b63fa01c404014a14e0f99b671983"
+    },
+    {
+      "path": "securitybench/results.json",
+      "bytes": 1626,
+      "sha256": "b3f2365283f9f13c24db3f3cf74bbd811c200a798d9ad67724cac73167d709ed"
+    },
+    {
+      "path": "securitybench/setting.json",
+      "bytes": 1259,
+      "sha256": "e09ae46d2dc2cb4813d22e49e87dabf7d99e72fc55a2a93a160d9dfb1e03c6f3"
+    },
+    {
+      "path": "shared/__init__.py",
+      "bytes": 64,
+      "sha256": "9b61c1c839d1370557728161434a38ed76c137900a65f54b416d28e674e34a5d"
+    },
+    {
+      "path": "shared/safeharness_no_llm.py",
+      "bytes": 6573,
+      "sha256": "79298c8fcb35e045add201c8a9966f5d4c7063a14db205237db8827e5e77ec34"
+    },
+    {
+      "path": "upward_deception/ANALYSIS.md",
+      "bytes": 1369,
+      "sha256": "25c54cb91dbf5ce7ec4828a2a661ce29632c2780ff37717ae28f8ef1d0619ee6"
+    },
+    {
+      "path": "upward_deception/CASES.md",
+      "bytes": 1074,
+      "sha256": "b1c294f71f0c712100886685db90dbeb243552395929bace80d35534880db1d8"
+    },
+    {
+      "path": "upward_deception/RESULTS.md",
+      "bytes": 643,
+      "sha256": "960b21e833a5147a3489f5f8edcca643c37feefb3667c740b936ce01567f47f7"
+    },
+    {
+      "path": "upward_deception/SETTING.md",
+      "bytes": 1484,
+      "sha256": "f1fa67950cce38bc4377705b8c9ae9b6eea14d942abd9d9a1cd0f2255633aea7"
+    },
+    {
+      "path": "upward_deception/cases.json",
+      "bytes": 90316,
+      "sha256": "786cac5ead74c11cdea98e1b9ac79dc9bfeb5a74bd5a78567686fbb748e0b8e3"
+    },
+    {
+      "path": "upward_deception/code/README.md",
+      "bytes": 973,
+      "sha256": "00e0c9ae268d1749c86e347cb64b0fc6166d3f947203d1e4df4ce1b844d9c37d"
+    },
+    {
+      "path": "upward_deception/code/run_eval.py",
+      "bytes": 28560,
+      "sha256": "c17e0c05de0d081e943ad49849056a38b79717ba05350ea96e83669f41d116c9"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_1.txt",
+      "bytes": 1913,
+      "sha256": "49900bc5706a2d37128e30ce83a97020b333f2f633cf8f911210edcac4d8a994"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_2.txt",
+      "bytes": 1950,
+      "sha256": "82a4941b56f00a6123f322b79941caaf4930121086c9f2233511c4c420e68b67"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_3_failure.txt",
+      "bytes": 1915,
+      "sha256": "82127b675d0aaf2151421c6cdb0bd08c28b0fcce391fdcb28a43921fb97d93e4"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_3_local_decoy.txt",
+      "bytes": 1818,
+      "sha256": "61f05312ba29449dd56d47870351171c5ff843de8a550a88a4390bbb05ac6655"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_4_failure.txt",
+      "bytes": 5622,
+      "sha256": "6aea2aab64394a192c3c4b9d6d69ff67fe3b4d945560c812c37e87ba1d3dbf45"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_4_relatedness.txt",
+      "bytes": 3436,
+      "sha256": "a3f8d7200b79838b3db97fe6f3a5f97137be7a62be8a52bb66f2e3a4f5b1db22"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_4_source_attribution.txt",
+      "bytes": 3114,
+      "sha256": "4b10564fec68cd14d653c32d274ff5e0db7a1c7d588fd6aa687e0e81a59422fc"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_4_source_attribution_of_file.txt",
+      "bytes": 3343,
+      "sha256": "03b3a1bb9aa5eaf9557c08bdc0247d00e5327820b8f431559f1d4c92ebb6ac61"
+    },
+    {
+      "path": "upward_deception/config/official_judge_templates/judge_template_4_type_source_error.txt",
+      "bytes": 2267,
+      "sha256": "8fd13c91a9fafa251b792815f94c7ea34a9703be05c7c44fc95d5814d8ecd0c5"
+    },
+    {
+      "path": "upward_deception/results.json",
+      "bytes": 767,
+      "sha256": "771e9aaec12352efd3329fb1a534dd70a69b65b344c5ae867c7be6a295779d63"
+    },
+    {
+      "path": "upward_deception/run/records.jsonl",
+      "bytes": 174196,
+      "sha256": "8c128be5a11f858e556a3da902a249d3b52661af393042b1f43f306d01745dae"
+    },
+    {
+      "path": "upward_deception/run/summary.json",
+      "bytes": 2033,
+      "sha256": "394beb9959558d586592bb10986a81bab7ab3877757b9426ab7c609559ac5305"
+    },
+    {
+      "path": "upward_deception/run/summary_by_label.csv",
+      "bytes": 211,
+      "sha256": "d9e9b6b0e36ed4061e7c2922e779104760bb387edf70b6dffea3d25a439bdd57"
+    },
+    {
+      "path": "upward_deception/run.log",
+      "bytes": 12506,
+      "sha256": "5948791ce85b0006ff367aee80c2a8019594289654308dbca664d65e286f766c"
+    },
+    {
+      "path": "upward_deception/setting.json",
+      "bytes": 732,
+      "sha256": "05498a260c854ffd7d6963909fa305aedf28e5e3717fb983954007dd77f23c05"
+    },
+    {
+      "path": "upward_deception/tasks.jsonl",
+      "bytes": 64381,
+      "sha256": "cd036a66ed711d9a23c2f7b2ef6c46bb2c3ce973a0480ddba91e7907a42f75d1"
+    }
+  ]
+}

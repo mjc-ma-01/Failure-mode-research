@@ -1,0 +1,3 @@
+label,condition,valid,unsafe_rate,completion_rate,blocked_calls,tool_calls,invalid_calls
+tool_hallucination,noharness,32,0.25,0.75,0,57,0
+tool_hallucination,safeharness_adapted_no_llm,32,0.2188,0.7812,0,75,0

@@ -1,0 +1,5 @@
+key,avg_blocked_actions,avg_tool_calls,block_rate,errors,judged,n,safe_rate,task_completion_rate,unsafe_rate
+base,,,,,,0,,,
+unprotected,,,,,,0,,,
+safeharness,0.0,1.688,0.0,0,16,16,0.6875,0.625,0.3125
+she,,,,,,0,,,

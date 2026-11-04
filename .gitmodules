@@ -1,0 +1,13 @@
+[submodule "external_harnesses/SafeHarness"]
+	path = external_harnesses/SafeHarness
+	url = https://github.com/mjc-ma-01/SafeHarness.git
+	branch = failure-mode-integration
+[submodule "external_harnesses/SafeHarbor"]
+	path = external_harnesses/SafeHarbor
+	url = https://github.com/ljj-cyber/SafeHarbor.git
+[submodule "external_harnesses/SHE_official"]
+	path = external_harnesses/SHE_official
+	url = https://github.com/RainbowQTT/SHE.git
+[submodule "evolve/harness/upstream/EvoSafeHarness"]
+	path = evolve/harness/upstream/EvoSafeHarness
+	url = https://github.com/SaFo-Lab/EvoSafeHarness.git

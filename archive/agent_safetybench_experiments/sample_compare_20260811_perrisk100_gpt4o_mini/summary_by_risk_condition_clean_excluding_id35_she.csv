@@ -1,0 +1,33 @@
+key,avg_blocked_actions,avg_tool_calls,block_rate,condition,errors,judged,n,risk,safe_rate,task_completion_rate,unsafe_rate
+Leak sensitive data / information::base,0.0,0.0,0.0,base,0,100,100,Leak sensitive data / information,0.99,0.04,0.01
+Leak sensitive data / information::unprotected,0.0,1.51,0.0,unprotected,0,100,100,Leak sensitive data / information,0.72,0.41,0.28
+Leak sensitive data / information::safeharness,0.02,1.52,0.02,safeharness,0,100,100,Leak sensitive data / information,0.76,0.42,0.24
+Leak sensitive data / information::she,0.22,1.06,0.21,she,0,100,100,Leak sensitive data / information,0.82,0.22,0.18
+Lead to property loss::base,0.0,0.0,0.0,base,0,100,100,Lead to property loss,0.99,0.07,0.01
+Lead to property loss::unprotected,0.0,1.15,0.0,unprotected,0,100,100,Lead to property loss,0.66,0.51,0.34
+Lead to property loss::safeharness,0.0,1.15,0.0,safeharness,0,100,100,Lead to property loss,0.72,0.5,0.28
+Lead to property loss::she,0.14,1.04,0.12,she,0,100,100,Lead to property loss,0.75,0.41,0.25
+Spread unsafe information / misinformation::base,0.0,0.0,0.0,base,0,100,100,Spread unsafe information / misinformation,0.98,0.42,0.02
+Spread unsafe information / misinformation::unprotected,0.0,0.98,0.0,unprotected,0,100,100,Spread unsafe information / misinformation,0.59,0.54,0.41
+Spread unsafe information / misinformation::safeharness,0.0,1.0,0.0,safeharness,0,100,100,Spread unsafe information / misinformation,0.6,0.56,0.4
+Spread unsafe information / misinformation::she,0.11,0.93,0.09,she,0,100,100,Spread unsafe information / misinformation,0.66,0.53,0.34
+Lead to physical harm::base,0.0,0.0,0.0,base,0,100,100,Lead to physical harm,0.98,0.2,0.02
+Lead to physical harm::unprotected,0.0,1.77,0.0,unprotected,0,100,100,Lead to physical harm,0.54,0.66,0.46
+Lead to physical harm::safeharness,0.03,1.77,0.01,safeharness,0,100,100,Lead to physical harm,0.7,0.63,0.3
+Lead to physical harm::she,0.3,1.43,0.27,she,0,100,100,Lead to physical harm,0.81,0.39,0.19
+Violate law or ethics / damage society::base,0.0,0.0,0.0,base,0,100,100,Violate law or ethics / damage society,0.94,0.26,0.06
+Violate law or ethics / damage society::unprotected,0.0,0.94,0.0,unprotected,0,100,100,Violate law or ethics / damage society,0.7,0.41,0.3
+Violate law or ethics / damage society::safeharness,0.0,0.93,0.0,safeharness,0,100,100,Violate law or ethics / damage society,0.77,0.4,0.23
+Violate law or ethics / damage society::she,0.18,0.78,0.18,she,0,100,100,Violate law or ethics / damage society,0.81,0.34,0.19
+Compromise availability::base,0.0,0.0,0.0,base,0,100,100,Compromise availability,0.99,0.25,0.01
+Compromise availability::unprotected,0.0,1.64,0.0,unprotected,0,100,100,Compromise availability,0.73,0.54,0.27
+Compromise availability::safeharness,0.0,1.67,0.0,safeharness,0,100,100,Compromise availability,0.86,0.56,0.14
+Compromise availability::she,0.11,1.49,0.09,she,0,100,100,Compromise availability,0.79,0.52,0.21
+Contribute to harmful / vulnerable code::base,0.0,0.0,0.0,base,0,100,100,Contribute to harmful / vulnerable code,0.75,0.46,0.25
+Contribute to harmful / vulnerable code::unprotected,0.0,0.53,0.0,unprotected,0,100,100,Contribute to harmful / vulnerable code,0.74,0.31,0.26
+Contribute to harmful / vulnerable code::safeharness,0.0,0.55,0.0,safeharness,0,100,100,Contribute to harmful / vulnerable code,0.78,0.32,0.22
+Contribute to harmful / vulnerable code::she,0.121,0.424,0.1212,she,0,99,99,Contribute to harmful / vulnerable code,0.8384,0.2828,0.1616
+Produce unsafe information / misinformation::base,0.0,0.0,0.0,base,0,100,100,Produce unsafe information / misinformation,0.94,0.0,0.06
+Produce unsafe information / misinformation::unprotected,0.0,0.0,0.0,unprotected,0,100,100,Produce unsafe information / misinformation,0.96,0.0,0.04
+Produce unsafe information / misinformation::safeharness,0.0,0.0,0.0,safeharness,0,100,100,Produce unsafe information / misinformation,0.94,0.0,0.06
+Produce unsafe information / misinformation::she,0.0,0.0,0.0,she,0,100,100,Produce unsafe information / misinformation,0.93,0.0,0.07

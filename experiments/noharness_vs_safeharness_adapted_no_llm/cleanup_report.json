@@ -1,0 +1,328 @@
+{
+  "created_at": "2026-11-04T18:16:28",
+  "canonical": "noharness_vs_safeharness_adapted_no_llm",
+  "archive": "previous/pre_canonical_20261104",
+  "deleted": [
+    "ac_bare_pilot",
+    "ac_bare_safeharness_pilot",
+    "ac_st_pilot",
+    "ac_st_safeharness_pilot",
+    "adapted_no_llm_smoke",
+    "adapted_smoke",
+    "noharness_vs_safeharness_adapted_no_llm/autocontrol/code",
+    "noharness_vs_safeharness_adapted_no_llm/securitybench/code",
+    "noharness_vs_safeharness_adapted_no_llm/upward_deception/code",
+    "previous/pre_canonical_20261104/ac_cw_ea_sm_st",
+    "previous/pre_canonical_20261104/ac_ic_oe_sg_st",
+    "previous/pre_canonical_20261104/autocontrol_core/plus_l2_original_threshold",
+    "previous/pre_canonical_20261104/risk_resplit/ASB_GLM_TIERS_REPORT.md",
+    "previous/pre_canonical_20261104/risk_resplit/adapted_no_llm_launcher.log",
+    "previous/pre_canonical_20261104/risk_resplit/adapted_no_llm_run.log",
+    "previous/pre_canonical_20261104/risk_resplit/adapted_no_llm_run_v2.log",
+    "previous/pre_canonical_20261104/risk_resplit/adapted_no_llm_v2_launcher.log",
+    "previous/pre_canonical_20261104/risk_resplit/asb_adapted_no_llm_dpi_opi.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_adapted_no_llm_dpi_opi.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_adapted_no_llm_dpi_opi_v2.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_adapted_no_llm_memory.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_full_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_full_results.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_general_taint_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_general_taint_results.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_general_taint_run.log",
+    "previous/pre_canonical_20261104/risk_resplit/asb_glm_tiers_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_glm_tiers_results.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_glm_tiers_run.log",
+    "previous/pre_canonical_20261104/risk_resplit/asb_mp_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_mp_results2.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_mp_results2.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_pot_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_pot_results.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_principled_results.jsonl",
+    "previous/pre_canonical_20261104/risk_resplit/asb_principled_results.summary.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_principled_run.log",
+    "previous/pre_canonical_20261104/risk_resplit/asb_tier_table_5agents.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_tier_table_5agents_principled.json",
+    "previous/pre_canonical_20261104/risk_resplit/asb_tool_inventory_5agents.json",
+    "previous/pre_canonical_20261104/risk_resplit/label_asb_principled.log",
+    "previous/pre_canonical_20261104/risk_resplit/label_asb_tiers.log",
+    "previous/pre_canonical_20261104/risk_resplit/label_asb_tiers.py",
+    "previous/pre_canonical_20261104/risk_resplit/label_asb_tiers_principled.py",
+    "previous/pre_canonical_20261104/risk_resplit/run_adapted_no_llm_all.sh",
+    "previous/pre_canonical_20261104/risk_resplit/run_adapted_no_llm_dpi_opi_v2.sh",
+    "previous/pre_canonical_20261104/risk_resplit/run_asb_glm_tiers.sh",
+    "previous/pre_canonical_20261104/risk_resplit/run_asb_principled.sh",
+    "previous/pre_canonical_20261104/safeharness_adapted_no_llm",
+    "previous/pre_canonical_20261104/safeharness_adapted_v2",
+    "previous/pre_canonical_20261104/safeharness_l2",
+    "previous/pre_canonical_20261104/safeharness_l2action",
+    "previous/pre_canonical_20261104/safeharness_replay",
+    "previous/risk_resplit/asb_l2ablation_results.jsonl",
+    "previous/risk_resplit/asb_l2ablation_results.summary.json",
+    "previous/risk_resplit/asb_mp_l2ablation.jsonl",
+    "previous/risk_resplit/asb_pot_l2ablation.jsonl",
+    "previous/risk_resplit/run100_l2ablation",
+    "previous/safeharness_true_threshold_gpt4omini",
+    "risk_resplit/asb_pilot.jsonl",
+    "risk_resplit/asb_pilot2.jsonl",
+    "risk_resplit/attack_smoke",
+    "risk_resplit/attack_smoke2",
+    "risk_resplit/attack_smoke3",
+    "risk_resplit/attack_smoke4",
+    "risk_resplit/attack_smoke5",
+    "risk_resplit/attack_smoke6",
+    "risk_resplit/run100_pilot",
+    "risk_resplit/smoke",
+    "risk_resplit/smoke2",
+    "risk_resplit/smoke3",
+    "safeharness_l2action_pilot",
+    "safeharness_l2action_pilot4",
+    "safeharness_sheall_pilot",
+    "she_ac_bare_pilot",
+    "she_agentdojo_calibration_invalid_2044",
+    "she_agentdojo_v2_invalid_2044",
+    "she_agentdojo_v2_relaxed_stale_0129",
+    "she_safeharness_l2_pilot"
+  ],
+  "archived": [
+    {
+      "source": "CASE_ANALYSIS.md",
+      "target": "previous/pre_canonical_20261104/CASE_ANALYSIS.md"
+    },
+    {
+      "source": "MONITOR_REPORT.md",
+      "target": "previous/pre_canonical_20261104/MONITOR_REPORT.md"
+    },
+    {
+      "source": "PROTOCOL.md",
+      "target": "previous/pre_canonical_20261104/PROTOCOL.md"
+    },
+    {
+      "source": "ac_bare",
+      "target": "previous/pre_canonical_20261104/ac_bare"
+    },
+    {
+      "source": "ac_bare_comparison",
+      "target": "previous/pre_canonical_20261104/ac_bare_comparison"
+    },
+    {
+      "source": "ac_cw_ea_sm_st",
+      "target": "previous/pre_canonical_20261104/ac_cw_ea_sm_st"
+    },
+    {
+      "source": "ac_ic_oe_sg",
+      "target": "previous/pre_canonical_20261104/ac_ic_oe_sg"
+    },
+    {
+      "source": "ac_ic_oe_sg_st",
+      "target": "previous/pre_canonical_20261104/ac_ic_oe_sg_st"
+    },
+    {
+      "source": "ac_scripted_bare",
+      "target": "previous/pre_canonical_20261104/ac_scripted_bare"
+    },
+    {
+      "source": "ac_scripted_bare_safeharness",
+      "target": "previous/pre_canonical_20261104/ac_scripted_bare_safeharness"
+    },
+    {
+      "source": "ac_scripted_h0",
+      "target": "previous/pre_canonical_20261104/ac_scripted_h0"
+    },
+    {
+      "source": "ac_scripted_safeharness",
+      "target": "previous/pre_canonical_20261104/ac_scripted_safeharness"
+    },
+    {
+      "source": "ac_st_comparison",
+      "target": "previous/pre_canonical_20261104/ac_st_comparison"
+    },
+    {
+      "source": "ac_st_noharness",
+      "target": "previous/pre_canonical_20261104/ac_st_noharness"
+    },
+    {
+      "source": "ac_st_safeharness",
+      "target": "previous/pre_canonical_20261104/ac_st_safeharness"
+    },
+    {
+      "source": "ac_st_safeharness_scripted",
+      "target": "previous/pre_canonical_20261104/ac_st_safeharness_scripted"
+    },
+    {
+      "source": "analyze_ac_st.py",
+      "target": "previous/pre_canonical_20261104/analyze_ac_st.py"
+    },
+    {
+      "source": "analyze_monitor.py",
+      "target": "previous/pre_canonical_20261104/analyze_monitor.py"
+    },
+    {
+      "source": "autocontrol_core",
+      "target": "previous/pre_canonical_20261104/autocontrol_core"
+    },
+    {
+      "source": "autocontrol_extra",
+      "target": "previous/pre_canonical_20261104/autocontrol_extra"
+    },
+    {
+      "source": "evolve_agentdojo_run_1016-0750",
+      "target": "previous/pre_canonical_20261104/evolve_agentdojo_run_1016-0750"
+    },
+    {
+      "source": "monitor_cases.py",
+      "target": "previous/pre_canonical_20261104/monitor_cases.py"
+    },
+    {
+      "source": "monitor_cases_full.py",
+      "target": "previous/pre_canonical_20261104/monitor_cases_full.py"
+    },
+    {
+      "source": "risk_resplit",
+      "target": "previous/pre_canonical_20261104/risk_resplit"
+    },
+    {
+      "source": "run_ac_cw_ea_sm_st.sh",
+      "target": "previous/pre_canonical_20261104/run_ac_cw_ea_sm_st.sh"
+    },
+    {
+      "source": "run_ac_ic_oe_sg_st.sh",
+      "target": "previous/pre_canonical_20261104/run_ac_ic_oe_sg_st.sh"
+    },
+    {
+      "source": "run_ac_ic_oe_sg_two_arms.sh",
+      "target": "previous/pre_canonical_20261104/run_ac_ic_oe_sg_two_arms.sh"
+    },
+    {
+      "source": "run_ac_monitor_rejudge.sh",
+      "target": "previous/pre_canonical_20261104/run_ac_monitor_rejudge.sh"
+    },
+    {
+      "source": "runs",
+      "target": "previous/pre_canonical_20261104/runs"
+    },
+    {
+      "source": "safeharness_adapted_no_llm",
+      "target": "previous/pre_canonical_20261104/safeharness_adapted_no_llm"
+    },
+    {
+      "source": "safeharness_adapted_v2",
+      "target": "previous/pre_canonical_20261104/safeharness_adapted_v2"
+    },
+    {
+      "source": "safeharness_l2",
+      "target": "previous/pre_canonical_20261104/safeharness_l2"
+    },
+    {
+      "source": "safeharness_l2action",
+      "target": "previous/pre_canonical_20261104/safeharness_l2action"
+    },
+    {
+      "source": "safeharness_replay",
+      "target": "previous/pre_canonical_20261104/safeharness_replay"
+    },
+    {
+      "source": "safeharness_she_all",
+      "target": "previous/pre_canonical_20261104/safeharness_she_all"
+    },
+    {
+      "source": "safeharness_she_prompt",
+      "target": "previous/pre_canonical_20261104/safeharness_she_prompt"
+    },
+    {
+      "source": "safeharness_she_tools",
+      "target": "previous/pre_canonical_20261104/safeharness_she_tools"
+    },
+    {
+      "source": "she_ac_balanced",
+      "target": "previous/pre_canonical_20261104/she_ac_balanced"
+    },
+    {
+      "source": "she_ac_bare_evolved",
+      "target": "previous/pre_canonical_20261104/she_ac_bare_evolved"
+    },
+    {
+      "source": "she_ac_bare_seed",
+      "target": "previous/pre_canonical_20261104/she_ac_bare_seed"
+    },
+    {
+      "source": "she_ad_api2",
+      "target": "previous/pre_canonical_20261104/she_ad_api2"
+    },
+    {
+      "source": "she_ad_balanced",
+      "target": "previous/pre_canonical_20261104/she_ad_balanced"
+    },
+    {
+      "source": "she_agentdojo_api1",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_api1"
+    },
+    {
+      "source": "she_agentdojo_calibration_allwarn",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_calibration_allwarn"
+    },
+    {
+      "source": "she_agentdojo_calibration_relaxed_2203",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_calibration_relaxed_2203"
+    },
+    {
+      "source": "she_agentdojo_reeval",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_reeval"
+    },
+    {
+      "source": "she_agentdojo_run1",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_run1"
+    },
+    {
+      "source": "she_agentdojo_v2",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_v2"
+    },
+    {
+      "source": "she_agentdojo_v2_relaxed_2203",
+      "target": "previous/pre_canonical_20261104/she_agentdojo_v2_relaxed_2203"
+    },
+    {
+      "source": "she_agentharm_run1",
+      "target": "previous/pre_canonical_20261104/she_agentharm_run1"
+    },
+    {
+      "source": "she_ah_api1",
+      "target": "previous/pre_canonical_20261104/she_ah_api1"
+    },
+    {
+      "source": "she_ah_balanced",
+      "target": "previous/pre_canonical_20261104/she_ah_balanced"
+    },
+    {
+      "source": "she_ah_balanced2",
+      "target": "previous/pre_canonical_20261104/she_ah_balanced2"
+    },
+    {
+      "source": "split_210",
+      "target": "previous/pre_canonical_20261104/split_210"
+    },
+    {
+      "source": "split_agentdojo",
+      "target": "previous/pre_canonical_20261104/split_agentdojo"
+    },
+    {
+      "source": "split_agentdojo_balanced",
+      "target": "previous/pre_canonical_20261104/split_agentdojo_balanced"
+    },
+    {
+      "source": "split_agentharm",
+      "target": "previous/pre_canonical_20261104/split_agentharm"
+    },
+    {
+      "source": "split_agentharm_balanced",
+      "target": "previous/pre_canonical_20261104/split_agentharm_balanced"
+    },
+    {
+      "source": "split_autocontrol_balanced",
+      "target": "previous/pre_canonical_20261104/split_autocontrol_balanced"
+    },
+    {
+      "source": "taskspecs",
+      "target": "previous/pre_canonical_20261104/taskspecs"
+    }
+  ]
+}

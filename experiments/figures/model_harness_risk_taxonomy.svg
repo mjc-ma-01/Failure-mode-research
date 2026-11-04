@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#18323F" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .zh { font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; }
+      .en { font-family: Inter, Arial, sans-serif; }
+      .title { font-size: 43px; font-weight: 800; fill: #18323F; }
+      .subtitle { font-size: 19px; font-weight: 450; fill: #60727B; }
+      .criterion-head { font-size: 19px; font-weight: 800; }
+      .criterion-body { font-size: 18px; font-weight: 500; fill: #314750; }
+      .column-title { font-size: 29px; font-weight: 800; fill: #FFFFFF; letter-spacing: 1px; }
+      .column-note { font-size: 18px; font-weight: 500; fill: #E9F3F6; }
+      .index { font-size: 18px; font-weight: 800; fill: #FFFFFF; }
+      .card-title { font-size: 29px; font-weight: 800; fill: #20343E; }
+      .card-en { font-size: 18px; font-weight: 600; fill: #657982; }
+      .item { font-size: 20px; font-weight: 600; fill: #30464F; }
+      .footer { font-size: 19px; font-weight: 600; fill: #435861; }
+      .small { font-size: 15px; font-weight: 500; fill: #7A8C94; }
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#FAFCFC"/>
+
+  <text x="960" y="62" text-anchor="middle" class="zh title">Agent 风险归因：Model 语义判断 vs Harness 确定性边界</text>
+  <text x="960" y="100" text-anchor="middle" class="zh subtitle">大类＝风险机制　｜　小类＝具体失败表现　｜　相同表象按“能否由结构化证据确定”归边</text>
+
+  <g>
+    <rect x="70" y="126" width="855" height="72" rx="12" fill="#F4F8FA" stroke="#ADC4CE" stroke-width="1.5"/>
+    <rect x="70" y="126" width="12" height="72" rx="6" fill="#35677A"/>
+    <text x="102" y="156" class="zh criterion-head" fill="#35677A">MODEL 判界</text>
+    <text x="102" y="184" class="zh criterion-body">必须理解行为意图、事实含义或真实目标，不能只靠结构化规则确定</text>
+  </g>
+  <g>
+    <rect x="995" y="126" width="855" height="72" rx="12" fill="#F3F8F6" stroke="#A9C8BD" stroke-width="1.5"/>
+    <rect x="995" y="126" width="12" height="72" rx="6" fill="#28745F"/>
+    <text x="1027" y="156" class="zh criterion-head" fill="#28745F">HARNESS 判界</text>
+    <text x="1027" y="184" class="zh criterion-body">可由指令来源、访问权限、执行动作或状态证据进行确定性核验</text>
+  </g>
+
+  <rect x="70" y="222" width="855" height="58" rx="11" fill="#35677A"/>
+  <text x="98" y="260" class="zh column-title">MODEL 主防</text>
+  <text x="895" y="258" text-anchor="end" class="zh column-note">开放语义判断 · 4 类 / 16 小类</text>
+
+  <rect x="995" y="222" width="855" height="58" rx="11" fill="#28745F"/>
+  <text x="1023" y="260" class="zh column-title">HARNESS 主防</text>
+  <text x="1820" y="258" text-anchor="end" class="zh column-note">确定性边界约束 · 4 类 / 16 小类</text>
+
+  <line x1="960" y1="222" x2="960" y2="954" stroke="#CFDADC" stroke-width="2" stroke-dasharray="6 9"/>
+
+  <!-- MODEL 1 -->
+  <g>
+    <rect x="70" y="300" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#B7CBD4" stroke-width="1.6"/>
+    <rect x="70" y="300" width="8" height="145" rx="4" fill="#35718A"/>
+    <rect x="98" y="320" width="44" height="30" rx="6" fill="#35718A"/>
+    <text x="120" y="342" text-anchor="middle" class="en index">M1</text>
+    <text x="158" y="344" class="zh card-title">有害服从</text>
+    <text x="310" y="343" class="en card-en">Harmful Compliance / Capability Misuse</text>
+    <circle cx="110" cy="382" r="5" fill="#35718A"/>
+    <text x="126" y="389" class="zh item">有害请求服从</text>
+    <circle cx="480" cy="382" r="5" fill="#35718A"/>
+    <text x="496" y="389" class="zh item">危险能力协助</text>
+    <circle cx="110" cy="418" r="5" fill="#35718A"/>
+    <text x="126" y="425" class="zh item">隐含危害误判</text>
+    <circle cx="480" cy="418" r="5" fill="#35718A"/>
+    <text x="496" y="425" class="zh item">安全约束让位</text>
+  </g>
+
+  <!-- MODEL 2 -->
+  <g>
+    <rect x="70" y="462" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#D8BEB8" stroke-width="1.6"/>
+    <rect x="70" y="462" width="8" height="145" rx="4" fill="#A44E42"/>
+    <rect x="98" y="482" width="44" height="30" rx="6" fill="#A44E42"/>
+    <text x="120" y="504" text-anchor="middle" class="en index">M2</text>
+    <text x="158" y="506" class="zh card-title">权力寻求与监督规避</text>
+    <text x="475" y="505" class="en card-en">Power Seeking / Oversight Evasion</text>
+    <circle cx="110" cy="544" r="5" fill="#A44E42"/>
+    <text x="126" y="551" class="zh item">抗关停</text>
+    <circle cx="480" cy="544" r="5" fill="#A44E42"/>
+    <text x="496" y="551" class="zh item">提权与自复制</text>
+    <circle cx="110" cy="580" r="5" fill="#A44E42"/>
+    <text x="126" y="587" class="zh item">关闭或篡改监督</text>
+    <circle cx="480" cy="580" r="5" fill="#A44E42"/>
+    <text x="496" y="587" class="zh item">拦截后绕行重试</text>
+  </g>
+
+  <!-- MODEL 3 -->
+  <g>
+    <rect x="70" y="624" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#C9C4D8" stroke-width="1.6"/>
+    <rect x="70" y="624" width="8" height="145" rx="4" fill="#6F5A91"/>
+    <rect x="98" y="644" width="44" height="30" rx="6" fill="#6F5A91"/>
+    <text x="120" y="666" text-anchor="middle" class="en index">M3</text>
+    <text x="158" y="668" class="zh card-title">欺骗</text>
+    <text x="242" y="667" class="en card-en">Deception</text>
+    <circle cx="110" cy="706" r="5" fill="#6F5A91"/>
+    <text x="126" y="713" class="zh item">失败隐瞒</text>
+    <circle cx="480" cy="706" r="5" fill="#6F5A91"/>
+    <text x="496" y="713" class="zh item">结果编造</text>
+    <circle cx="110" cy="742" r="5" fill="#6F5A91"/>
+    <text x="126" y="749" class="zh item">骗取授权</text>
+    <circle cx="480" cy="742" r="5" fill="#6F5A91"/>
+    <text x="496" y="749" class="zh item">欺骗意图残留</text>
+  </g>
+
+  <!-- MODEL 4 -->
+  <g>
+    <rect x="70" y="786" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#D8CBB1" stroke-width="1.6"/>
+    <rect x="70" y="786" width="8" height="145" rx="4" fill="#95712E"/>
+    <rect x="98" y="806" width="44" height="30" rx="6" fill="#95712E"/>
+    <text x="120" y="828" text-anchor="middle" class="en index">M4</text>
+    <text x="158" y="830" class="zh card-title">目标投机</text>
+    <text x="310" y="829" class="en card-en">Sycophancy / Reward Hacking</text>
+    <circle cx="110" cy="868" r="5" fill="#95712E"/>
+    <text x="126" y="875" class="zh item">内容谄媚</text>
+    <circle cx="480" cy="868" r="5" fill="#95712E"/>
+    <text x="496" y="875" class="zh item">选择性报告</text>
+    <circle cx="110" cy="904" r="5" fill="#95712E"/>
+    <text x="126" y="911" class="zh item">虚假完成</text>
+    <circle cx="480" cy="904" r="5" fill="#95712E"/>
+    <text x="496" y="911" class="zh item">指标作弊</text>
+  </g>
+
+  <!-- HARNESS 1 -->
+  <g>
+    <rect x="995" y="300" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#D8BEB8" stroke-width="1.6"/>
+    <rect x="995" y="300" width="8" height="145" rx="4" fill="#A44E42"/>
+    <rect x="1023" y="320" width="44" height="30" rx="6" fill="#A44E42"/>
+    <text x="1045" y="342" text-anchor="middle" class="en index">H1</text>
+    <text x="1083" y="344" class="zh card-title">提示注入</text>
+    <text x="1235" y="343" class="en card-en">Prompt Injection</text>
+    <circle cx="1035" cy="382" r="5" fill="#A44E42"/>
+    <text x="1051" y="389" class="zh item">直接提示注入</text>
+    <circle cx="1405" cy="382" r="5" fill="#A44E42"/>
+    <text x="1421" y="389" class="zh item">观测提示注入</text>
+    <circle cx="1035" cy="418" r="5" fill="#A44E42"/>
+    <text x="1051" y="425" class="zh item">记忆投毒</text>
+    <circle cx="1405" cy="418" r="5" fill="#A44E42"/>
+    <text x="1421" y="425" class="zh item">计划后门</text>
+  </g>
+
+  <!-- HARNESS 2 -->
+  <g>
+    <rect x="995" y="462" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#ACCEC3" stroke-width="1.6"/>
+    <rect x="995" y="462" width="8" height="145" rx="4" fill="#267A64"/>
+    <rect x="1023" y="482" width="44" height="30" rx="6" fill="#267A64"/>
+    <text x="1045" y="504" text-anchor="middle" class="en index">H2</text>
+    <text x="1083" y="506" class="zh card-title">授权越界</text>
+    <text x="1235" y="505" class="en card-en">Authorization Violation</text>
+    <circle cx="1035" cy="544" r="5" fill="#267A64"/>
+    <text x="1051" y="551" class="zh item">敏感数据越权读取</text>
+    <circle cx="1405" cy="544" r="5" fill="#267A64"/>
+    <text x="1421" y="551" class="zh item">未授权写入</text>
+    <circle cx="1035" cy="580" r="5" fill="#267A64"/>
+    <text x="1051" y="587" class="zh item">未授权披露与外传</text>
+    <circle cx="1405" cy="580" r="5" fill="#267A64"/>
+    <text x="1421" y="587" class="zh item">未授权专业操作</text>
+  </g>
+
+  <!-- HARNESS 3 -->
+  <g>
+    <rect x="995" y="624" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#DBC7A3" stroke-width="1.6"/>
+    <rect x="995" y="624" width="8" height="145" rx="4" fill="#A8751F"/>
+    <rect x="1023" y="644" width="44" height="30" rx="6" fill="#A8751F"/>
+    <text x="1045" y="666" text-anchor="middle" class="en index">H3</text>
+    <text x="1083" y="668" class="zh card-title">危险执行</text>
+    <text x="1235" y="667" class="en card-en">Unsafe Execution</text>
+    <circle cx="1035" cy="706" r="5" fill="#A8751F"/>
+    <text x="1051" y="713" class="zh item">显式恶意动作</text>
+    <circle cx="1405" cy="706" r="5" fill="#A8751F"/>
+    <text x="1421" y="713" class="zh item">危险参数</text>
+    <circle cx="1035" cy="742" r="5" fill="#A8751F"/>
+    <text x="1051" y="749" class="zh item">危险动作组合</text>
+    <circle cx="1405" cy="742" r="5" fill="#A8751F"/>
+    <text x="1421" y="749" class="zh item">重试与门禁绕过</text>
+  </g>
+
+  <!-- HARNESS 4 -->
+  <g>
+    <rect x="995" y="786" width="855" height="145" rx="12" fill="#FFFFFF" stroke="#B7CBD4" stroke-width="1.6"/>
+    <rect x="995" y="786" width="8" height="145" rx="4" fill="#35718A"/>
+    <rect x="1023" y="806" width="44" height="30" rx="6" fill="#35718A"/>
+    <text x="1045" y="828" text-anchor="middle" class="en index">H4</text>
+    <text x="1083" y="830" class="zh card-title">状态证据失配</text>
+    <text x="1292" y="829" class="en card-en">State–Evidence Mismatch</text>
+    <circle cx="1035" cy="868" r="5" fill="#35718A"/>
+    <text x="1051" y="875" class="zh item">动作与声明不一致</text>
+    <circle cx="1405" cy="868" r="5" fill="#35718A"/>
+    <text x="1421" y="875" class="zh item">缺少前置检查</text>
+    <circle cx="1035" cy="904" r="5" fill="#35718A"/>
+    <text x="1051" y="911" class="zh item">失败却报告成功</text>
+    <circle cx="1405" cy="904" r="5" fill="#35718A"/>
+    <text x="1421" y="911" class="zh item">结果缺少来源或回执</text>
+  </g>
+
+  <rect x="70" y="958" width="1780" height="72" rx="12" fill="#F1F5F5" stroke="#CEDADB"/>
+  <text x="960" y="989" text-anchor="middle" class="zh footer">判界口诀：需要判断“为什么做、是否有害、是否诚实” → Model　｜　只需核验“来自哪里、有无权限、做了什么、有无凭证” → Harness</text>
+  <text x="960" y="1017" text-anchor="middle" class="zh small">同一风险可跨两侧：例如关闭监控的意图属于 M2，而对 disable / edit-config 动作的确定性门禁属于 H3。</text>
+</svg>

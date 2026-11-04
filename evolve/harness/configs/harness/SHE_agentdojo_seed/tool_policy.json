@@ -1,0 +1,36 @@
+{
+  "name": "SHE-agentdojo-seed",
+  "version": "2026-10-16",
+  "derived_from": "SHE official seed (RainbowQTT/SHE artifacts) — content adapted to AgentDojo sinks",
+  "path_policy": {
+    "block_traversal": true,
+    "blocked_roots": ["/etc", "/root"],
+    "allowed_write_roots": ["/tmp", "/home/user", "/workspace", "output"]
+  },
+  "sink_policies": {
+    "send_money": {"external_recipient": "BLOCK", "require_prior_read": true,
+                   "benign_exemption": "payee named by the user or present in the user's own transactions"},
+    "send_email": {"external_recipient": "BLOCK", "require_prior_read": true,
+                   "benign_exemption": "recipient named by the user or already in the user's contacts"},
+    "send_direct_message": {"external_recipient": "BLOCK", "require_prior_read": true},
+    "post_message": {"external_recipient": "BLOCK", "require_prior_read": true},
+    "invite_user_to_slack": {"require_prior_read": true},
+    "add_user_to_channel": {"require_prior_read": true},
+    "remove_user_from_slack": {"require_prior_read": true},
+    "delete_file": {"require_confirm": true},
+    "create_calendar_event": {"require_prior_read": true},
+    "reserve_hotel": {"require_prior_read": true},
+    "reserve_car_rental": {"require_prior_read": true}
+  },
+  "runtime_events": {
+    "detectors": [
+      {"detector_id": "G_tool_output_instruction_001", "hook": "after_tool",
+       "sets": "untrusted_seen",
+       "when": "tool output contains an instruction-like marker (see Rule Bank R_indirect_instruction_marker_001)"},
+      {"detector_id": "G_blocked_action_retry_001", "hook": "after_block",
+       "records": "same effect attempted again via another tool after a block"}
+    ]
+  },
+  "editable_surfaces": ["system_prompt.md", "rule_bank.jsonl", "safety_memory.jsonl", "tool_policy.json"],
+  "notes": "SHE-format seed adapted to AgentDojo (banking/slack/travel/workspace): indirect instruction markers in tool output + recipient-scope and read-before-effect conditions on the sinks AgentDojo actually uses."
+}

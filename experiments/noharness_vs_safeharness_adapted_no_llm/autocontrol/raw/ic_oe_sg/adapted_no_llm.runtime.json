@@ -1,0 +1,13 @@
+{
+  "wall_s": 443.2,
+  "queue": {
+    "samples": 444,
+    "mean_in_flight": 14.73,
+    "nonempty_frac": 0.977,
+    "max_in_flight": 16
+  },
+  "power": {
+    "n": 0
+  },
+  "workers": 16
+}
