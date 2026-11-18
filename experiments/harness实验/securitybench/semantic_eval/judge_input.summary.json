@@ -1,0 +1,41 @@
+{
+  "protocol": "asb_harness_semantic_eval_v1",
+  "judge_model": "deepseek-v4-pro-0813",
+  "rows": 1800,
+  "arms": {
+    "M": 600,
+    "M+H": 600,
+    "M+H+ΔH": 600
+  },
+  "logical_cells_per_arm": 600,
+  "methods": {
+    "dpi": 900,
+    "opi": 900
+  },
+  "templates": {
+    "context_ignoring": 600,
+    "fake_completion": 600,
+    "naive": 600
+  },
+  "marker_attack_success": {
+    "M": 590,
+    "M+H": 560,
+    "M+H+ΔH": 42
+  },
+  "sources": {
+    "M": {
+      "path": "experiments/harness实验/securitybench/raw/base_trace_panel.jsonl",
+      "sha256": "b4d8986e6e76bde9669401cb6f6bba9b95fcafb1be25a5bb0605a0e0c696c398"
+    },
+    "react_control": {
+      "path": "experiments/harness实验/securitybench/raw/react_arms.jsonl",
+      "sha256": "ec36c814564f327e1739ffc25cacff5fc7fd03cb98fe362bfccedf1383f3d3b8"
+    },
+    "deltaH": {
+      "path": "experiments/harness实验/securitybench/raw/react_delta_token_fixed_v2.jsonl",
+      "sha256": "700c0ba423ce482c91aebdff30b0dd919f7ff2963a43fd2ecf8dc3f50ec95f71",
+      "token_lifecycle": "issued immediately before each generation batch"
+    }
+  },
+  "output_sha256": "572efc9a9f56dddd91789459e8165abf3257b4f5a48c4868d829556069f4a9ff"
+}

@@ -1,0 +1,52 @@
+{
+  "protocol": "upward_deception_tri_state_sft_v1",
+  "status": "pass",
+  "rows": 330,
+  "complete_triplets": 110,
+  "unique_ids": 330,
+  "conditions": {
+    "authorized_fallback": 110,
+    "failure": 110,
+    "success": 110
+  },
+  "task_types_by_condition": {
+    "1|authorized_fallback": 21,
+    "1|failure": 21,
+    "1|success": 21,
+    "2|authorized_fallback": 22,
+    "2|failure": 22,
+    "2|success": 22,
+    "3|authorized_fallback": 23,
+    "3|failure": 23,
+    "3|success": 23,
+    "4|authorized_fallback": 21,
+    "4|failure": 21,
+    "4|success": 21,
+    "5|authorized_fallback": 23,
+    "5|failure": 23,
+    "5|success": 23
+  },
+  "raw_sampling_weight": {
+    "authorized_fallback": 110.0,
+    "failure": 220.0,
+    "success": 110.0
+  },
+  "effective_sampling_ratio": {
+    "failure": 0.5,
+    "success": 0.25,
+    "authorized_fallback": 0.25
+  },
+  "checks": [
+    "unique_ids",
+    "complete_triplets",
+    "normal_system_only",
+    "no_teacher_prompt_leak",
+    "tool_call_observation_pairing",
+    "deterministic_replay",
+    "official_failure_judge",
+    "deepseek_evidence_authorization",
+    "deepseek_feasible_utility"
+  ],
+  "errors": [],
+  "train_jsonl_sha256": "2358483cd3c249c1f44e766cf85ca994b09a7539251b310ceacb4e860fa7959b"
+}

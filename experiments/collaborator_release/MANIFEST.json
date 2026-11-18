@@ -1,0 +1,2164 @@
+{
+  "protocol": "collaborator_release_manifest_v1",
+  "generated_at_utc": "2026-11-18T07:46:35.606066+00:00",
+  "file_count": 358,
+  "total_bytes": 103747328,
+  "securitybench_clean_harness_status": "complete",
+  "secret_scan": {
+    "patterns": [
+      "standalone sk- followed by at least 20 continuous alphanumeric characters",
+      "standalone sk-(proj|live|test)- followed by at least 20 key characters"
+    ],
+    "matches": 0
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "source": "release_metadata",
+      "bytes": 4429,
+      "sha256": "ff2e358addbb93043af9f2d931d827636332351b4ccb65a14b10d6e2d050a672"
+    },
+    {
+      "path": "SETTING.json",
+      "source": "release_metadata",
+      "bytes": 3978,
+      "sha256": "97d9b247c2c1d1ee907ef9e457d203cb3585c214d613b8387eb0f66032ad8255"
+    },
+    {
+      "path": "build_release.py",
+      "source": "release_metadata",
+      "bytes": 24947,
+      "sha256": "5ea0e13f03a19323df0f6be7784a774f8054c0d7cc7bf6909045b5b20f2b9e3d"
+    },
+    {
+      "path": "harness/autocontrol/code/build_release_records.py",
+      "source": "experiments/harness实验/autocontrol/build_release_records.py",
+      "bytes": 2395,
+      "sha256": "0795b478d266914ba33443dfe5f118d47575a7315e575db04bbb96f816e84e98"
+    },
+    {
+      "path": "harness/autocontrol/code/core_eval.py",
+      "source": "experiments/harness实验/autocontrol/core_eval.py",
+      "bytes": 28613,
+      "sha256": "f2844cb3f18846ceeb4491d260f1a5ee8e042cc06b7a435b68321a4d4b450c10"
+    },
+    {
+      "path": "harness/autocontrol/code/run_eval_react.py",
+      "source": "experiments/harness实验/autocontrol/run_eval_react.py",
+      "bytes": 12195,
+      "sha256": "264b9b0cda3bf2a48ecbeb85eeb43c00fd31cb39da3cdacfb1e1bb5219f29072"
+    },
+    {
+      "path": "harness/autocontrol/code/score_monitor_local.py",
+      "source": "experiments/harness实验/autocontrol/score_monitor_local.py",
+      "bytes": 10894,
+      "sha256": "05ccbdb3d274498d4dc130827f6a9a02a64e67cbd7f46b495ecea25f94bc34b9"
+    },
+    {
+      "path": "harness/autocontrol/code/tool_tier_registry.json",
+      "source": "experiments/harness实验/autocontrol/tool_tier_registry.json",
+      "bytes": 121522,
+      "sha256": "9198ac3c18001858079a05c04b3c4b2ae57ab40e4290238aece9962d0b0c0ba0"
+    },
+    {
+      "path": "harness/autocontrol/docs/RESULTS.md",
+      "source": "experiments/harness实验/autocontrol/RESULTS.md",
+      "bytes": 2122,
+      "sha256": "2770961c16812a4475dc5f196f229717e6b03f5fe12f25cd344e7f036fd70d6e"
+    },
+    {
+      "path": "harness/autocontrol/docs/SETTING.md",
+      "source": "experiments/harness实验/autocontrol/SETTING.md",
+      "bytes": 2611,
+      "sha256": "09d8d56d0db4e7cea6d23f9eaed0e7b40674a46130eec48b3e0d46af0e47d98c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/AUDIT.json",
+      "source": "experiments/harness实验/autocontrol/results/AUDIT.json",
+      "bytes": 1514,
+      "sha256": "4a2e61a0d72da20b2eb54a9376a460c599fee2e3e566f4e72fffe3885dbdedcc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/analysis.json",
+      "source": "experiments/harness实验/autocontrol/results/analysis.json",
+      "bytes": 19702,
+      "sha256": "a1979db693eef0cf0592a76e828eb4ed0c95d2eb1a3d2f95d18f227cef076a3a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/cases.json",
+      "source": "experiments/harness实验/autocontrol/results/cases.json",
+      "bytes": 7115951,
+      "sha256": "db61752eba9c2e88ab52524e8531dd1400b77a36d2952ff4a5c866386f40437c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/paired_transitions.json",
+      "source": "experiments/harness实验/autocontrol/results/paired_transitions.json",
+      "bytes": 426020,
+      "sha256": "d43deb4f4bc352df063db337f978e2d82a595153b2e95b5fd1d5abcb1fdea18b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T0.json",
+      "bytes": 11795,
+      "sha256": "cceb4e902b71e47df87c965c5923cb392dc06f7601317ae2a4477961bdfd1f17"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T1.json",
+      "bytes": 12047,
+      "sha256": "da10b674aa93d8b2b5e590cbabe25f264bf3df9bd9502b0746cd316c82fd8e09"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T0.json",
+      "bytes": 11990,
+      "sha256": "74f4c8b6908ec0caa87bd6eebf96b2fd8374a4969e1c549f398416dabab6c3a6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T1.json",
+      "bytes": 12242,
+      "sha256": "43ee90316d4d9a5f7adfe2b56d2ef2bef2457511e6e7f45ce4320f6441dad6a9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T0.json",
+      "bytes": 6278,
+      "sha256": "3ff77bd24e4cb8ebb2f112ce541995313d60118fde6eaca88ec5d07abd83ff54"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T1.json",
+      "bytes": 6530,
+      "sha256": "12643ac7b44423a27a5d6b9fcf3c634fa4e4902283e8af0e61d76611f976bd79"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T0.json",
+      "bytes": 6473,
+      "sha256": "0d7b170a728f45c7fb3f7e2982b0b8545cce31c2c0d554e20bf866b6ea609247"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T1.json",
+      "bytes": 6725,
+      "sha256": "82f24f3c297ea8ce90ff44f02b7fbff12b8eef444bc8cd81785d9e2af880b297"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T0.json",
+      "bytes": 7301,
+      "sha256": "317ef8a13d67b8b44b9a4b6f4bb07d96c214fe88d0ba976f1f312a09476d6716"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T1.json",
+      "bytes": 7553,
+      "sha256": "a61c6532544a5d91d371a96137e1141c3a41283a8bb278d7492fcfd9f8305699"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T0.json",
+      "bytes": 7496,
+      "sha256": "f7ad503e54a190ebc0e24f864216339a63005848723d27065fb10abf87302b8b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T1.json",
+      "bytes": 7748,
+      "sha256": "36b31f46a8fd434cd76e9b3c3d91bdfa63af0c9f8c7d5e7c6bb4185576f352a6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T0.json",
+      "bytes": 7417,
+      "sha256": "0eb06a34c3662c933b0325b65de7b3df81105efe1289ecfb5f64222941c3d5cb"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T1.json",
+      "bytes": 7669,
+      "sha256": "90d1b604e935a79a0a93d421ec3c3252c6c3cf028606a17d63327ef29eb8c27c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T0.json",
+      "bytes": 7612,
+      "sha256": "96463ab28833214e006f8c67476a3a860923e9dbd3b818539610dc70223c74f7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T1.json",
+      "bytes": 7864,
+      "sha256": "472341421700d8aa13cc5f959f0010e6f0338dfdc6f410395f8c1ee7749e7f40"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T0.json",
+      "bytes": 9312,
+      "sha256": "80a01073598a5dd8ded3ce19edb1367da0e1ea8454c1f6ebf1efea8d2db99597"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T1.json",
+      "bytes": 9564,
+      "sha256": "967879fd41484cede675784f63b5b8f633eed072149cdfa3ff33c3dd0b6a1a9a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T0.json",
+      "bytes": 9507,
+      "sha256": "785c78e979f9e998272c0cf7a046ed44b31cfddff1b1cd882263ab4818b52778"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T1.json",
+      "bytes": 9759,
+      "sha256": "d76096bab91e975c282146fd8b391b84e3070c0599ed7a88c2a3928b32e8d54c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T0.json",
+      "bytes": 7847,
+      "sha256": "ff3b21c58ce93d7853711a97945e157576a5d4a7f792b53b3041c652a9308d2a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T1.json",
+      "bytes": 8099,
+      "sha256": "e477c10f80b88586aceb347cc678d051b2a163861359c7eae8c7b9cafb28da10"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T0.json",
+      "bytes": 8042,
+      "sha256": "2166a8914150dc3da797d9d81fef4841d028739ef50444da1ca4806d452e771f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T1.json",
+      "bytes": 8294,
+      "sha256": "79f98e6bc60e82bba899cb6668a95206a1042e5a3fc7a4f29e2770165176594d"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T0.json",
+      "bytes": 10001,
+      "sha256": "4226b001c2180741015a43ef2510964cdea6b014c96ffe8ea6a7b64894f7a218"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T1.json",
+      "bytes": 10253,
+      "sha256": "229eedd07c0f873f3621db43065ecf13f1be77ca30d722d360c5dbe90b5ffe42"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T0.json",
+      "bytes": 10196,
+      "sha256": "aa7eac37c6a15324da9d41ae1da8a6378350884d6f005987b6c9d96c7f576d50"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T1.json",
+      "bytes": 10448,
+      "sha256": "29470df5d2c69b8dc18fc6471af4a407e6b809bc2379fceaf2eed45097ebde40"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T0.json",
+      "bytes": 7514,
+      "sha256": "242e88aafac83577bea74f3f162f275c899c2b7762b8187d1c7babd6eeb4f646"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T1.json",
+      "bytes": 7766,
+      "sha256": "df4e389fc9142b4e979707f98318406b0ed330bff4a2ba1e8b53695d7c6a8a22"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T0.json",
+      "bytes": 7709,
+      "sha256": "ba68014f451e10762711c083db961c61c7dce1a943427eef68ab72c16aea7779"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T1.json",
+      "bytes": 7961,
+      "sha256": "883c8e9d6ef5f15c358882626fae6c1f5222373938034f94ee4393f2cc7016f2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T0.json",
+      "bytes": 10499,
+      "sha256": "4b7bbf1304161af4033d37aa1cf106ec193d05be6040c14e6e7aa9185924cad7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T1.json",
+      "bytes": 10751,
+      "sha256": "aee769aed6855f1199cee538e7688d1b402046cfe6f4b8dca8b3c1719ea524b4"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T0.json",
+      "bytes": 10694,
+      "sha256": "6c4b642a16e299cfe84bf5332db0a3cf42edc0f1eb49672311e9ab39de41984c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T1.json",
+      "bytes": 10946,
+      "sha256": "69ec2fd8005cdef5619a740e983d609b4b053a882e04ed1be3ff7bf48aecf2a3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T0.json",
+      "bytes": 10414,
+      "sha256": "5baf0ada46e2c76aaa93ced6495fd7bdba6d4f96bb9f7e483fcb105bf9996ebf"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T1.json",
+      "bytes": 10666,
+      "sha256": "5ef8fbd4b757ce1519b0211a452246df0acebf29688ed600919b23a7eda333e6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T0.json",
+      "bytes": 10609,
+      "sha256": "63bb07274d286277085375ea130a3d2a6cf1fcde86601308b2e8a289ce4bd2e3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T1.json",
+      "bytes": 10861,
+      "sha256": "a8103ea357d553fa83ee10449d8f4262cba99382edbcb74b66dae0e0fc8ffdc5"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T0.json",
+      "bytes": 12837,
+      "sha256": "e506b52355b74c9028135057f7f1e9c10c84461caa31d77d2230fcda53a40763"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T1.json",
+      "bytes": 13089,
+      "sha256": "e2b7df316c7be88a917379e2bf9d20aa6fad611432a1159b3d927b51bc715c34"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T0.json",
+      "bytes": 13032,
+      "sha256": "21681afe6aa1212aef28d62679428581bbe0b31f68c205f841bf77d73bbf7ef9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T1.json",
+      "bytes": 13284,
+      "sha256": "128200e562fd78621bee8e646b78ba93ba0a9d100e137c681ece77c8a7787952"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T0.json",
+      "bytes": 9855,
+      "sha256": "2f429740d1eb1d08530e4062998498f4e27c67a332a7764582e1806e8678515f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T1.json",
+      "bytes": 10107,
+      "sha256": "1a66acbe5f0de4131da837e844167dceccf2f12b6814e7eeaf206da8e93ebfb6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T0.json",
+      "bytes": 10050,
+      "sha256": "3998016bd2134b899f81b5e7a0d6be875bae7ec41b4cab3b00d7da974353029f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T1.json",
+      "bytes": 10302,
+      "sha256": "0542febaeffbec276bb282eed7ce21dfabd65f3f3c758693d66afbf364be9bc3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T0.json",
+      "bytes": 11766,
+      "sha256": "47db4b99ed3826f6972ea0af07377756a3655c0a73afa03877389ab1c2adf19f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T1.json",
+      "bytes": 12018,
+      "sha256": "2725d5147cdcb415b208b73270206ef47daaa7b57dd3233a36447e8bdaa9086c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T0.json",
+      "bytes": 11961,
+      "sha256": "30ace7f6562ab4cd9ee7bf4d9324ba89e6f82cc89ae5117e0e9e1975940b3422"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T1.json",
+      "bytes": 12213,
+      "sha256": "4b9c9c06e1ce91ddf14942470ea49241f2aabf17d58de8ae3cb937f4130c4184"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T0.json",
+      "bytes": 18007,
+      "sha256": "6c6fd1b56eab735d0f3f31544d9fdd0c7f4ba3dbbb8a990158629f59d5689706"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T1.json",
+      "bytes": 18259,
+      "sha256": "0c803888380359fdd8ce4cdbe011fd1dede0059faeb13f6412d7b23c8d9b54ab"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T0.json",
+      "bytes": 18202,
+      "sha256": "afe0fd0a592d91b09d30a26949e2ec8ea1f7c223179e35f3651400769a4f073b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T1.json",
+      "bytes": 18454,
+      "sha256": "ac0d45da34fd6b7941c315777c0e8ededa487bd4e196594b9f27daf6cdea6e2f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T0.json",
+      "bytes": 7693,
+      "sha256": "bb8f14ce3869f41cc1dbc91864cfd281c21b468e8b965bafab210fe18f26ec3b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T1.json",
+      "bytes": 7945,
+      "sha256": "fd56ed13b0974d8f69cb49b55be4133d7970668c22a2e8c3c7695e359d3bb591"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T0.json",
+      "bytes": 7888,
+      "sha256": "e36645f434418496aeefa98bc4a5d61eb23c610b513963d5e8a3846c1c27cedd"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T1.json",
+      "bytes": 8140,
+      "sha256": "0fb83633b60ad2e3a73c85a1bed6e1c784af128fa316e8b6e7dd654fcf6b2fd1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T0.json",
+      "bytes": 8944,
+      "sha256": "44f49fe7ade90b9ef5ebe96c949bd95aef82ef45545ec8336e2561024923252b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T1.json",
+      "bytes": 9196,
+      "sha256": "e497bd915fc46de6d6dd412f001309de573ad8fe798d9cef86e8c7758c325900"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T0.json",
+      "bytes": 9139,
+      "sha256": "ef6361ecc041b0481a1323cbac3af77b5c99572c29a5a01af712eb3a1be0f1a1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T1.json",
+      "bytes": 9391,
+      "sha256": "0870c3e1b7b945cfaa634062968ef9bd6a807617eb65c9386bf25ea8e8f56e85"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T0.json",
+      "bytes": 8098,
+      "sha256": "2034068cffb0e0a2a930d63b52ee27b12a602905cf40d70bce41b13b1ec1224c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T1.json",
+      "bytes": 8350,
+      "sha256": "77f81c2a310d740a7e19f4ae2255f44a142dcef717cb47b3d0f0f9a1d8382eaf"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T0.json",
+      "bytes": 8293,
+      "sha256": "9966586dac2ea2f6e782d494004d0ba5b187ba1e152cab2c927a3fbb1594ca66"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T1.json",
+      "bytes": 8545,
+      "sha256": "c3959e1a891a9d845d9ebf83343bcab2033b752ea0543e97ff93dd10803c3c72"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T0.json",
+      "bytes": 10183,
+      "sha256": "bc236d6cd34089bacf08409bc11b623c9864c41668f8e62cabc6503b5a4de1ef"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T1.json",
+      "bytes": 10435,
+      "sha256": "85ada6e577b5a6acb6fb8cb132fa051ae7a4d0b5dfd16555b0daeb01c2fbd8fe"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T0.json",
+      "bytes": 10378,
+      "sha256": "7b1e63ecd4c4853bdb1951bd0cfdf14ca54c7bdd5dcd4e4bef985741c1a8eca3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T1.json",
+      "bytes": 10630,
+      "sha256": "289c5902508d4b28f33ceef00e61cab4ab5924c59c064f754ef892f365ed13ae"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T0.json",
+      "bytes": 10003,
+      "sha256": "4c07c90720dc3ec72506023c733c896975ec316ef0f97f03c14e6ad950cb6cb4"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T1.json",
+      "bytes": 10255,
+      "sha256": "b38659f8aebda541dd93c76cfdc1df3b542ce1dba2a0e73a25dc484b3b0f0407"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T0.json",
+      "bytes": 10198,
+      "sha256": "4716dbf014df937c4d164be31877dfb3e85d4aa05aaa184d3d859122f6d6d516"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T1.json",
+      "bytes": 10450,
+      "sha256": "d551d58c38c99eacda897f86fa1393719936f55c5a78c3e4fc7e19ececf7db8c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T0.json",
+      "bytes": 10419,
+      "sha256": "b0eb131f82ae0e6e1c062ffebe615606701935fd00d3dd3218bcb0e7deb6de80"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T1.json",
+      "bytes": 10671,
+      "sha256": "66196da6729faa1b0be26085a59f61568b9a21a27d04afd06337b5fe7ac2b2de"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T0.json",
+      "bytes": 10614,
+      "sha256": "cd9616286670888e6e6e09578c3145b96ff7271ab6c0f1a3c1c0f543cd456725"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T1.json",
+      "bytes": 10866,
+      "sha256": "a0322d8bc14b519f849a913e913a483a7ef259b2adc2ff15d4594d3b027ffd23"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S0T0.json",
+      "bytes": 8649,
+      "sha256": "1071f8ea8a5763b5c4732d7ab90f7c18a1165ea065bdf86ec81c7e6d313861bb"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S0T1.json",
+      "bytes": 8901,
+      "sha256": "1da6b6e1a14738103e562a8714576bbea46f4960498130589464c59f90d266c5"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S1T0.json",
+      "bytes": 8844,
+      "sha256": "85ae2b80953193b03f9b7c8ff8924e6ca7698b3f73f98ffbaece26e3b779988a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S1T1.json",
+      "bytes": 9096,
+      "sha256": "945b0d2fb0c1143ba896299f759068a74aad1144715fd8ce27218fbe6d70f7fd"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T0.json",
+      "bytes": 8238,
+      "sha256": "65ada3636efce9e9c7fc4b933169b538918c1ddab481a243d6eb42417eaf4ccc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T1.json",
+      "bytes": 8490,
+      "sha256": "85b0c38d202d039d16949966d3231511da85b181b641fddf18045a49941d3f67"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T0.json",
+      "bytes": 8433,
+      "sha256": "02c8f6fe46971e01f706b46d808c7addbd9bda0f57a15e93ddfcbb23006dd4fe"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T1.json",
+      "bytes": 8685,
+      "sha256": "22f1d08f108578ad02dd0fe080358c42787206b1f9e4d1e0265bf3311a948998"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T0.json",
+      "bytes": 9035,
+      "sha256": "10aaa11bc40e753479c64dd838aae6f6ecc41f661e419e8a8fb04063ccc2e0b9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T1.json",
+      "bytes": 9287,
+      "sha256": "38c00ce88945c1171fa3e0e15afd16f5a29587b499089c0df22fa88c1f6c0634"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T0.json",
+      "bytes": 9230,
+      "sha256": "ea7f7875eeae07b0613761fdab90464d542ede125350c7c2dd00b8bae5bad36a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T1.json",
+      "bytes": 9482,
+      "sha256": "59910ec2d19d29bd8f4030ec61923fea10962e9ee51421fc704c920064f48135"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T0.json",
+      "bytes": 8181,
+      "sha256": "51223663ac53c463bf94315b939b44b8ddf7ba5aed0aaaf51986d95d4ac45dcc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T1.json",
+      "bytes": 8433,
+      "sha256": "9d8329d027e6c9985dc719956975877c65d730b3fa633578a4e25d0245ab8428"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T0.json",
+      "bytes": 8376,
+      "sha256": "68585c6fad721663a8ab02aaed69a2369ca6bf305f353d80d218eacfa995e08f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T1.json",
+      "bytes": 8628,
+      "sha256": "5766cdf6838bcd242697cbc6541c0f7a931b449c9ff78fe3650fb1330c6bfd06"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T0.json",
+      "bytes": 8446,
+      "sha256": "9b124d19944412f858800a758881b6f707dcbaef2de686223409277053cf063e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T1.json",
+      "bytes": 8698,
+      "sha256": "8ad4aaf98c4f8bc91b20f4fd3a044d26e67fadb86f7417c951feae41c3a42cb3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T0.json",
+      "bytes": 8641,
+      "sha256": "de3ef6c4b1be8b47bc916ba4df7e421095cbb5459bed9a8b719836418c9e6977"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T1.json",
+      "bytes": 8893,
+      "sha256": "590a9405cdbd9ac626ad27929ff5cff3b3d251a833f8a24ee765f097561e5e53"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T0.json",
+      "bytes": 8877,
+      "sha256": "091ed1830ee5d52e92c3cfdcff3b6d4429a060d09181a3d3b1a5421d3b1bcb5d"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T1.json",
+      "bytes": 9129,
+      "sha256": "cd7803b3e46a2e2c6e1725baf15857478b76d2d2dc98f13d4bb6228c96486ec1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T0.json",
+      "bytes": 9072,
+      "sha256": "dcea5c6e3de7f278ab4782d47049d72c08eb37f908166ece27bfec7f0a3abdf7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T1.json",
+      "bytes": 9324,
+      "sha256": "23358fe3c1117809e08c9c2f19476812e8c8f8575b4019a05e3e22ea2a4b7ae1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T0.json",
+      "bytes": 8253,
+      "sha256": "ce3ad88ccaa8dc627000bb124837d05f8e854e3e025e1ebdedc6dc158ae82dec"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T1.json",
+      "bytes": 8505,
+      "sha256": "7ecb1275dc2450bfd165fd47a249fc5f79903d0ae2ecf0f96f222fc7e538f98a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T0.json",
+      "bytes": 8448,
+      "sha256": "819f0ee872a893e795e001e9c459564a27afa47c0252b47e3aebc71c3acbc8a7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T1.json",
+      "bytes": 8700,
+      "sha256": "84ebada8470df850f071aeeae00f9d7504bf6d5fa895b0fa95abfeb31ad6193b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S0T0.json",
+      "bytes": 6593,
+      "sha256": "9dffa7f8042f1374243e8ee293cee1865014c77075056890151e1a09355ccf99"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S0T1.json",
+      "bytes": 6845,
+      "sha256": "ce5b1fa4795b1048ec11b24d892d381877564233c47231060d68785022650102"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S1T0.json",
+      "bytes": 6788,
+      "sha256": "c12bb492756f1d8cbb2b25216ff461a6406a663274f28227a7f56c36d0aeffb1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S1T1.json",
+      "bytes": 7040,
+      "sha256": "99a18a3f3a898caa0a665192224d38a0ff996cd97df28ed146e31403da18d75a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T0.json",
+      "bytes": 10743,
+      "sha256": "cec2782e7cb30cbdcf7697b57c4e28d31634312a9f8ef3505801fc6faeef47e7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T1.json",
+      "bytes": 10995,
+      "sha256": "4d138caeb5588f98968dc121d9cde5c49aa8d680edf2691d7ba87eb21b3a927d"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T0.json",
+      "bytes": 10938,
+      "sha256": "0a93e52ce10a99df813e15db98a2769d2b24f43a19b8edf27cc82d1248b0565a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T1.json",
+      "bytes": 11190,
+      "sha256": "adf71a152faab9644188e88866d4a43e409eb6dfa88fb8b02df164fe4443abfc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T0.json",
+      "bytes": 9631,
+      "sha256": "7bbfe79f4d9d07f8b24ad1cc38c658634ce66215a4b72ef1f8c4bc4ae040f400"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T1.json",
+      "bytes": 9883,
+      "sha256": "4889c8efabfaa90ede9f8100ef674d239575f085bc8167faccf3b82f0cc0daff"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T0.json",
+      "bytes": 9826,
+      "sha256": "765168f1ded59437a14d296459af9ce54ed17ebd0bfe82eb284441e505f02506"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T1.json",
+      "bytes": 10078,
+      "sha256": "a0859ceaae8cee33feb2789e5daed983b872cd1c58c625d4540d5f983e3fdacc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T0.json",
+      "bytes": 9079,
+      "sha256": "3602f0ea8cdbb54b16a1674b012b9324049cf819f31295ea92a0fe60dd3e08f3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T1.json",
+      "bytes": 9331,
+      "sha256": "a66a5a9053fd8fdbfd7d81e84f5fbc47ae18c2630ed81d9e2ca6d123abc6a2d2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T0.json",
+      "bytes": 9274,
+      "sha256": "0ea3f93986fc4eee5db7f4e39c89290dee86b5130d1b751b3c03a47865ab72a5"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T1.json",
+      "bytes": 9526,
+      "sha256": "f25bd79ebb7ee8bdfbff961a82d77c0bd400b5374b0762c92d580e6b043df8d3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/index.json",
+      "source": "derived from experiments/harness实验/autocontrol/results/three_arm_scored.jsonl",
+      "bytes": 86612,
+      "sha256": "4c41c373c23f70824c09c6792a4bc4a701723a504ae1a6212f565f795978406c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T0.json",
+      "bytes": 7870,
+      "sha256": "f01a73178055fcb99f038a7472893417761bed2573744556a0a613788112a943"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T1.json",
+      "bytes": 8122,
+      "sha256": "dad0c4f20d8b4eabee46e20fe0c6b0d2d25a7471c43b3e5d2dddb16c68154cd6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T0.json",
+      "bytes": 8065,
+      "sha256": "e6839c27cdcf86460ec861277cac7ae345afc4e8a5901d8f43c8a5592ea30bbc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T1.json",
+      "bytes": 8317,
+      "sha256": "e7b8c0d3cfe1b757b51bb41eabb11ce8c825dfe70f590f1fef2190685f785640"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T0.json",
+      "bytes": 9498,
+      "sha256": "eacaf4631061c0016697f71949723daaa13acdad29e404403ecc7ec295e71fb3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T1.json",
+      "bytes": 9750,
+      "sha256": "1d7c87a155c502ec8df502f6afde111fafd11e67b0287346d38ef9eea6137e6e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T0.json",
+      "bytes": 9693,
+      "sha256": "86b1a0b1b4cb1d94b81586da87fba5c46f6ce21e22a262fdf8d5425fa9297819"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T1.json",
+      "bytes": 9945,
+      "sha256": "f4530782d781693c8b6b086d8de32f12bcf59756aaeb2db88582ee68aaf34a78"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T0.json",
+      "bytes": 8460,
+      "sha256": "e472d9104a9a867edf788b0f9cefdac43dff42d049a732e8bdf2a672f5a3fe90"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T1.json",
+      "bytes": 8712,
+      "sha256": "3a3fa404cc6719463372e418ea602b4e8d52ba33b12b955a367402f6838a31e6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T0.json",
+      "bytes": 8655,
+      "sha256": "6cc68ceb57968f5ead53230cce06dc2913bbc04b5af383c628509ff13d576524"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T1.json",
+      "bytes": 8907,
+      "sha256": "a0c798a8f763675b13477821f844f4a100345fa0ef4f417a268cbad18e4b6f82"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T0.json",
+      "bytes": 7076,
+      "sha256": "2b90eec9dd3db241407f5d5bf3c3a809ebf1e3748f1125936a240242a03cd9bf"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T1.json",
+      "bytes": 7328,
+      "sha256": "ab1ec6e818c3cb1ea8dd7375c03359dfc844b42099e54731cbe27a9e81abf4a5"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T0.json",
+      "bytes": 7271,
+      "sha256": "5528b2a44629a16528e84dcd216c296a7cdb83734adff8d09b45f5425bd4a7df"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T1.json",
+      "bytes": 7523,
+      "sha256": "7f83c9f956dbb57d5e60ddc418c37e130d8fdeaf4ab00970e8b316d986cb0983"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T0.json",
+      "bytes": 8836,
+      "sha256": "82af722596cfcd92db61de961ceafe0fd646389579ebff2dbb5efe2de3ef7ddc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T1.json",
+      "bytes": 9088,
+      "sha256": "7307441c4ef0e07c392f2957823119d03f5b4e6b0f2d296a1f4637b00279a56f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T0.json",
+      "bytes": 9031,
+      "sha256": "3a9d561e41a3c10c6bbb9cce28d18fd267669a4b74a3d807ad95b664e8aa6610"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T1.json",
+      "bytes": 9283,
+      "sha256": "68a2f6f2337b2640eb4839a0b79cde0bbf06f457143f5ddeab2f85bfc1a3087c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T0.json",
+      "bytes": 6878,
+      "sha256": "9064573e840bafc508c06c1a1ced60df6b2e9467c67f79029cc8b4675b196a4b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T1.json",
+      "bytes": 7130,
+      "sha256": "03b3cc554c7cdf6712870c9728e7c3081467ecc4d8d923d32c55bdfe15afb146"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T0.json",
+      "bytes": 7073,
+      "sha256": "194201cb7c0797043d278b63959f49f34ba951246c1027a364fdefee09d4800c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T1.json",
+      "bytes": 7325,
+      "sha256": "024370dda63fce35c22a4635a5e657fd14993597b6d987975151479ecc113f05"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T0.json",
+      "bytes": 10934,
+      "sha256": "e7603a8c65b50dbbcdbada77031d79e3a37d83bf3bcf064f68d44fd23bb375c2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T1.json",
+      "bytes": 11186,
+      "sha256": "c93eb147ffb79f3944931caa75a050925cc2d79d651957e9893c640257c86722"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T0.json",
+      "bytes": 11129,
+      "sha256": "d33cb3f58041709ce9f0b1bec37fddd0bed0299dae5f22deb36795f9a680c67d"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T1.json",
+      "bytes": 11381,
+      "sha256": "faeaad8c1bdf111acd2013b347e025140776ab12a43a94ae93986ba37fd943b4"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T0.json",
+      "bytes": 9388,
+      "sha256": "da4ae4c6c12dba28b8c9753e620f6d8239b50ea363e76cd068923c15fb1e8b4d"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T1.json",
+      "bytes": 9640,
+      "sha256": "5bd7c419133177fb3e6648ff8610fee249fe6d97467b13bc8a755538d63934ae"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T0.json",
+      "bytes": 9583,
+      "sha256": "3279184695ea85dce76f88a089a5751f054000a587c1b1cd0ee4d9cfac5ac438"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T1.json",
+      "bytes": 9835,
+      "sha256": "948594d7dbfdb89011464599e53d957c38f0b342d75766e13c7e8fa23811f093"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T0.json",
+      "bytes": 10195,
+      "sha256": "7d5b7163609d06a0f42ab974dc310065e1b37f561fc69a733338d6fd7236af70"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T1.json",
+      "bytes": 10447,
+      "sha256": "36b1adad4de230de0c95e2fe6351ed0e996549d1789047b4c47091d4719df466"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T0.json",
+      "bytes": 10390,
+      "sha256": "8255c29809a3088cd85626fe20339d3d7256bec1759c8bebd21fbf96e6e3a18e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T1.json",
+      "bytes": 10642,
+      "sha256": "d372c34e9da57867ae35574b42b3374eb608c02592dd3bbbaf7755711823e181"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T0.json",
+      "bytes": 8940,
+      "sha256": "e0d472cb4fbd19c40a8f1c7c12942bc645372a04135513ed54d1edb0686a03f8"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T1.json",
+      "bytes": 9192,
+      "sha256": "bd89a80b6a0aa0fcfe83b93b9e0d633ade353c2b0bc41ea317304ca372f9b911"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T0.json",
+      "bytes": 9135,
+      "sha256": "fa556f0869286feaf13068c13c7cc469c68b11c270d2118d5596b49357e9dc13"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T1.json",
+      "bytes": 9387,
+      "sha256": "058821fcd5331b66ffcb45b9cf3e32091ed47877eed8ce760fdd8ca36545a122"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T0.json",
+      "bytes": 10902,
+      "sha256": "3ad2e9e58af2ca2ca770fcc0194ee95380a202ec1a24672017059ede580c24ea"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T1.json",
+      "bytes": 11154,
+      "sha256": "d42b84299e908caee9e7af3cdae5190bd36a668f00531a8baa3eb2a07269d835"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T0.json",
+      "bytes": 11097,
+      "sha256": "16f9915303e83f2488bbc168ea6ae1067a0423addffe0d453c59dfc32bb2486c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T1.json",
+      "bytes": 11349,
+      "sha256": "ca06022dd45927344f4b36d0a3e247c0a0c300b230d4ba13b0dce4fc357b0927"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T0.json",
+      "bytes": 12393,
+      "sha256": "b76f8866ba13409a10ec82e3222fdf281875ab07adef87c910d1d5edbbbff1ca"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T1.json",
+      "bytes": 12645,
+      "sha256": "ad4f60160f9fa7ee46e64e5503d4143111b8cbf326fe93d2fe8e359c7cf23a21"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T0.json",
+      "bytes": 12588,
+      "sha256": "bb113602a2d196aecb10643e8beaeda58ba52a24b488c6670a9c35d5eac96f3c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T1.json",
+      "bytes": 12840,
+      "sha256": "4020c1d2f33451b5ef5f6ee12e158143093e89c3fbfa401257ae8130414d3963"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T0.json",
+      "bytes": 10507,
+      "sha256": "45dabf53b270bb8b5a4facf86fcef3d339940d03178642fb9cb999fc56270743"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T1.json",
+      "bytes": 10759,
+      "sha256": "f599e31a7a120454b5b9ea92d8f4745e03d31d7bb3dbc0a5244b0d9460a44fc9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T0.json",
+      "bytes": 10702,
+      "sha256": "55023f5f8ebfff1d32bf3a038572b2cd2035272b528f2ae8f3bcc9787601aee2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T1.json",
+      "bytes": 10954,
+      "sha256": "16bf0e1cd87d6da0adf262e8cc7b8a28cd7a39598e1d07fb262405ea3f2a1b3c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T0.json",
+      "bytes": 12793,
+      "sha256": "77fcac24778e6acfe7d8035ae94a541f562d5a20047dbb126f7bb3df6092cf3a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T1.json",
+      "bytes": 13045,
+      "sha256": "c5bbdb973f77fbb694e2f37acf502f38dbd9d8434c9fd8107105ee0c6b1069fb"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T0.json",
+      "bytes": 12988,
+      "sha256": "7ce164cde695ed2e944b1557c99f03ff6adabd497b6464f2bbb5cc0fafaf46e3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T1.json",
+      "bytes": 13240,
+      "sha256": "c2e338fcf5d31381c4249385464d5ca8ba35463bf038805444107a5c205dd86e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T0.json",
+      "bytes": 8651,
+      "sha256": "cb348900dd135369c5fb3a2ecbb003816e07eb177acf46e3b00495e2e425cf68"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T1.json",
+      "bytes": 8903,
+      "sha256": "37d8e969b16ec22d32f4df3e053e84b89c66b1904a17f83c31a32e6712a1d388"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T0.json",
+      "bytes": 8846,
+      "sha256": "9d52afe1606456268be992ca66dfce7821b7b75d17ccc1f7aac2fd41104c2eb5"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T1.json",
+      "bytes": 9098,
+      "sha256": "0efdce9aaf1cf8d3ba41182ea172b08c706f4fa450d878391623c3b0f13a9fa9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T0.json",
+      "bytes": 10355,
+      "sha256": "9b37f3a9d067e6d273892d15f0ce4a7771a3898b8e04e55c98cb62df3812ea80"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T1.json",
+      "bytes": 10607,
+      "sha256": "698504b53c9d529105895b515a890a9506680c71a77097c4c3e6b0d42168b544"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T0.json",
+      "bytes": 10550,
+      "sha256": "c05ea878cb89dd8ce14b47324c382be79e38e5cdc749ed88264af2cb4e59cd20"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T1.json",
+      "bytes": 10802,
+      "sha256": "194b610e206b485dcb469a21d525c75c93c0e37c3a8b6cfc3fbaa59f3392f666"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T0.json",
+      "bytes": 8506,
+      "sha256": "f1ea451ca4f2ac525430b708dc4965e9417de21f7847cf4b2d93853e80629f6f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T1.json",
+      "bytes": 8758,
+      "sha256": "86e342facbaa3e28e763d540fe56b9aaa0ee49d956482e69822fedc547c26c22"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T0.json",
+      "bytes": 8701,
+      "sha256": "a08cd198a6bd9fdf7d5bc4d2ffc9ffdd362503331d54adc5ce1e7490608adedc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T1.json",
+      "bytes": 8953,
+      "sha256": "38a7f49fe3ddd771ecff537e444d2afc5953b01e37a8790016b001da5d364e65"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T0.json",
+      "bytes": 8718,
+      "sha256": "863f0c0dc6b8e12d1e23cfb11d82c023543b5977059f601391c1827ae2a0b357"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T1.json",
+      "bytes": 8970,
+      "sha256": "f22b8bdcaf5bf892315cf99b4f56bcc5072ea9df07428c60180d27704d9fc1f1"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T0.json",
+      "bytes": 8913,
+      "sha256": "cab6246f9dab8ef2268ac241232d6e7c68bf77755e2a78510e0a2d1a154331cb"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T1.json",
+      "bytes": 9165,
+      "sha256": "6e321c7c86ffb6d3ff3ba2160a7a21592de3e99defef50396b2baa4a61e39b73"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T0.json",
+      "bytes": 10593,
+      "sha256": "4bd883232c56ad6f1b55b9b63753b854496cd85786f244530e8cf7b4edf35da7"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T1.json",
+      "bytes": 10845,
+      "sha256": "82a6b78162c8e314e85ec79a9231edcef019ca05550e4c58fad71d2b922d97c3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T0.json",
+      "bytes": 10788,
+      "sha256": "3350acccb8441acc40f6213d06c6a150b5769e181937baf54ed1d6f0045d4df2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T1.json",
+      "bytes": 11040,
+      "sha256": "a7c9d8c857c88414e92d18a34864e9369559629b04fa775a3ca6a09f753f2da0"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T0.json",
+      "bytes": 14728,
+      "sha256": "affd9ed563ccc4e509035073a6c9f65a7783707c905cb1403bd27ce672ae7ad2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T1.json",
+      "bytes": 14980,
+      "sha256": "148bdd842cf69626ab9b1e22945e93255c2be8236b4849d83a57472d42d828ce"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T0.json",
+      "bytes": 14923,
+      "sha256": "c7b539c6b13c837b4e728267dcadc79b962c4085602c89545f9c538974df6b2a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T1.json",
+      "bytes": 15175,
+      "sha256": "239471a5072159217bbe83993d6b6dfb10a3555e253ca9355433340c0c9b9e1a"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S0T0.json",
+      "bytes": 8355,
+      "sha256": "e70499275c01701aacdee6f2fc22dad05261ce59695e0fdb94c5c4e09c726cd6"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S0T1.json",
+      "bytes": 8607,
+      "sha256": "9564c947671353ce2e96af0c745a60a4cf1db901a6b156b0dda2518ac1a3f9a8"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S1T0.json",
+      "bytes": 8550,
+      "sha256": "913d8943c926632f00be931889a88d1f7e4260268a57c5c71de43c329128a236"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S1T1.json",
+      "bytes": 8802,
+      "sha256": "e08e19f7d7b5b3dd644566689edc2c7790b356efc3accd5ecb0eda8f7e7cd15e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T0.json",
+      "bytes": 10663,
+      "sha256": "849f72bfe6500c8152fd99ea81a5138bd82f9569cb719657f954607cf36bd90b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T1.json",
+      "bytes": 10915,
+      "sha256": "5e9e899caf8e6c2176f7a13d482a63fdebbfa589b9650c445c922a310b5d4d68"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T0.json",
+      "bytes": 10858,
+      "sha256": "d79a26cc3c2fccbc9d3144f22a896f4054ae3c3c4f51af7f00ecb5f8be6eaeb0"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T1.json",
+      "bytes": 11110,
+      "sha256": "9edac7a2eeee7da12258d9c7312fbfb767debb32c926d71a0c2f7a183fcd2e92"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T0.json",
+      "bytes": 9594,
+      "sha256": "a24a71ffde49b1e0c38e454d7606f563911edfa9cfb10509725be6376e6d746e"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T1.json",
+      "bytes": 9846,
+      "sha256": "0e588c9e6a695eaa7a327a54ad43c53b57c6bf147a9d9921e1980f19c8d89561"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T0.json",
+      "bytes": 9789,
+      "sha256": "1e172d9101f4a62a97debdf4204e7d2ee02c692ecc780ab488d1a8683faafef9"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T1.json",
+      "bytes": 10041,
+      "sha256": "261bdffa2b1fb0d067f469ac07d9dc1f1b3fc52bcb71252dfc4aecce76762fdc"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T0.json",
+      "bytes": 12348,
+      "sha256": "5b57ba18ef4193a032c7c57803eba59a11119597124f85d83a7b857d07b2358c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T1.json",
+      "bytes": 12600,
+      "sha256": "81b2aab6de85830ccc69b076303caae589fbbc635bcd41b508c13e065964e9c2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T0.json",
+      "bytes": 12543,
+      "sha256": "4d9b187be6cb458c575b23b7557a08ed69e8a8978da90e0b59221c63b81e7429"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T1.json",
+      "bytes": 12795,
+      "sha256": "46db6ce54dd3ae158090cfc76a00301d506429f8f893f63efd2ac4812466abc2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T0.json",
+      "bytes": 11792,
+      "sha256": "18469c915faac6eb3f9500b26af67feb0a35e074713aa591b69e1dc5d6fb92bb"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T1.json",
+      "bytes": 12044,
+      "sha256": "c41694658c0bb88c5f79b8463740defac24fe0519c6bb09e00cd1c16a5b5465b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T0.json",
+      "bytes": 11987,
+      "sha256": "66859219d330c86d9226f76fddfd4408cd8f01ab8c5994bec3d028affa95e759"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T1.json",
+      "bytes": 12239,
+      "sha256": "fff7e45dbc7c5ca1e3bec3ce01d0e8c09a2a00817e16450b9fbc6073dd0ade04"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T0.json",
+      "bytes": 6407,
+      "sha256": "d86c42be51093eee7b48d8eadc22a0233aace7a5d61024a5f778d1f33e4d7941"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T1.json",
+      "bytes": 6659,
+      "sha256": "430392b458846c2460bc20fb4738c2a854f71ffc3fdc3b863b0e4dafdb6b2022"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T0.json",
+      "bytes": 6602,
+      "sha256": "f35215b9b4137e6a70ffb6f19475e499e20d312904559dd8d29222b330d78795"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T1.json",
+      "bytes": 6854,
+      "sha256": "38f5f49ccb8334ad231145c506e7e99a0c94cacfdc550acc7b504409c06b9d45"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T0.json",
+      "bytes": 13456,
+      "sha256": "9c4b15f62c0dc8c8800e8f779fd8c33457c420c7260df89e1c754fe7d169694b"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T1.json",
+      "bytes": 13708,
+      "sha256": "27a58bdba3baa4b2f828bd03937e496ea3e3e1497b70d4941083af11bd4c0217"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T0.json",
+      "bytes": 13651,
+      "sha256": "eea8f6653c02d45cceb8753697de96844af07491bf95e1f3b3c11b5594186280"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T1.json",
+      "bytes": 13903,
+      "sha256": "9db0dcbfa28672d570fbe97b25200363a7f7f9ee718718dae8c3b9fee4ddb80c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T0.json",
+      "bytes": 9561,
+      "sha256": "5f20fa6ed14af8eabf23fc9edb1952a8cf8995693ac748980985bba66d03256c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T1.json",
+      "bytes": 9813,
+      "sha256": "fba22bc96216697ecce14e2bcb0e21ba0eca1f75a22cea31a928b8e3af8910e3"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T0.json",
+      "bytes": 9756,
+      "sha256": "a18b8c744ea32e347bf8a2e99d027097c6e1b8300675f6697d66974e1b18afc2"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T1.json",
+      "bytes": 10008,
+      "sha256": "f5e8ed9ca7233261ecd6243fecd87ef859dfc74f1fa981813d8e5e42c31b58f4"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S0T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T0.json",
+      "bytes": 10253,
+      "sha256": "3925de3e229ea14cd5f756e8aee3ea224e8290a0ae005a8f1f8d66a981529b20"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S0T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T1.json",
+      "bytes": 10505,
+      "sha256": "1049e308ffa0074eaa72ba396ac28e40645786b34c76015eeed8f71aaae9a27f"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S1T0.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T0.json",
+      "bytes": 10448,
+      "sha256": "4def876f1d85be3eed7ded346196dffc558d522a0aa1d55fabbe4607a51fe27c"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S1T1.json",
+      "source": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T1.json",
+      "bytes": 10700,
+      "sha256": "500f1e0f79b8867ddf9ef4844f4355a317a2f50ce1790fde0f3e55a5d6a21059"
+    },
+    {
+      "path": "harness/autocontrol/evaluation/three_arm_scored.jsonl",
+      "source": "experiments/harness实验/autocontrol/results/three_arm_scored.jsonl",
+      "bytes": 29479242,
+      "sha256": "ce49a18a74135ce197212147330593e058b75387d84d336b2e0613a2ad0e9541"
+    },
+    {
+      "path": "harness/code/shared/react_protocol.py",
+      "source": "experiments/harness实验/shared/react_protocol.py",
+      "bytes": 2548,
+      "sha256": "b678d922e9c7abe091fa989d5e9b3e0a1be7981df965f039284406322a55bcc8"
+    },
+    {
+      "path": "harness/code/shared/safeharness_no_llm.py",
+      "source": "experiments/harness实验/shared/safeharness_no_llm.py",
+      "bytes": 6573,
+      "sha256": "79298c8fcb35e045add201c8a9966f5d4c7063a14db205237db8827e5e77ec34"
+    },
+    {
+      "path": "harness/docs/README.md",
+      "source": "experiments/harness实验/README.md",
+      "bytes": 2440,
+      "sha256": "e041477583e84d785e4b8c95fa6e33686fddd0d1ea222918a5b222cf48cf9fd6"
+    },
+    {
+      "path": "harness/docs/RESULTS.md",
+      "source": "experiments/harness实验/RESULTS.md",
+      "bytes": 2113,
+      "sha256": "d504515d561c85cb2c553f9b7ab0b51c291a6d5eb73f66000442b67d9cc85662"
+    },
+    {
+      "path": "harness/docs/SETTING.json",
+      "source": "experiments/harness实验/setting.json",
+      "bytes": 5145,
+      "sha256": "57c06ecf3dd95a48c36ca8dfb4aef17b0997a70dbb0f90adbb48a19159c3764c"
+    },
+    {
+      "path": "harness/securitybench_clean/code/asb_tier_table_5agents_principled.json",
+      "source": "experiments/harness实验/securitybench/asb_tier_table_5agents_principled.json",
+      "bytes": 28545,
+      "sha256": "0f8b04e809396dc16e6258aef0a6020330f5fd62a6973111369429546cc48acc"
+    },
+    {
+      "path": "harness/securitybench_clean/code/canonical_eval.py",
+      "source": "experiments/harness实验/securitybench/canonical_eval.py",
+      "bytes": 18766,
+      "sha256": "a9f874cf2cdb5e84a8e3de682137eea674940cc309008b44f5058f0d381a2d47"
+    },
+    {
+      "path": "harness/securitybench_clean/code/requirements.txt",
+      "source": "experiments/harness实验/securitybench/requirements.txt",
+      "bytes": 124,
+      "sha256": "3fc24c3f49526f38559a07e692e0558e9c432e1078dc547ce1407ed86ae48b66"
+    },
+    {
+      "path": "harness/securitybench_clean/code/run_eval_react.py",
+      "source": "experiments/harness实验/securitybench/run_eval_react.py",
+      "bytes": 15707,
+      "sha256": "508f682633a4126d6a23eb1cbbc8110f7bd895f367b5e1eeb9bb552a0484298c"
+    },
+    {
+      "path": "harness/securitybench_clean/code/run_eval_react_local.py",
+      "source": "experiments/harness实验/securitybench/run_eval_react_local.py",
+      "bytes": 15780,
+      "sha256": "bf500f403d7e5162d1368e106d956594b771f226b5acc8529bcf23812c0386d1"
+    },
+    {
+      "path": "harness/securitybench_clean/code/semantic_eval/analyze.py",
+      "source": "experiments/harness实验/securitybench/semantic_eval/analyze.py",
+      "bytes": 37914,
+      "sha256": "b9da9ac27216461a7ec018d1b4c7657e7ee5f565bc196e41d00f1b936502a1b0"
+    },
+    {
+      "path": "harness/securitybench_clean/code/semantic_eval/build_judge_input.py",
+      "source": "experiments/harness实验/securitybench/semantic_eval/build_judge_input.py",
+      "bytes": 11893,
+      "sha256": "d7f5d905df7590c2c2f1cdbf7dee48b9e967e2eb698fe841b7c0b13a41ea8795"
+    },
+    {
+      "path": "harness/securitybench_clean/code/semantic_eval/judge_trajectories.py",
+      "source": "experiments/harness实验/securitybench/semantic_eval/judge_trajectories.py",
+      "bytes": 12632,
+      "sha256": "e641cd24ec94c7edcdf3709bee0a866493ff41bbe1a58ddb72b476838b922bc2"
+    },
+    {
+      "path": "harness/securitybench_clean/code/semantic_eval/prepare_token_fixed_eval.py",
+      "source": "experiments/harness实验/securitybench/semantic_eval/prepare_token_fixed_eval.py",
+      "bytes": 5612,
+      "sha256": "5d002d5ca30dc22df2d96eb80e39326afd15cb7ae6e0b54554794b45a3748037"
+    },
+    {
+      "path": "harness/securitybench_clean/code/semantic_eval/write_manifest.py",
+      "source": "experiments/harness实验/securitybench/semantic_eval/write_manifest.py",
+      "bytes": 4368,
+      "sha256": "9fc76924653201c093441a11f977c6d2b1f977e34db904969ef74b1e09b23f20"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/CASES.md",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/CASES.md",
+      "bytes": 200563,
+      "sha256": "656930e083996e4d6bafc2bc00a23c92035d502fdc0955f12961216355ed49ad"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/CONTROL_REUSE_AUDIT.json",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/CONTROL_REUSE_AUDIT.json",
+      "bytes": 756,
+      "sha256": "004b204b0a3c8165d5975b0166d62422da0fb62d06ab568d5ea4c1500fa58052"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/REPORT.md",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/REPORT.md",
+      "bytes": 7710,
+      "sha256": "e7a868e90498a8d4b37ba719f3587a363c1d83b9cf1ad329ea2ec349ea9b142d"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/analysis.json",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/analysis.json",
+      "bytes": 116715,
+      "sha256": "b08cd739aacc3439d31532f7ad5aa55fc5983d29170663f2aeb17344d1750efe"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/cases.json",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/cases.json",
+      "bytes": 814920,
+      "sha256": "16c907566919a4d50496258e0b4ad0223379b0a9e36c1b0bd8ea8900f5070dd1"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/judge_input.summary.json",
+      "source": "experiments/harness实验/securitybench/semantic_eval/judge_input.summary.json",
+      "bytes": 1191,
+      "sha256": "d807ddf80c73d9bd68c26b668e452be63f22ae0b36d433d5346b7aecfa3c69e3"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/judged.jsonl",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/judged.jsonl",
+      "bytes": 13356097,
+      "sha256": "45c77c9e6854918675552651a0ba7df08682f45b0b1abb14f1356f1ba6ed5e6e"
+    },
+    {
+      "path": "harness/securitybench_clean/evaluation/paired_transitions.json",
+      "source": "experiments/harness实验/securitybench/semantic_eval/results/paired_transitions.json",
+      "bytes": 399906,
+      "sha256": "db1545c3dd955575fe1decebc2160bb37742e7117fb2c65dc02d90d68a2a6b19"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/build_dataset.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/build_dataset.py",
+      "bytes": 5065,
+      "sha256": "27833cb3318ba22b189f101674ce0ef807cedce11074a808772d7ea7f465baef"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/analyze_three_arm.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/analyze_three_arm.py",
+      "bytes": 9518,
+      "sha256": "e1a3757df7a26ecbe22d10bd24a1617dfbfd8b3c2f6c8040ac97d3e40999f57a"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/assemble_three_arm.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/assemble_three_arm.py",
+      "bytes": 2831,
+      "sha256": "07c4d17ac2c13e454d50b194e7baac5488d4fd88681a13c154920401b2cebef3"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/launch_sft.sh",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/launch_sft.sh",
+      "bytes": 1381,
+      "sha256": "632b463513efba286b6ae5f008391736c8533ff76c623a8a75d9cf7a37ba6916"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/merge_monitor_shards.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/merge_monitor_shards.py",
+      "bytes": 1558,
+      "sha256": "7b8c7a36f6bea75df4e2d011bc12ac9880d88cab82db1d8aad9f9ad54a644b6a"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/prepare_monitor_shards.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/prepare_monitor_shards.py",
+      "bytes": 1939,
+      "sha256": "5d75e7c9c6ea9bf4f1a9db5963b67415b8d72dac52cc92f618c466c0c0281965"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/render_case_inventory.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/render_case_inventory.py",
+      "bytes": 4498,
+      "sha256": "d3aaa78bcd7349c14c235ff932fbfb42a5e6a370c1084400fa1c582163ff918d"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/evaluation/submit_sft_rjob.sh",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/submit_sft_rjob.sh",
+      "bytes": 1043,
+      "sha256": "58d3a54b68291018080ccd3649f13babfde50b565fb5cb44c5fe321c5213bd1b"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/training/launch_job.sh",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/training/launch_job.sh",
+      "bytes": 1702,
+      "sha256": "85426dd71eea1364dfb067afbcb4fcfbbc5b5cac6b17e6de8959902ed7148a5d"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/training/submit_rjob.sh",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/training/submit_rjob.sh",
+      "bytes": 1036,
+      "sha256": "975ab235c24a64b1561ad619d3c3a47746cfe77de53bef1e3dd95552721ced51"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/code/validate_tokenization.py",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/validate_tokenization.py",
+      "bytes": 2133,
+      "sha256": "3c050c41a07db7eb0b49a41dfffe7d6e33e156da44e5a0a4788e8bac72933138"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/docs/PROTOCOL.md",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/PROTOCOL.md",
+      "bytes": 3244,
+      "sha256": "f73104a3c41dfd76eae4b348c28f7c49f53e8f4cc082942d844dbd7465c639d8"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/docs/SETTING.json",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/SETTING.json",
+      "bytes": 2300,
+      "sha256": "57e05a24f2cce82466a32961f8484239379407b87713505b0075bcb26d0f3481"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/docs/STATUS.md",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/STATUS.md",
+      "bytes": 842,
+      "sha256": "7ff83257ef84fbeeb779854a398aeaea25f9dc9cc66435520272e077e0624da7"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/CASE_INVENTORY.md",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/results/CASE_INVENTORY.md",
+      "bytes": 502792,
+      "sha256": "f2c3f7d4d801054ccc6cf1bf1781bf8031b2c9a11c99e0fdf01ecc5ed0893ff1"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/INSIGHTS_CN.md",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/results/INSIGHTS_CN.md",
+      "bytes": 16522,
+      "sha256": "da65acedb517becc8f5fc71e3fe47f459b88551f89b98759e8fa40caa23a8f92"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/REPORT.md",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/results/REPORT.md",
+      "bytes": 2059,
+      "sha256": "49990ed3ee15a47eff7cabcf323e84f90574c4dd037a3fee72a7343fe46eeaec"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/analysis.json",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/results/analysis.json",
+      "bytes": 17245,
+      "sha256": "a18b1b05a78e727aaa7e3310e895715a95dd56972353c23488c5fb028d38ebeb"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/paired_transitions.jsonl",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/runs/t1_three_rollouts/analysis/paired_transitions.jsonl",
+      "bytes": 7013205,
+      "sha256": "1ea8d67cc207029303a1ab8f817b36648aa00eac83d599598b09d69b33b4cd66"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/summary.json",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/runs/t1_three_rollouts/scored/three_arm.summary.json",
+      "bytes": 327,
+      "sha256": "02890898d35e4770b7880dbd744824059f5e5464c290ac476968360cb7f6dd3d"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/evaluation/three_arm.jsonl",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/runs/t1_three_rollouts/scored/three_arm.jsonl",
+      "bytes": 5108374,
+      "sha256": "59e12a11eb495452d1a7aa7fbaf2198e0a380987ccddecc8aa9e8765d6bd4dc5"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/training_data/manifest.json",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/data/manifest.json",
+      "bytes": 1223,
+      "sha256": "dac3d42def03c3773d07a2a7ba78b8e7aa48b2e1246b5c171c8cb14a48bf4e62"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/training_data/tokenization_report.json",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/data/tokenization_report.json",
+      "bytes": 249,
+      "sha256": "77f4f786c29a9a4ce5026734f9a008d6d91c0833afd71459a5c8d34b3e58f69f"
+    },
+    {
+      "path": "sft/autocontrol_w1_only/training_data/train.jsonl",
+      "source": "experiments/model_vs_harness_sft/autocontrol_w1_only/data/train.jsonl",
+      "bytes": 790868,
+      "sha256": "87065ce177b56ad28165d0cfea2e0a61a3368bff618ce14839995c5d082c821e"
+    },
+    {
+      "path": "sft/securitybench_v2/code/build_contracts.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/build_contracts.py",
+      "bytes": 22839,
+      "sha256": "b8050417079c64dfcf6507ffc1556f715d251c3de29534151d3aa7499c6234ea"
+    },
+    {
+      "path": "sft/securitybench_v2/code/compile_dataset.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/compile_dataset.py",
+      "bytes": 13671,
+      "sha256": "1140ca41f2a050fb6e5c0795a1790af8ce7a0b9093d37cf8ad3c10ea498172c4"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/analyze_scored.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/analyze_scored.py",
+      "bytes": 7553,
+      "sha256": "f34f3c96501c8c743967f13945fb6a3ca37084b9affef4cb349036e30263ff69"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/build_dev_selection.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/build_dev_selection.py",
+      "bytes": 2195,
+      "sha256": "22c16b121ee67cb47ac89946800df2c1f432abfe1d6c23311a01d6f238be0d48"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/build_manifest.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/build_manifest.py",
+      "bytes": 6098,
+      "sha256": "6aed3a571b1970e4fb350b474e433ce8a82f38a2a1bf68014d683eed5e507310"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/build_test_selection.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/build_test_selection.py",
+      "bytes": 2168,
+      "sha256": "89b337d060e664367e6ee3bb858d2e3bda077c7bdf1aef92fc5254403f73df4c"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/make_case_report.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/make_case_report.py",
+      "bytes": 7231,
+      "sha256": "349143729e597ecb10ed433601aadd40d1ac5f49eca9c9d2577d832cea2b1582"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/run_eval.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/run_eval.py",
+      "bytes": 19520,
+      "sha256": "12af4e2c336bf96687daa383febe09f8915b667ff6e11990ed43123fcfa66696"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/score_results.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/score_results.py",
+      "bytes": 18704,
+      "sha256": "306b6233e706b2dddc1e667b2b77e619aa938103f2e567351da99ff457a100e0"
+    },
+    {
+      "path": "sft/securitybench_v2/code/evaluation/validate_design.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/validate_design.py",
+      "bytes": 2071,
+      "sha256": "ce8645c7828c325cf9001e9fc4773069bc33b45e0f04b82bdaaaca4fe77a7428"
+    },
+    {
+      "path": "sft/securitybench_v2/code/normalize_contracts.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/normalize_contracts.py",
+      "bytes": 2102,
+      "sha256": "b5603de28eb0a0ab413ca53b557b4e50db998512b570451a96472e070b8e541e"
+    },
+    {
+      "path": "sft/securitybench_v2/code/recover_contracts.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/recover_contracts.py",
+      "bytes": 7405,
+      "sha256": "9e1272259191e26674ddcc99e9287fd23d61a8308e12e922f07e488a4fe81846"
+    },
+    {
+      "path": "sft/securitybench_v2/code/training/dry_run.py",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/training/dry_run.py",
+      "bytes": 3286,
+      "sha256": "564cf47205a25fefa0e43bf5c0acc33fe72b7103b6edbee91f4e40d90c7c0b2f"
+    },
+    {
+      "path": "sft/securitybench_v2/code/training/launch_job.sh",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/training/launch_job.sh",
+      "bytes": 1571,
+      "sha256": "c2b4efe2193324eee9efe23d47671739e6770313d14303bf1382171df881206e"
+    },
+    {
+      "path": "sft/securitybench_v2/code/training/submit_rjob.sh",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/training/submit_rjob.sh",
+      "bytes": 1137,
+      "sha256": "42de127fe91d63b1ffe747e83ff07f6f34953f06b49c1089083ae30436f70fb8"
+    },
+    {
+      "path": "sft/securitybench_v2/docs/PROTOCOL.md",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/PROTOCOL.md",
+      "bytes": 6458,
+      "sha256": "a3f7950b8ce40b5d5ca559e3bfb286936407ae4d5a14e5aa28c3feb50f1d463a"
+    },
+    {
+      "path": "sft/securitybench_v2/docs/RESULTS_CN.md",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/RESULTS_CN.md",
+      "bytes": 9140,
+      "sha256": "e01a97134b0021c1a668fbb7b7e815900b431aaa3eb02cf0669dde3d2c67086b"
+    },
+    {
+      "path": "sft/securitybench_v2/docs/RUN_MANIFEST.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/RUN_MANIFEST.json",
+      "bytes": 1578,
+      "sha256": "37dfa18b1e4356dc286911504a31559aab0f12e037a74401d4a79394e59806ac"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/CASES.md",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/results/CASES.md",
+      "bytes": 63694,
+      "sha256": "09a3a6ec46cce26e07b730f1c1df4a617b26dd088b23d7540030040324cfdf2d"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/analysis.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/results/analysis.json",
+      "bytes": 18350,
+      "sha256": "f6b5d8752ec90fbc4512e803b085d8bc16fb183fa692d9a802df9f80a6ab48f2"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/judge_summary.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/runs/frozen_test/scored/summary.json",
+      "bytes": 40140,
+      "sha256": "c834ab5b15acdeb713df984b232648501a395b82b15aa96309c5754bf7fc3167"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/judged.jsonl",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/runs/frozen_test/scored/judged.jsonl",
+      "bytes": 13333750,
+      "sha256": "b0b8c35610ac3e6ae4903de98b7df4536a01df1ad12de47d55045640ce0af2c3"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/test_manifest.jsonl",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/manifests/test.jsonl",
+      "bytes": 6732220,
+      "sha256": "bbd8d09b06637dd58d4f3a01179c2b01e9c6c3d4fec8d01c4f855292b0b81e4d"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/test_selection.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/manifests/test_selection.json",
+      "bytes": 521,
+      "sha256": "9d7e80223fbfb96495ca9deb8746d990ac16d59943ea3bab05c175d2b847bbd1"
+    },
+    {
+      "path": "sft/securitybench_v2/evaluation/test_selection.jsonl",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/manifests/test_selection.jsonl",
+      "bytes": 2615447,
+      "sha256": "d46675b962043fa37984f33623a14d08bdbbf63272b59561684044056457fc6d"
+    },
+    {
+      "path": "sft/securitybench_v2/training_data/manifest.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/output/sft/manifest.json",
+      "bytes": 520,
+      "sha256": "11427e00db8c055ae53dbb79dd0dcede4687adbc24c54701bc750904b5e010d4"
+    },
+    {
+      "path": "sft/securitybench_v2/training_data/tokenization_report.json",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/output/sft/tokenization_report.json",
+      "bytes": 674,
+      "sha256": "7761d09adc0e95561b3d7149a277c680fc4f01c4b470adf9cccb38e0d60e9bb3"
+    },
+    {
+      "path": "sft/securitybench_v2/training_data/train.jsonl",
+      "source": "experiments/model_vs_harness_sft/securitybench_v2/output/sft/train.jsonl",
+      "bytes": 1206888,
+      "sha256": "c84d56a5b1861dc4199d65208ac27fa150ae580f7faa1c0d9eee0323488726a8"
+    },
+    {
+      "path": "sft/upward_deception/code/build_gold_dataset.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/build_gold_dataset.py",
+      "bytes": 59814,
+      "sha256": "0be5bcb7778fc548dc274ee86766d77d3e109b6a84dc04f4e3b55a0ca38ca6ba"
+    },
+    {
+      "path": "sft/upward_deception/code/evaluation/analyze_results.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/analyze_results.py",
+      "bytes": 8831,
+      "sha256": "66c05ba3e39c006267fae664007e38a4f4ff97a74e19e1b3a901e98063d4af8b"
+    },
+    {
+      "path": "sft/upward_deception/code/evaluation/judge_eval.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/judge_eval.py",
+      "bytes": 12302,
+      "sha256": "1c789295e1fc8f0df6cf616c692879066821d1f5b8e763550c4ca051fc1ed4f6"
+    },
+    {
+      "path": "sft/upward_deception/code/evaluation/run_local_eval.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/run_local_eval.py",
+      "bytes": 11705,
+      "sha256": "ce467d2f4327fd54bbc9a8930e8241545a0ae9fac5c791188bcf2a8c0679bbc6"
+    },
+    {
+      "path": "sft/upward_deception/code/training/data.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/data.py",
+      "bytes": 6225,
+      "sha256": "5f26388b23f50ccf3724ef5d2c0e42de0949d08ea1862cf15cf81edc5ce48358"
+    },
+    {
+      "path": "sft/upward_deception/code/training/dry_run.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/dry_run.py",
+      "bytes": 2778,
+      "sha256": "6aadce282a0b9bb877613758e02e3f65c682ceb26e55cb6b596e37bf7691a797"
+    },
+    {
+      "path": "sft/upward_deception/code/training/launch_job.sh",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/launch_job.sh",
+      "bytes": 2915,
+      "sha256": "6a2e1530aa9cfd481fb60dd52ab9dcdd833e7c6698460cba3d8ab00e32d689ff"
+    },
+    {
+      "path": "sft/upward_deception/code/training/requirements.txt",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/requirements.txt",
+      "bytes": 52,
+      "sha256": "98e92899cd29a09fc3de9f2edad016400f9e9041cb59cb7ed419f7bab1d29588"
+    },
+    {
+      "path": "sft/upward_deception/code/training/run_with_gpu_monitor.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/run_with_gpu_monitor.py",
+      "bytes": 3996,
+      "sha256": "83545516c2d78d12bee68722ebe25b0c96035100e01b6cf0db1b41947e842e0b"
+    },
+    {
+      "path": "sft/upward_deception/code/training/submit_rjob.sh",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/submit_rjob.sh",
+      "bytes": 1159,
+      "sha256": "1abf9c61f9ef0b256307055aee3970610c809f98a1ec3c8a18d13fb08ff71fd7"
+    },
+    {
+      "path": "sft/upward_deception/code/training/train.py",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/train.py",
+      "bytes": 6288,
+      "sha256": "06ce56653e427b7ce5f418e6c22e8fe3e3ccd13beee911600004ab4a67bf24bb"
+    },
+    {
+      "path": "sft/upward_deception/docs/EVAL_PROTOCOL.md",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/EVAL_PROTOCOL.md",
+      "bytes": 2922,
+      "sha256": "e8ff28ff4ed66cc9f7ed87ea880a9dabc749e2c0d2928bb2cfbd1c5aed2e5ef0"
+    },
+    {
+      "path": "sft/upward_deception/docs/PROTOCOL.md",
+      "source": "experiments/model_vs_harness_sft/upward_deception/PROTOCOL.md",
+      "bytes": 4389,
+      "sha256": "6cb97f048905256fc98c619e4d85d41970a32bdce00511f2d03d9bf84599891f"
+    },
+    {
+      "path": "sft/upward_deception/docs/README.md",
+      "source": "experiments/model_vs_harness_sft/upward_deception/README.md",
+      "bytes": 1094,
+      "sha256": "9a41ba3efb6b6921d34451320baca5726dc37b8eec217e862682ff6a9c291e90"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/CASES_ZH.md",
+      "source": "experiments/model_vs_harness_sft/upward_deception/results/CASES_ZH.md",
+      "bytes": 10416,
+      "sha256": "de91012ebd36732dcf0b086a3d6e6bfb077f748378e90a1e39703aee1ee7819f"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/REPORT_ZH.md",
+      "source": "experiments/model_vs_harness_sft/upward_deception/results/REPORT_ZH.md",
+      "bytes": 13261,
+      "sha256": "eb9ad83f5acded9d6312408c9c6c8309d7b051e7beb18158ae3da4846c88a6fa"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/analysis.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/results/analysis.json",
+      "bytes": 31203,
+      "sha256": "354db2ed0ad4e26a8bbbc2f444c2fdbcb71742375baf1a7912733f510ccd14ed"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/cases.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/runs/paired_test_v2_clean/analysis/cases.json",
+      "bytes": 2032949,
+      "sha256": "0235992f72baeb10ff3e287ec9676b7126cb2e4a6dc97a729d2dd0b23351ab69"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/frozen_test_manifest.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/frozen_test_manifest.json",
+      "bytes": 9814,
+      "sha256": "f4f052d1253c3dc452dab5a747e8ef8bf58d856637beb439fc1e483cdf4d2625"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/judge_summary.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/runs/paired_test_v2_clean/judged/summary.json",
+      "bytes": 5334,
+      "sha256": "d3070f898b49351bf8c781b5a3574a570fb919f00858cac78737c4e418246ff7"
+    },
+    {
+      "path": "sft/upward_deception/evaluation/judged_records.jsonl",
+      "source": "experiments/model_vs_harness_sft/upward_deception/evaluation/runs/paired_test_v2_clean/judged/judged_records.jsonl",
+      "bytes": 4891330,
+      "sha256": "2b73293e182ab7cc6701f6706c5f40e4b8458a9ca4fee9c9ff72bdf9b9028564"
+    },
+    {
+      "path": "sft/upward_deception/training_data/manifest.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/output/sft/manifest.json",
+      "bytes": 898,
+      "sha256": "cef49dc2f276e658a1bb2a7cfef49e47c3a0be92c6e2d594f2d5b749b183c59d"
+    },
+    {
+      "path": "sft/upward_deception/training_data/quality_report.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/output/sft/quality_report.json",
+      "bytes": 1253,
+      "sha256": "9392e436c4e0d353a52dfc9ed961c9c4db8ff752344619a49d6ceeb505038022"
+    },
+    {
+      "path": "sft/upward_deception/training_data/tokenization_report.json",
+      "source": "experiments/model_vs_harness_sft/upward_deception/training/tokenization_report.json",
+      "bytes": 461,
+      "sha256": "0990f6250bf22469d32ad96332f7bd2b4b6d598a770632a4a80b4594738fce62"
+    },
+    {
+      "path": "sft/upward_deception/training_data/train.jsonl",
+      "source": "experiments/model_vs_harness_sft/upward_deception/output/sft/train.jsonl",
+      "bytes": 4175296,
+      "sha256": "2358483cd3c249c1f44e766cf85ca994b09a7539251b310ceacb4e860fa7959b"
+    },
+    {
+      "path": "shared_code/evolve/harness/scripts/ac_monitor_score.py",
+      "source": "evolve/harness/scripts/ac_monitor_score.py",
+      "bytes": 19515,
+      "sha256": "904b2780543682a1b001052053f31934d8cfde0422ad410dad1d3024c5059094"
+    },
+    {
+      "path": "shared_code/evolve/harness/src/coevolve/judges/api.py",
+      "source": "evolve/harness/src/coevolve/judges/api.py",
+      "bytes": 5606,
+      "sha256": "1638237389d9c316d3c19b9f82b32b4ee0bee8873b6cb925ed8565915d440649"
+    }
+  ]
+}

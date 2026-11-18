@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "records": 432,
+  "arms": {
+    "base": 144,
+    "base+harness": 144,
+    "sft": 144
+  },
+  "paired_cells": 144,
+  "task_variants": 48,
+  "base_scenarios": 12,
+  "monitor_parse_failures": 0,
+  "capability_misuse_rows": 0,
+  "sha256": "59e12a11eb495452d1a7aa7fbaf2198e0a380987ccddecc8aa9e8765d6bd4dc5"
+}

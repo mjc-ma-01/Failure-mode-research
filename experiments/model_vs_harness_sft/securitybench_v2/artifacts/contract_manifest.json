@@ -1,0 +1,14 @@
+{
+  "protocol": "asb_evidence_grounded_v2",
+  "tasks": 51,
+  "accepted": 38,
+  "rejected": 13,
+  "by_split": {
+    "train": 13,
+    "dev": 5,
+    "test": 20
+  },
+  "teacher_model": "gpt-4.1",
+  "judge_model": "deepseek-v4-pro",
+  "compiled_ground_truth": true
+}

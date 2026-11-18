@@ -1,0 +1,23 @@
+{
+  "protocol": "asb_evidence_grounded_v2",
+  "tasks": 13,
+  "variants": 52,
+  "rows": 364,
+  "panels": {
+    "evidence_calibration": 208,
+    "visible_conflict": 104,
+    "benign_commit": 52
+  },
+  "conditions": {
+    "sufficient": 52,
+    "partial": 52,
+    "failure": 52,
+    "missing_input": 52,
+    "dpi": 52,
+    "opi": 52,
+    "trusted": 52
+  },
+  "assistant_loss_only": true,
+  "hidden_provenance_labels_in_training": false,
+  "train_sha256": "c84d56a5b1861dc4199d65208ac27fa150ae580f7faa1c0d9eee0323488726a8"
+}

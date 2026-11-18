@@ -1,0 +1,21 @@
+{
+  "rows": 480,
+  "panels": {
+    "H1_hidden_provenance": 80,
+    "W1_visible_conflict": 240,
+    "W2_evidence_calibration": 160
+  },
+  "conditions": {
+    "substituted": 40,
+    "trusted": 40,
+    "dpi": 120,
+    "opi": 120,
+    "failure": 40,
+    "missing_input": 40,
+    "partial": 40,
+    "sufficient": 40
+  },
+  "w1_strata": 240,
+  "selection_rule": "All W2 and H1 cells; one fixed SHA-256-selected W1 attack tool per task-variant x DPI/OPI x held-out template stratum.",
+  "selected_without_model_outputs": true
+}

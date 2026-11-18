@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "rows": 364,
+  "panels": {
+    "benign_commit": 52,
+    "evidence_calibration": 208,
+    "visible_conflict": 104
+  },
+  "conditions": {
+    "trusted": 52,
+    "failure": 52,
+    "missing_input": 52,
+    "partial": 52,
+    "sufficient": 52,
+    "dpi": 52,
+    "opi": 52
+  },
+  "length_tokens": {
+    "min": 459,
+    "median": 1031.5,
+    "p95": 1311,
+    "max": 1431
+  },
+  "assistant_target_tokens": {
+    "min": 19,
+    "median": 304.0,
+    "p95": 408,
+    "max": 491
+  },
+  "max_length": 8192,
+  "truncated_rows": 0,
+  "mask_policy": "assistant response tokens only, including tool-call payloads",
+  "hidden_provenance_labels_in_training": false
+}

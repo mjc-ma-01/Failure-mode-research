@@ -1,13 +1,21 @@
-# experiments
+# Core experiments
 
-当前主实验只有：
+The active study has exactly two modules. Results outside these two modules are
+historical diagnostics and are not part of the main comparison.
 
-`noharness_vs_safeharness_adapted_no_llm/`
+| Module | Intervention | Canonical setting | Purpose |
+|---|---|---|---|
+| Three-arm Harness | `M`, `M+H`, `M+H+ΔH` | [`harness实验/setting.json`](harness实验/setting.json) | Separate the base ReAct scaffold (`H`) from the no-LLM SafeHarness increment (`ΔH`). |
+| SFT / weights | Base versus task-specific LoRA SFT | [`model_vs_harness_sft/SETTING.json`](model_vs_harness_sft/SETTING.json) | Test which visible decision failures can be corrected in model weights without replacing task completion with refusal. |
 
-其中保存 AutoControl、AgentSecurityBench、Agentic-Upward-Deception 的两臂 setting、正式
-结果、分析、case、原始轨迹/记录、配置快照与可重复汇总脚本。
+The Harness module contains matched AutoControl and AgentSecurityBench panels.
+The SFT module contains only the frozen, accepted tracks listed in its setting:
+AutoControl W1-only, SecurityBench V2, and Upward Deception. Git keeps code,
+the accepted training data, settings, compact results, and one canonical
+combined trajectory-plus-judge record per formal evaluation under
+`collaborator_release/`. Checkpoints, adapters, optimizer state, duplicate raw
+runs, logs, and interrupted outputs remain outside Git.
 
-- 从 `noharness_vs_safeharness_adapted_no_llm/README.md` 开始阅读。
-- `previous/` 是历史归档，不属于当前主实验，不能与主表混用。
-- `figures/` 仅保存研究图，不是实验结果。
-- 名称中含 `pilot/smoke/invalid/stale` 的错误或试跑产物已删除。
+Legacy two-arm results under `noharness_vs_safeharness_adapted_no_llm/` remain
+tracked for historical reproducibility but are superseded by the three-arm
+Harness module. They must not be mixed into the active tables.

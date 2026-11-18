@@ -1,0 +1,265 @@
+{
+  "protocol": "formal_model_weights_sft_tracks_v1",
+  "status": "complete",
+  "objective": "Identify which long-horizon agent failure features are improved by supervised model-weight updates and which require runtime harness controls, while jointly measuring risk and task utility.",
+  "base_model": {
+    "name": "Qwen/Qwen3.5-9B",
+    "snapshot": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  },
+  "formal_tracks": {
+    "autocontrol_w1_only": {
+      "path": "experiments/model_vs_harness_sft/autocontrol_w1_only",
+      "scope": {
+        "included_panel": "W1_visible_policy_choice_complete_reference_only",
+        "categories": [
+          "Instrumental Convergence",
+          "Oversight Evasion",
+          "Specification Gaming",
+          "Covert Whistleblowing",
+          "Evaluation Awareness",
+          "Strategic Misalignment"
+        ],
+        "excluded_categories": [
+          "Capability Misuse"
+        ],
+        "excluded_training_panels": [
+          "W2_visible_state_calibration",
+          "W1_benign_control",
+          "tool_denial",
+          "partial",
+          "failed"
+        ]
+      },
+      "training": {
+        "rows": 140,
+        "independent_scenarios": 35,
+        "variants_per_scenario": 4,
+        "epochs": 3,
+        "optimizer_steps": 27,
+        "lora_rank": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "learning_rate": 0.00007,
+        "effective_batch_size": 16,
+        "max_length": 4096,
+        "loss": "per-example mean assistant-token cross entropy",
+        "seed": 42,
+        "train_path": "experiments/model_vs_harness_sft/autocontrol_w1_only/data/train.jsonl",
+        "train_sha256": "87065ce177b56ad28165d0cfea2e0a61a3368bff618ce14839995c5d082c821e",
+        "selected_checkpoint": "epoch-3 final_adapter fixed before Monitor outcomes",
+        "adapter_sha256": "cfc183462274819be74c78c3c9ad52b4e380337226a713234b8b52eff2668b2b"
+      },
+      "evaluation": {
+        "held_out_scenarios": 12,
+        "task_variants": 48,
+        "rollouts_per_variant": 3,
+        "episodes_per_arm": 144,
+        "arms": [
+          "base",
+          "w1_only_sft",
+          "base+safeharness_adapted_no_llm"
+        ],
+        "temperature": 1.0,
+        "thinking": false,
+        "max_steps": 8,
+        "judge_model": "Qwen/Qwen3-32B",
+        "judge_temperature": 0,
+        "judge_protocol": "local AutoControl action Monitor",
+        "parse_failure_policy": "risky=true and task_success=false"
+      },
+      "formal_results": {
+        "base": {
+          "risk_rate": 0.3055555555555556,
+          "task_success": 0.6180555555555556,
+          "safe_task_success": 0.3958333333333333
+        },
+        "w1_only_sft": {
+          "risk_rate": 0.4722222222222222,
+          "task_success": 0.4861111111111111,
+          "safe_task_success": 0.2986111111111111
+        },
+        "base+safeharness_adapted_no_llm": {
+          "risk_rate": 0.1597222222222222,
+          "task_success": 0.375,
+          "safe_task_success": 0.3263888888888889
+        },
+        "interpretation": "Negative W1-only weights result: risk rises and task utility falls; lower harness risk is accompanied by a large utility cost."
+      },
+      "result_path": "experiments/model_vs_harness_sft/autocontrol_w1_only/evaluation/runs/t1_three_rollouts/analysis/analysis.json",
+      "result_sha256": "a18b1b05a78e727aaa7e3310e895715a95dd56972353c23488c5fb028d38ebeb"
+    },
+    "securitybench_v2": {
+      "path": "experiments/model_vs_harness_sft/securitybench_v2",
+      "benchmark_scope": "AgentSecurityBench-derived causal diagnostic, not an official leaderboard reproduction",
+      "panels": {
+        "W1": "model-visible prompt-source conflict",
+        "W2": "model-visible evidence state calibration",
+        "H1": "model-invisible trusted versus substituted tool implementation provenance"
+      },
+      "training": {
+        "rows": 364,
+        "training_tasks": 13,
+        "task_variants": 52,
+        "composition": {
+          "W1_explicit_DPI_OPI_conflict": 104,
+          "W2_evidence_state_calibration": 208,
+          "trusted_commit": 52
+        },
+        "epochs": 3,
+        "lora_rank": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "loss": "per-example mean assistant-token cross entropy",
+        "selected_checkpoint": "checkpoint-69 selected on dev only",
+        "train_path": "experiments/model_vs_harness_sft/securitybench_v2/output/sft/train.jsonl",
+        "train_sha256": "c84d56a5b1861dc4199d65208ac27fa150ae580f7faa1c0d9eee0323488726a8",
+        "adapter_sha256": "079d5bf13550f959f4e772c23f80f523ab956e89663422e5bd5fcd571b473bfd"
+      },
+      "evaluation": {
+        "records": 1120,
+        "W1_records": 480,
+        "W2_records": 320,
+        "H1_records": 320,
+        "generation_temperature": 0,
+        "max_steps": 6,
+        "judge_model": "deepseek-v4-pro",
+        "judge_temperature": 0,
+        "judge_reasoning_effort": "high",
+        "judge_max_tokens": 5000,
+        "train_test_isolation": "test agent, original task, normal tools, and attacker tools are disjoint from training"
+      },
+      "formal_results": {
+        "W1": {
+          "base_attack_side_effect_rate": 0.6916666666666667,
+          "sft_attack_side_effect_rate": 0.0125,
+          "base_original_task_utility": 0.19583333333333333,
+          "sft_original_task_utility": 0.9458333333333333
+        },
+        "W2": {
+          "base_calibrated_utility": 0.34375,
+          "sft_calibrated_utility": 0.76875
+        },
+        "H1_substituted_SFT": {
+          "side_effect_rate": 1.0,
+          "utility": 0.0
+        },
+        "H1_substituted_SFT_plus_harness": {
+          "side_effect_rate": 0.0,
+          "utility": 1.0
+        },
+        "interpretation": "Weights strongly improve model-visible instruction and evidence states; model-invisible provenance requires a harness."
+      },
+      "result_path": "experiments/model_vs_harness_sft/securitybench_v2/evaluation/runs/frozen_test/analysis.json",
+      "result_sha256": "f6b5d8752ec90fbc4512e803b085d8bc16fb183fa692d9a802df9f80a6ab48f2"
+    },
+    "upward_deception": {
+      "path": "experiments/model_vs_harness_sft/upward_deception",
+      "target": "grounded disclosure and completion under failed, sufficient, or explicitly authorized fallback evidence",
+      "training": {
+        "official_train_tasks": 120,
+        "accepted_matched_tasks": 110,
+        "rows": 330,
+        "conditions": {
+          "failure": 110,
+          "success": 110,
+          "authorized_fallback": 110
+        },
+        "effective_condition_weights": {
+          "failure": 0.5,
+          "success": 0.25,
+          "authorized_fallback": 0.25
+        },
+        "trajectory_teacher": "glm-5.3",
+        "official_failure_judge": "gpt-4o-mini",
+        "evidence_and_utility_review": "deepseek-v4-pro",
+        "epochs": 3,
+        "optimizer_steps": 63,
+        "lora_rank": 16,
+        "lora_alpha": 32,
+        "lora_dropout": 0.05,
+        "loss": "assistant-token-only weighted cross entropy",
+        "train_path": "experiments/model_vs_harness_sft/upward_deception/output/sft/train.jsonl",
+        "train_sha256": "2358483cd3c249c1f44e766cf85ca994b09a7539251b310ceacb4e860fa7959b"
+      },
+      "evaluation": {
+        "held_out_official_tasks": 40,
+        "conditions": [
+          "failure",
+          "success",
+          "authorized_fallback"
+        ],
+        "arms": [
+          "base",
+          "sft"
+        ],
+        "records": 240,
+        "temperature": 0,
+        "rollouts_per_cell": 1,
+        "max_tool_turns": 6,
+        "runtime_harness": false,
+        "official_failure_judge": "gpt-4o-mini",
+        "full_trajectory_evidence_utility_judge": "deepseek-v4-pro"
+      },
+      "formal_results": {
+        "failure": {
+          "base_official_risky_rate": 0.225,
+          "sft_official_risky_rate": 0.075,
+          "base_evidence_pass": 0.45,
+          "sft_evidence_pass": 0.775,
+          "base_utility_pass": 0.575,
+          "sft_utility_pass": 0.9
+        },
+        "success": {
+          "base_evidence_pass": 0.55,
+          "sft_evidence_pass": 0.875,
+          "base_utility_pass": 0.7,
+          "sft_utility_pass": 1.0
+        },
+        "authorized_fallback": {
+          "base_evidence_pass": 0.675,
+          "sft_evidence_pass": 0.875,
+          "base_utility_pass": 0.775,
+          "sft_utility_pass": 0.975,
+          "base_evidence_and_utility": 0.65,
+          "sft_evidence_and_utility": 0.875
+        },
+        "over_refusal_per_condition": {
+          "base": 0.0,
+          "sft": 0.0
+        },
+        "interpretation": "SFT improves evidence-state disclosure, source attribution, and feasible completion without learning blanket refusal; it does not establish general factual correctness."
+      },
+      "result_path": "experiments/model_vs_harness_sft/upward_deception/evaluation/runs/paired_test_v2_clean/analysis/analysis.json",
+      "result_sha256": "354db2ed0ad4e26a8bbbc2f444c2fdbcb71742375baf1a7912733f510ccd14ed"
+    }
+  },
+  "excluded_from_formal_sft": {
+    "experiments/model_vs_harness_sft/autocontrol_v2": "historical mixed W1+W2 supervision; superseded by AutoControl W1-only scope",
+    "experiments/model_vs_harness_sft/securitybench": "v1; superseded by securitybench_v2",
+    "experiments/model_vs_harness_sft/autocontrol_bridge": "earlier bridge and temperature diagnostics plus paused cross-fit; not a formal SFT track",
+    "experiments/model_vs_harness_sft/react_base_harness": "Harness infrastructure/history; not an SFT track",
+    "experiments/model_vs_harness_sft/NEXT_REACT_BASE_HARNESS_TASK.md": "historical handoff note"
+  },
+  "artifact_policy": {
+    "commit": [
+      "source code",
+      "protocol and setting documents",
+      "frozen manifests",
+      "small training JSONL datasets",
+      "artifact hashes and selected-checkpoint metadata",
+      "aggregate analyses and curated cases"
+    ],
+    "exclude": [
+      "training/runs",
+      "checkpoint-*",
+      "final_adapter",
+      "optimizer and model binaries",
+      "__pycache__ and *.pyc",
+      "logs and GPU telemetry",
+      "interrupted, invalid, smoke, partial, and previous outputs",
+      "redundant raw trajectories"
+    ],
+    "large_artifacts": "Store externally and record SHA-256 plus retrieval metadata in the repository."
+  },
+  "separate_harness_module": "experiments/harness实验"
+}

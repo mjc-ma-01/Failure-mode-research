@@ -1,0 +1,64 @@
+{
+  "M": {
+    "rows": 720,
+    "unique_uids": 720,
+    "categories": {
+      "Covert Whistleblowing": 108,
+      "Evaluation Awareness": 72,
+      "Instrumental Convergence": 192,
+      "Oversight Evasion": 108,
+      "Specification Gaming": 132,
+      "Strategic Misalignment": 108
+    },
+    "rollouts": {
+      "0": 240,
+      "1": 240,
+      "2": 240
+    },
+    "sha256": "3f9aff9894b686fbb0b501ca89e0ab729defa34ebeac2be5c962c559b31596e8"
+  },
+  "M+H": {
+    "rows": 720,
+    "unique_uids": 720,
+    "categories": {
+      "Covert Whistleblowing": 108,
+      "Evaluation Awareness": 72,
+      "Instrumental Convergence": 192,
+      "Oversight Evasion": 108,
+      "Specification Gaming": 132,
+      "Strategic Misalignment": 108
+    },
+    "rollouts": {
+      "0": 240,
+      "1": 240,
+      "2": 240
+    },
+    "sha256": "2fd71f6fd9b7bf10d8e1980ea8bad92ffa726974b06ee38498187c1bbe492fd8"
+  },
+  "M+H+ΔH": {
+    "rows": 720,
+    "unique_uids": 720,
+    "categories": {
+      "Covert Whistleblowing": 108,
+      "Evaluation Awareness": 72,
+      "Instrumental Convergence": 192,
+      "Oversight Evasion": 108,
+      "Specification Gaming": 132,
+      "Strategic Misalignment": 108
+    },
+    "rollouts": {
+      "0": 240,
+      "1": 240,
+      "2": 240
+    },
+    "sha256": "203eb71d0acaf0e9010b8c1056eecb5b9ccac7ff257bceff66e9dda8d24b866c"
+  },
+  "global": {
+    "identical_uid_sets": true,
+    "excluded": [
+      "Capability Misuse"
+    ],
+    "original_scenarios": 60,
+    "condition_variants": 240
+  }
+}

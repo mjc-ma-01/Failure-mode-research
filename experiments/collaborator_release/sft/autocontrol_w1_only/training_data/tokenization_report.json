@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "rows": 140,
+  "max_length": 4096,
+  "length_min_median_max": [
+    633,
+    1067.0,
+    1889
+  ],
+  "target_min_median_max": [
+    117,
+    228.0,
+    437
+  ],
+  "truncated_rows": 0,
+  "loss_mask": "assistant tokens only"
+}

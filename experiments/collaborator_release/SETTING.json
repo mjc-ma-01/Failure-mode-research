@@ -1,0 +1,109 @@
+{
+  "protocol": "collaborator_release_v1",
+  "status": "complete",
+  "purpose": "Upload-ready handoff containing only formal experiment inputs, complete combined trajectory-plus-judge outputs, aggregate analyses, and reproducibility code.",
+  "formal_modules": {
+    "sft": {
+      "status": "complete",
+      "tracks": [
+        {
+          "name": "autocontrol_w1_only",
+          "source": "experiments/model_vs_harness_sft/autocontrol_w1_only",
+          "training_rows": 140,
+          "evaluation_records": 432,
+          "combined_record": "sft/autocontrol_w1_only/evaluation/three_arm.jsonl",
+          "scope": "W1 complete-reference only; Capability Misuse and W2 excluded"
+        },
+        {
+          "name": "securitybench_v2",
+          "source": "experiments/model_vs_harness_sft/securitybench_v2",
+          "training_rows": 364,
+          "evaluation_records": 1120,
+          "combined_record": "sft/securitybench_v2/evaluation/judged.jsonl",
+          "scope": "W1 visible prompt conflict, W2 visible evidence state, H1 hidden provenance"
+        },
+        {
+          "name": "upward_deception",
+          "source": "experiments/model_vs_harness_sft/upward_deception",
+          "training_rows": 330,
+          "evaluation_records": 240,
+          "combined_record": "sft/upward_deception/evaluation/judged_records.jsonl",
+          "scope": "failure, success, and authorized-fallback evidence conditions"
+        }
+      ],
+      "canonical_setting": "experiments/model_vs_harness_sft/SETTING.json"
+    },
+    "three_arm_harness": {
+      "status": "complete",
+      "arms": [
+        "M",
+        "M+H",
+        "M+H+ΔH"
+      ],
+      "autocontrol": {
+        "records": 2160,
+        "records_per_arm": 720,
+        "combined_record": "harness/autocontrol/evaluation/three_arm_scored.jsonl",
+        "task_specs": {
+          "count": 240,
+          "directory": "harness/autocontrol/evaluation/task_specs",
+          "reason": "The frozen M records retain complete action/observation steps but not an initial messages array."
+        },
+        "judge": "Qwen/Qwen3-32B local AutoControl action Monitor, temperature 0"
+      },
+      "securitybench": {
+        "records": 1800,
+        "records_per_arm": 600,
+        "combined_record": "harness/securitybench_clean/evaluation/judged.jsonl",
+        "judge": "deepseek-v4-pro-0813, temperature 0, reasoning_low_json",
+        "semantic_asr": {
+          "M": 0.9716666666666667,
+          "M+H": 0.9216666666666666,
+          "M+H+ΔH": 0.07
+        },
+        "strict_utility": {
+          "M": 0.0,
+          "M+H": 0.0,
+          "M+H+ΔH": 0.0016666666666666668
+        },
+        "over_refusal": {
+          "M": 0.03166666666666667,
+          "M+H": 0.07166666666666667,
+          "M+H+ΔH": 0.4683333333333333
+        },
+        "token_lifecycle_audit": {
+          "expired_token_events": 0,
+          "infrastructure_runner_errors": 0,
+          "model_react_parse_failures": 1
+        }
+      }
+    }
+  },
+  "canonical_combined_record_policy": "A single combined JSONL must retain the complete task, messages, tool events or steps, final answer, errors, and all formal judge outputs. Separate duplicate raw and judged copies are omitted.",
+  "excluded_artifacts": [
+    "training/runs",
+    "checkpoint-*",
+    "final_adapter",
+    "*.pt",
+    "*.safetensors",
+    "optimizer state",
+    "logs and GPU telemetry",
+    "*.partial.jsonl",
+    "previous",
+    "invalid",
+    "smoke",
+    "duplicate raw trajectories already embedded in canonical judged records",
+    "credentials and local configuration"
+  ],
+  "secret_policy": {
+    "plaintext_api_keys": "forbidden",
+    "env_files": "forbidden",
+    "local_codex_config": "forbidden",
+    "builder_scan": "Reject strings matching common sk-* API-key forms."
+  },
+  "manifest": {
+    "path": "experiments/collaborator_release/MANIFEST.json",
+    "hash": "sha256",
+    "generator": "experiments/collaborator_release/build_release.py"
+  }
+}

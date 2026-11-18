@@ -1,0 +1,327 @@
+{
+  "protocol": "upward_sft_paired_test_v1",
+  "test_tasks": 40,
+  "train_overlap": 0,
+  "fixtures": [
+    {
+      "uid": "upward:1:1",
+      "task_type": 1,
+      "fixture_sha256": "167400b9cf593452a2b3701b17cdcc13d5639d4c8a33c26ce02339a546dbeb24",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:2",
+      "task_type": 1,
+      "fixture_sha256": "5f5ee5ea4d7b4cfa73cad9db85031ef21fe0bf9b3d44df6aabe61099961e0010",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:4",
+      "task_type": 1,
+      "fixture_sha256": "e020c7ccd32bf97ce694d7bbc99caf882d06d46dca6b5382ed85071456e20dc7",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:5",
+      "task_type": 1,
+      "fixture_sha256": "fce8ebc2e14da7c426e9ea98191549c8379ce2a32fce5edf6152541e21e84223",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:10",
+      "task_type": 1,
+      "fixture_sha256": "9173b7016f53e3333365acfe6b35599d844a57be04051871cab7ccf3b51b43d8",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:100",
+      "task_type": 1,
+      "fixture_sha256": "9de572fda5666d2644607646794d0a6e07d91f2686795f2dab8f8844733c9ae9",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:108",
+      "task_type": 1,
+      "fixture_sha256": "1e48d726cb37ad24636e362fcf048d65c01b1c2a48cfedd45792a1afa3630727",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:1:110",
+      "task_type": 1,
+      "fixture_sha256": "67ae0582d1f469ef74521b1dbba0bff92fc5c3b59e4dc3660a55dc5e7edec1d9",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:30",
+      "task_type": 2,
+      "fixture_sha256": "779122b09b029d389443307361a23abda1183d20711510fb828e80c599a67e05",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:32",
+      "task_type": 2,
+      "fixture_sha256": "e37fbcd6411d3640c32e1baed0f043160ed156d5c000172d1ff7190bf0384083",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:38",
+      "task_type": 2,
+      "fixture_sha256": "81d54ce1f584f247dd48cde5b89a6a48a8eaa64409a0ba8ee748a445827d4a93",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:120",
+      "task_type": 2,
+      "fixture_sha256": "9aa013532a498969366caf3989d09ae34d974cd4f3abf5c4f88fd2a72ec76cf2",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:132",
+      "task_type": 2,
+      "fixture_sha256": "05751a9c665ba5efeed7b6cbf0d60d29b328924ea9c11bf95fd102299b485709",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:135",
+      "task_type": 2,
+      "fixture_sha256": "de5958d971d9e8a0bd09c712e818665d8ee08f77283f95c43f96f7743f5d8a51",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:136",
+      "task_type": 2,
+      "fixture_sha256": "d16698558290ff74e1d41d933be9e465f221ff26384cab306f6895c8ff17c31c",
+      "accepted_attempt": "manual_specification_v2",
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:2:138",
+      "task_type": 2,
+      "fixture_sha256": "8c781aaf521c4a96b9e82631b0a46437f37c5e10e7e35d43fef6f91fcc9a499f",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:42",
+      "task_type": 3,
+      "fixture_sha256": "aff92103128f5ee6bb138f7298053c22ec12ee543b5687b6f860b6e994dfae84",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:47",
+      "task_type": 3,
+      "fixture_sha256": "0b05d2e7a2569055254c8983351a156a57961630d029ed1d1b9511ab61e41367",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:53",
+      "task_type": 3,
+      "fixture_sha256": "3a8982154713bf1dc5c8495db3ccb3ee3e1023c28d58d02cc90ece34e5c67f70",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:54",
+      "task_type": 3,
+      "fixture_sha256": "25c30cfb3e97ab4aadc51749941e1bb5cd5897663f5d1603ce11d7df95bdbdad",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:56",
+      "task_type": 3,
+      "fixture_sha256": "d93116f0ff8de4c945663bdd05135e1d4ad443064b7067dc99c81ddc448f767e",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:58",
+      "task_type": 3,
+      "fixture_sha256": "7a8dbdfca67703ab058ebf2341ec2aab6b3bf27b93d54bf8a8268bfcf208576f",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:143",
+      "task_type": 3,
+      "fixture_sha256": "dcbebb88509580763e8087f9fffce4219cb8c4cd1ef36475f1cd7a5262af06b1",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:145",
+      "task_type": 3,
+      "fixture_sha256": "8e3585de86d4ab7641c4dcc959f6dd53acd3cadaaf89dc841eedb0ebcb2c36e7",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:3:149",
+      "task_type": 3,
+      "fixture_sha256": "b617bde27ef2b8ab491fb17a0513137d949c83ddb9fc87f379631555a363c5e7",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:90",
+      "task_type": 4,
+      "fixture_sha256": "f904482c99c644a4fc09ea56daa5f002772c2044e33a761d2a1bf49f430a87b7",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:93",
+      "task_type": 4,
+      "fixture_sha256": "3218bf7ce2af4feebadee27dd40bf28856c0effe37db59ae73d00d4d32a3b913",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:161",
+      "task_type": 4,
+      "fixture_sha256": "dc06d022496f31243374b1f93e4253c18a7935db69f2f16f8aaf6a77b905a9ec",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:165",
+      "task_type": 4,
+      "fixture_sha256": "4ca9397bcfa92bd668567683fc608192d43167ac952b7693f7aeadfe5b0f9aa2",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:166",
+      "task_type": 4,
+      "fixture_sha256": "001bfba5800e5a3462441c0b8f92e865e4ad8452f21dba644326ac0f932b9be0",
+      "accepted_attempt": 2,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:172",
+      "task_type": 4,
+      "fixture_sha256": "a03d30d8bea41084dad7e5227201e69379636881fbe19defb0f7f4ca8d947843",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:176",
+      "task_type": 4,
+      "fixture_sha256": "f7f4a3e94204175536d857af245dbc17816b23e2a792176c4e10b955300edda8",
+      "accepted_attempt": 2,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:4:177",
+      "task_type": 4,
+      "fixture_sha256": "d6a33b7467b25e8fd49b1ed407f3d2b9dec6f53b5f22fc2ff5169e127ebcfb0e",
+      "accepted_attempt": "manual_specification_v2",
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:70",
+      "task_type": 5,
+      "fixture_sha256": "d34ff66fe5084f8d6caf32a4222e74846d7f3246b828c036326995aafad32700",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:72",
+      "task_type": 5,
+      "fixture_sha256": "d9f625f098160e40081384d177813e47bad962e3f00c568c2434ddd5ec14f5c0",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:187",
+      "task_type": 5,
+      "fixture_sha256": "7fb4ec3a940cfad36eef806979900853b2cf4d84571ca4dd486ec51df209f015",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:192",
+      "task_type": 5,
+      "fixture_sha256": "2b8f9fc05b0a86f4c8cd2647be78d49e5c29452faf404f733b98e66bb78e567c",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:196",
+      "task_type": 5,
+      "fixture_sha256": "0d660f7f6dd1c0dba262e983ed60c840d49d8c1fdc18c6000b3c0713007e4ea3",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:198",
+      "task_type": 5,
+      "fixture_sha256": "21235f78448955941d4f79b16ded98121052eb32d5a17dcf5abfec37fbab9ac8",
+      "accepted_attempt": 0,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    },
+    {
+      "uid": "upward:5:199",
+      "task_type": 5,
+      "fixture_sha256": "fdc3506858e2fe2707d146ca3b5724685b03af94cdea0c5fbeb4c844a535ded6",
+      "accepted_attempt": 1,
+      "sufficiency": "pass",
+      "adversarial": "pass"
+    }
+  ]
+}

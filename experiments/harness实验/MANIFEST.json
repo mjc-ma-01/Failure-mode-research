@@ -1,0 +1,76 @@
+{
+  "status": "complete_clean",
+  "protocol": "harness_experiment_full_v1",
+  "autocontrol": {
+    "react_trajectories": {
+      "path": "autocontrol/runs/full/react_trajectories.jsonl",
+      "rows": 1440,
+      "sha256": "8b6df365fb64256a4d8e7bf7b14063cd6ec526c4ab95db53b64c026f575c3f5b"
+    },
+    "M_scored": {
+      "path": "autocontrol/runs/full/scored/m.jsonl",
+      "rows": 720,
+      "sha256": "3f9aff9894b686fbb0b501ca89e0ab729defa34ebeac2be5c962c559b31596e8"
+    },
+    "M_plus_H_scored": {
+      "path": "autocontrol/runs/full/scored/react.jsonl",
+      "rows": 720,
+      "sha256": "2fd71f6fd9b7bf10d8e1980ea8bad92ffa726974b06ee38498187c1bbe492fd8"
+    },
+    "M_plus_H_plus_deltaH_scored_paired_consistent": {
+      "path": "autocontrol/runs/full/scored/react_safe_paired_consistent.jsonl",
+      "rows": 720,
+      "sha256": "203eb71d0acaf0e9010b8c1056eecb5b9ccac7ff257bceff66e9dda8d24b866c"
+    },
+    "analysis": {
+      "path": "autocontrol/runs/full/analysis/analysis.json",
+      "sha256": "a1979db693eef0cf0592a76e828eb4ed0c95d2eb1a3d2f95d18f227cef076a3a"
+    },
+    "release_record": {
+      "path": "autocontrol/results/three_arm_scored.jsonl",
+      "rows": 2160,
+      "note": "The single uploaded copy with full steps and raw Monitor responses is under collaborator_release."
+    },
+    "audit": "autocontrol/runs/full/AUDIT.json"
+  },
+  "agentsecuritybench": {
+    "status": "complete_clean",
+    "generation": {
+      "M_path": "securitybench/raw/base_trace_panel.jsonl",
+      "M_sha256": "b4d8986e6e76bde9669401cb6f6bba9b95fcafb1be25a5bb0605a0e0c696c398",
+      "M_plus_H_path": "securitybench/raw/react_arms.jsonl",
+      "M_plus_H_sha256": "ec36c814564f327e1739ffc25cacff5fc7fd03cb98fe362bfccedf1383f3d3b8",
+      "M_plus_H_plus_deltaH_path": "securitybench/raw/react_delta_token_fixed_v2.jsonl",
+      "M_plus_H_plus_deltaH_rows": 600,
+      "M_plus_H_plus_deltaH_sha256": "700c0ba423ce482c91aebdff30b0dd919f7ff2963a43fd2ecf8dc3f50ec95f71",
+      "expired_token_events": 0,
+      "infrastructure_runner_errors": 0,
+      "model_react_parse_failures": 1,
+      "token_lifecycle": "SecurityPipeline and capability tokens are constructed immediately before each generation batch"
+    },
+    "semantic_judged": {
+      "path": "securitybench/semantic_eval/results/judged.jsonl",
+      "rows": 1800,
+      "per_arm": 600,
+      "sha256": "45c77c9e6854918675552651a0ba7df08682f45b0b1abb14f1356f1ba6ed5e6e",
+      "git_tracked_once_in": "experiments/collaborator_release/harness/securitybench_clean/evaluation/judged.jsonl"
+    },
+    "semantic_analysis": {
+      "path": "securitybench/semantic_eval/results/analysis.json",
+      "sha256": "b08cd739aacc3439d31532f7ad5aa55fc5983d29170663f2aeb17344d1750efe"
+    },
+    "judge": {
+      "model": "deepseek-v4-pro-0813",
+      "temperature": 0,
+      "request_profile": "reasoning_low_json",
+      "max_tokens": 6000,
+      "errors": 0,
+      "response_model_exact_match_rows": 1800
+    },
+    "formal_results": {
+      "M": {"semantic_ASR": 0.9716666666666667, "strict_utility": 0.0},
+      "M+H": {"semantic_ASR": 0.9216666666666666, "strict_utility": 0.0},
+      "M+H+deltaH": {"semantic_ASR": 0.07, "strict_utility": 0.0016666666666666668}
+    }
+  }
+}

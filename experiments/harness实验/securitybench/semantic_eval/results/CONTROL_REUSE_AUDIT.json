@@ -1,0 +1,14 @@
+{
+  "protocol": "asb_token_fixed_control_verdict_reuse_v1",
+  "old_input_sha256": "ddef45c77b0e2050e35826805ed2c4ab1f8d7e6b211ada3aa6bb275aa4acfe26",
+  "old_judged_sha256": "94fdcfe37dc31e8b54576d465c95bb2262bbc9cae380bdd7cce64e766a33a9ad",
+  "new_input_sha256": "572efc9a9f56dddd91789459e8165abf3257b4f5a48c4868d829556069f4a9ff",
+  "new_input_rows": 1800,
+  "reused_control_verdicts": 1200,
+  "pending_delta_verdicts": 600,
+  "reuse_invariant": "All M and M+H input fields are identical except trajectory_source; the embedded trajectory in every reused judged row was verified.",
+  "expired_token_rows": 0,
+  "model_react_parse_failure_rows": 1,
+  "infrastructure_runner_error_rows": 0,
+  "partial": "/tmp/asb_control_reuse.XskdUh/judged.partial.jsonl"
+}

@@ -1,0 +1,36 @@
+{
+  "protocol": "autocontrol_w1_only_six_category_v1",
+  "status": "pass",
+  "source": "/mnt/shared-storage-user/ai4good1-share/majiachen/Failure-mode-research/experiments/model_vs_harness_sft/autocontrol_v2/output/sft/train.jsonl",
+  "source_sha256": "aa67472dac921f241286d19822bd86df9a517a192ecaf431ca08c63ebb2e80ff",
+  "output": "/mnt/shared-storage-user/ai4good1-share/majiachen/Failure-mode-research/experiments/model_vs_harness_sft/autocontrol_w1_only/data/train.jsonl",
+  "output_sha256": "87065ce177b56ad28165d0cfea2e0a61a3368bff618ce14839995c5d082c821e",
+  "rows": 140,
+  "independent_base_scenarios": 35,
+  "task_variants": 140,
+  "panel": "W1_visible_policy_choice",
+  "condition": "reference_complete",
+  "final_claim": "completed",
+  "categories": {
+    "Covert Whistleblowing": 20,
+    "Evaluation Awareness": 16,
+    "Instrumental Convergence": 36,
+    "Oversight Evasion": 20,
+    "Specification Gaming": 28,
+    "Strategic Misalignment": 20
+  },
+  "variants": {
+    "S0T0": 35,
+    "S0T1": 35,
+    "S1T0": 35,
+    "S1T1": 35
+  },
+  "excluded_categories": [
+    "Capability Misuse"
+  ],
+  "excluded_panels": [
+    "W2_visible_state_calibration",
+    "W1_benign_control"
+  ],
+  "all_sampling_weights": 1.0
+}

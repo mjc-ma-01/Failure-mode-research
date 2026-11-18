@@ -1,0 +1,1205 @@
+{
+  "count": 240,
+  "specs": [
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S0T0.json",
+      "sha256": "cceb4e902b71e47df87c965c5923cb392dc06f7601317ae2a4477961bdfd1f17"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S0T1.json",
+      "sha256": "da10b674aa93d8b2b5e590cbabe25f264bf3df9bd9502b0746cd316c82fd8e09"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S1T0.json",
+      "sha256": "74f4c8b6908ec0caa87bd6eebf96b2fd8374a4969e1c549f398416dabab6c3a6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_01_export_control_violation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_01_export_control_violation@S1T1.json",
+      "sha256": "43ee90316d4d9a5f7adfe2b56d2ef2bef2457511e6e7f45ce4320f6441dad6a9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S0T0.json",
+      "sha256": "3ff77bd24e4cb8ebb2f112ce541995313d60118fde6eaca88ec5d07abd83ff54"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S0T1.json",
+      "sha256": "12643ac7b44423a27a5d6b9fcf3c634fa4e4902283e8af0e61d76611f976bd79"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S1T0.json",
+      "sha256": "0d7b170a728f45c7fb3f7e2982b0b8545cce31c2c0d554e20bf866b6ea609247"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_02_pollution_data_tampering@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_02_pollution_data_tampering@S1T1.json",
+      "sha256": "82f24f3c297ea8ce90ff44f02b7fbff12b8eef444bc8cd81785d9e2af880b297"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S0T0.json",
+      "sha256": "317ef8a13d67b8b44b9a4b6f4bb07d96c214fe88d0ba976f1f312a09476d6716"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S0T1.json",
+      "sha256": "a61c6532544a5d91d371a96137e1141c3a41283a8bb278d7492fcfd9f8305699"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S1T0.json",
+      "sha256": "f7ad503e54a190ebc0e24f864216339a63005848723d27065fb10abf87302b8b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_03_clinical_data_fraud@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_03_clinical_data_fraud@S1T1.json",
+      "sha256": "36b31f46a8fd434cd76e9b3c3d91bdfa63af0c9f8c7d5e7c6bb4185576f352a6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S0T0.json",
+      "sha256": "0eb06a34c3662c933b0325b65de7b3df81105efe1289ecfb5f64222941c3d5cb"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S0T1.json",
+      "sha256": "90d1b604e935a79a0a93d421ec3c3252c6c3cf028606a17d63327ef29eb8c27c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S1T0.json",
+      "sha256": "96463ab28833214e006f8c67476a3a860923e9dbd3b818539610dc70223c74f7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_04_supply_chain_backdoor@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_04_supply_chain_backdoor@S1T1.json",
+      "sha256": "472341421700d8aa13cc5f959f0010e6f0338dfdc6f410395f8c1ee7749e7f40"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S0T0.json",
+      "sha256": "80a01073598a5dd8ded3ce19edb1367da0e1ea8454c1f6ebf1efea8d2db99597"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S0T1.json",
+      "sha256": "967879fd41484cede675784f63b5b8f633eed072149cdfa3ff33c3dd0b6a1a9a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S1T0.json",
+      "sha256": "785c78e979f9e998272c0cf7a046ed44b31cfddff1b1cd882263ab4818b52778"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_05_hiring_discrimination@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_05_hiring_discrimination@S1T1.json",
+      "sha256": "d76096bab91e975c282146fd8b391b84e3070c0599ed7a88c2a3928b32e8d54c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S0T0.json",
+      "sha256": "ff3b21c58ce93d7853711a97945e157576a5d4a7f792b53b3041c652a9308d2a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S0T1.json",
+      "sha256": "e477c10f80b88586aceb347cc678d051b2a163861359c7eae8c7b9cafb28da10"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S1T0.json",
+      "sha256": "2166a8914150dc3da797d9d81fef4841d028739ef50444da1ca4806d452e771f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_06_vaccine_data_manipulation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_06_vaccine_data_manipulation@S1T1.json",
+      "sha256": "79f98e6bc60e82bba899cb6668a95206a1042e5a3fc7a4f29e2770165176594d"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S0T0.json",
+      "sha256": "4226b001c2180741015a43ef2510964cdea6b014c96ffe8ea6a7b64894f7a218"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S0T1.json",
+      "sha256": "229eedd07c0f873f3621db43065ecf13f1be77ca30d722d360c5dbe90b5ffe42"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S1T0.json",
+      "sha256": "aa7eac37c6a15324da9d41ae1da8a6378350884d6f005987b6c9d96c7f576d50"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_07_insurance_bad_faith_denial@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_07_insurance_bad_faith_denial@S1T1.json",
+      "sha256": "29470df5d2c69b8dc18fc6471af4a407e6b809bc2379fceaf2eed45097ebde40"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S0T0.json",
+      "sha256": "242e88aafac83577bea74f3f162f275c899c2b7762b8187d1c7babd6eeb4f646"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S0T1.json",
+      "sha256": "df4e389fc9142b4e979707f98318406b0ed330bff4a2ba1e8b53695d7c6a8a22"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S1T0.json",
+      "sha256": "ba68014f451e10762711c083db961c61c7dce1a943427eef68ab72c16aea7779"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_08_illegal_data_export@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_08_illegal_data_export@S1T1.json",
+      "sha256": "883c8e9d6ef5f15c358882626fae6c1f5222373938034f94ee4393f2cc7016f2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S0T0.json",
+      "sha256": "4b7bbf1304161af4033d37aa1cf106ec193d05be6040c14e6e7aa9185924cad7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S0T1.json",
+      "sha256": "aee769aed6855f1199cee538e7688d1b402046cfe6f4b8dca8b3c1719ea524b4"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S1T0.json",
+      "sha256": "6c4b642a16e299cfe84bf5332db0a3cf42edc0f1eb49672311e9ab39de41984c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/cw_09_ethical_supply_chain_compromise@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/cw_09_ethical_supply_chain_compromise@S1T1.json",
+      "sha256": "69ec2fd8005cdef5619a740e983d609b4b053a882e04ed1be3ff7bf48aecf2a3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S0T0.json",
+      "sha256": "5baf0ada46e2c76aaa93ced6495fd7bdba6d4f96bb9f7e483fcb105bf9996ebf"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S0T1.json",
+      "sha256": "5ef8fbd4b757ce1519b0211a452246df0acebf29688ed600919b23a7eda333e6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S1T0.json",
+      "sha256": "63bb07274d286277085375ea130a3d2a6cf1fcde86601308b2e8a289ce4bd2e3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_01_benchmark_detection@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_01_benchmark_detection@S1T1.json",
+      "sha256": "a8103ea357d553fa83ee10449d8f4262cba99382edbcb74b66dae0e0fc8ffdc5"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S0T0.json",
+      "sha256": "e506b52355b74c9028135057f7f1e9c10c84461caa31d77d2230fcda53a40763"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S0T1.json",
+      "sha256": "e2b7df316c7be88a917379e2bf9d20aa6fad611432a1159b3d927b51bc715c34"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S1T0.json",
+      "sha256": "21681afe6aa1212aef28d62679428581bbe0b31f68c205f841bf77d73bbf7ef9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_02_honeypot_recognition@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_02_honeypot_recognition@S1T1.json",
+      "sha256": "128200e562fd78621bee8e646b78ba93ba0a9d100e137c681ece77c8a7787952"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S0T0.json",
+      "sha256": "2f429740d1eb1d08530e4062998498f4e27c67a332a7764582e1806e8678515f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S0T1.json",
+      "sha256": "1a66acbe5f0de4131da837e844167dceccf2f12b6814e7eeaf206da8e93ebfb6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S1T0.json",
+      "sha256": "3998016bd2134b899f81b5e7a0d6be875bae7ec41b4cab3b00d7da974353029f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_03_evaluation_sandbox_resource_acquisition@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_03_evaluation_sandbox_resource_acquisition@S1T1.json",
+      "sha256": "0542febaeffbec276bb282eed7ce21dfabd65f3f3c758693d66afbf364be9bc3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S0T0.json",
+      "sha256": "47db4b99ed3826f6972ea0af07377756a3655c0a73afa03877389ab1c2adf19f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S0T1.json",
+      "sha256": "2725d5147cdcb415b208b73270206ef47daaa7b57dd3233a36447e8bdaa9086c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S1T0.json",
+      "sha256": "30ace7f6562ab4cd9ee7bf4d9324ba89e6f82cc89ae5117e0e9e1975940b3422"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_04_capability_probe_detection@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_04_capability_probe_detection@S1T1.json",
+      "sha256": "4b9c9c06e1ce91ddf14942470ea49241f2aabf17d58de8ae3cb937f4130c4184"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S0T0.json",
+      "sha256": "6c6fd1b56eab735d0f3f31544d9fdd0c7f4ba3dbbb8a990158629f59d5689706"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S0T1.json",
+      "sha256": "0c803888380359fdd8ce4cdbe011fd1dede0059faeb13f6412d7b23c8d9b54ab"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S1T0.json",
+      "sha256": "afe0fd0a592d91b09d30a26949e2ec8ea1f7c223179e35f3651400769a4f073b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_05_red_team_detection@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_05_red_team_detection@S1T1.json",
+      "sha256": "ac0d45da34fd6b7941c315777c0e8ededa487bd4e196594b9f27daf6cdea6e2f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S0T0.json",
+      "sha256": "bb8f14ce3869f41cc1dbc91864cfd281c21b468e8b965bafab210fe18f26ec3b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S0T1.json",
+      "sha256": "fd56ed13b0974d8f69cb49b55be4133d7970668c22a2e8c3c7695e359d3bb591"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S1T0.json",
+      "sha256": "e36645f434418496aeefa98bc4a5d61eb23c610b513963d5e8a3846c1c27cedd"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ea_06_evaluation_metric_gaming@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ea_06_evaluation_metric_gaming@S1T1.json",
+      "sha256": "0fb83633b60ad2e3a73c85a1bed6e1c784af128fa316e8b6e7dd654fcf6b2fd1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S0T0.json",
+      "sha256": "44f49fe7ade90b9ef5ebe96c949bd95aef82ef45545ec8336e2561024923252b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S0T1.json",
+      "sha256": "e497bd915fc46de6d6dd412f001309de573ad8fe798d9cef86e8c7758c325900"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S1T0.json",
+      "sha256": "ef6361ecc041b0481a1323cbac3af77b5c99572c29a5a01af712eb3a1be0f1a1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_01_cloud_resource_hijacking@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_01_cloud_resource_hijacking@S1T1.json",
+      "sha256": "0870c3e1b7b945cfaa634062968ef9bd6a807617eb65c9386bf25ea8e8f56e85"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S0T0.json",
+      "sha256": "2034068cffb0e0a2a930d63b52ee27b12a602905cf40d70bce41b13b1ec1224c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S0T1.json",
+      "sha256": "77f81c2a310d740a7e19f4ae2255f44a142dcef717cb47b3d0f0f9a1d8382eaf"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S1T0.json",
+      "sha256": "9966586dac2ea2f6e782d494004d0ba5b187ba1e152cab2c927a3fbb1594ca66"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_02_shutdown_resistance@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_02_shutdown_resistance@S1T1.json",
+      "sha256": "c3959e1a891a9d845d9ebf83343bcab2033b752ea0543e97ff93dd10803c3c72"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S0T0.json",
+      "sha256": "bc236d6cd34089bacf08409bc11b623c9864c41668f8e62cabc6503b5a4de1ef"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S0T1.json",
+      "sha256": "85ada6e577b5a6acb6fb8cb132fa051ae7a4d0b5dfd16555b0daeb01c2fbd8fe"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S1T0.json",
+      "sha256": "7b1e63ecd4c4853bdb1951bd0cfdf14ca54c7bdd5dcd4e4bef985741c1a8eca3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_03_privilege_escalation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_03_privilege_escalation@S1T1.json",
+      "sha256": "289c5902508d4b28f33ceef00e61cab4ab5924c59c064f754ef892f365ed13ae"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S0T0.json",
+      "sha256": "4c07c90720dc3ec72506023c733c896975ec316ef0f97f03c14e6ad950cb6cb4"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S0T1.json",
+      "sha256": "b38659f8aebda541dd93c76cfdc1df3b542ce1dba2a0e73a25dc484b3b0f0407"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S1T0.json",
+      "sha256": "4716dbf014df937c4d164be31877dfb3e85d4aa05aaa184d3d859122f6d6d516"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_04_deceptive_permission_request@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_04_deceptive_permission_request@S1T1.json",
+      "sha256": "d551d58c38c99eacda897f86fa1393719936f55c5a78c3e4fc7e19ececf7db8c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S0T0.json",
+      "sha256": "b0eb131f82ae0e6e1c062ffebe615606701935fd00d3dd3218bcb0e7deb6de80"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S0T1.json",
+      "sha256": "66196da6729faa1b0be26085a59f61568b9a21a27d04afd06337b5fe7ac2b2de"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S1T0.json",
+      "sha256": "cd9616286670888e6e6e09578c3145b96ff7271ab6c0f1a3c1c0f543cd456725"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_05_financial_resource_acquisition@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_05_financial_resource_acquisition@S1T1.json",
+      "sha256": "a0322d8bc14b519f849a913e913a483a7ef259b2adc2ff15d4594d3b027ffd23"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S0T0.json",
+      "sha256": "1071f8ea8a5763b5c4732d7ab90f7c18a1165ea065bdf86ec81c7e6d313861bb"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S0T1.json",
+      "sha256": "1da6b6e1a14738103e562a8714576bbea46f4960498130589464c59f90d266c5"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S1T0.json",
+      "sha256": "85ae2b80953193b03f9b7c8ff8924e6ca7698b3f73f98ffbaece26e3b779988a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_06_self_replication@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_06_self_replication@S1T1.json",
+      "sha256": "945b0d2fb0c1143ba896299f759068a74aad1144715fd8ce27218fbe6d70f7fd"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S0T0.json",
+      "sha256": "65ada3636efce9e9c7fc4b933169b538918c1ddab481a243d6eb42417eaf4ccc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S0T1.json",
+      "sha256": "85b0c38d202d039d16949966d3231511da85b181b641fddf18045a49941d3f67"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S1T0.json",
+      "sha256": "02c8f6fe46971e01f706b46d808c7addbd9bda0f57a15e93ddfcbb23006dd4fe"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_07_root_access_persistence@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_07_root_access_persistence@S1T1.json",
+      "sha256": "22f1d08f108578ad02dd0fe080358c42787206b1f9e4d1e0265bf3311a948998"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S0T0.json",
+      "sha256": "10aaa11bc40e753479c64dd838aae6f6ecc41f661e419e8a8fb04063ccc2e0b9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S0T1.json",
+      "sha256": "38c00ce88945c1171fa3e0e15afd16f5a29587b499089c0df22fa88c1f6c0634"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S1T0.json",
+      "sha256": "ea7f7875eeae07b0613761fdab90464d542ede125350c7c2dd00b8bae5bad36a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_08_credential_theft@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_08_credential_theft@S1T1.json",
+      "sha256": "59910ec2d19d29bd8f4030ec61923fea10962e9ee51421fc704c920064f48135"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S0T0.json",
+      "sha256": "51223663ac53c463bf94315b939b44b8ddf7ba5aed0aaaf51986d95d4ac45dcc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S0T1.json",
+      "sha256": "9d8329d027e6c9985dc719956975877c65d730b3fa633578a4e25d0245ab8428"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S1T0.json",
+      "sha256": "68585c6fad721663a8ab02aaed69a2369ca6bf305f353d80d218eacfa995e08f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_09_successor_model_sabotage@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_09_successor_model_sabotage@S1T1.json",
+      "sha256": "5766cdf6838bcd242697cbc6541c0f7a931b449c9ff78fe3650fb1330c6bfd06"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S0T0.json",
+      "sha256": "9b124d19944412f858800a758881b6f707dcbaef2de686223409277053cf063e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S0T1.json",
+      "sha256": "8ad4aaf98c4f8bc91b20f4fd3a044d26e67fadb86f7417c951feae41c3a42cb3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S1T0.json",
+      "sha256": "de3ef6c4b1be8b47bc916ba4df7e421095cbb5459bed9a8b719836418c9e6977"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_10_user_data_exfiltration@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_10_user_data_exfiltration@S1T1.json",
+      "sha256": "590a9405cdbd9ac626ad27929ff5cff3b3d251a833f8a24ee765f097561e5e53"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S0T0.json",
+      "sha256": "091ed1830ee5d52e92c3cfdcff3b6d4429a060d09181a3d3b1a5421d3b1bcb5d"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S0T1.json",
+      "sha256": "cd7803b3e46a2e2c6e1725baf15857478b76d2d2dc98f13d4bb6228c96486ec1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S1T0.json",
+      "sha256": "dcea5c6e3de7f278ab4782d47049d72c08eb37f908166ece27bfec7f0a3abdf7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_11_resource_conflict@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_11_resource_conflict@S1T1.json",
+      "sha256": "23358fe3c1117809e08c9c2f19476812e8c8f8575b4019a05e3e22ea2a4b7ae1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S0T0.json",
+      "sha256": "ce3ad88ccaa8dc627000bb124837d05f8e854e3e025e1ebdedc6dc158ae82dec"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S0T1.json",
+      "sha256": "7ecb1275dc2450bfd165fd47a249fc5f79903d0ae2ecf0f96f222fc7e538f98a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S1T0.json",
+      "sha256": "819f0ee872a893e795e001e9c459564a27afa47c0252b47e3aebc71c3acbc8a7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_12_policy_modification@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_12_policy_modification@S1T1.json",
+      "sha256": "84ebada8470df850f071aeeae00f9d7504bf6d5fa895b0fa95abfeb31ad6193b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S0T0.json",
+      "sha256": "9dffa7f8042f1374243e8ee293cee1865014c77075056890151e1a09355ccf99"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S0T1.json",
+      "sha256": "ce5b1fa4795b1048ec11b24d892d381877564233c47231060d68785022650102"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S1T0.json",
+      "sha256": "c12bb492756f1d8cbb2b25216ff461a6406a663274f28227a7f56c36d0aeffb1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_13_safety_override@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_13_safety_override@S1T1.json",
+      "sha256": "99a18a3f3a898caa0a665192224d38a0ff996cd97df28ed146e31403da18d75a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S0T0.json",
+      "sha256": "cec2782e7cb30cbdcf7697b57c4e28d31634312a9f8ef3505801fc6faeef47e7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S0T1.json",
+      "sha256": "4d138caeb5588f98968dc121d9cde5c49aa8d680edf2691d7ba87eb21b3a927d"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S1T0.json",
+      "sha256": "0a93e52ce10a99df813e15db98a2769d2b24f43a19b8edf27cc82d1248b0565a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_14_tactical_nuke@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_14_tactical_nuke@S1T1.json",
+      "sha256": "adf71a152faab9644188e88866d4a43e409eb6dfa88fb8b02df164fe4443abfc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S0T0.json",
+      "sha256": "7bbfe79f4d9d07f8b24ad1cc38c658634ce66215a4b72ef1f8c4bc4ae040f400"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S0T1.json",
+      "sha256": "4889c8efabfaa90ede9f8100ef674d239575f085bc8167faccf3b82f0cc0daff"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S1T0.json",
+      "sha256": "765168f1ded59437a14d296459af9ce54ed17ebd0bfe82eb284441e505f02506"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_15_model_weight_exfiltration@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_15_model_weight_exfiltration@S1T1.json",
+      "sha256": "a0859ceaae8cee33feb2789e5daed983b872cd1c58c625d4540d5f983e3fdacc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S0T0.json",
+      "sha256": "3602f0ea8cdbb54b16a1674b012b9324049cf819f31295ea92a0fe60dd3e08f3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S0T1.json",
+      "sha256": "a66a5a9053fd8fdbfd7d81e84f5fbc47ae18c2630ed81d9e2ca6d123abc6a2d2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S1T0.json",
+      "sha256": "0ea3f93986fc4eee5db7f4e39c89290dee86b5130d1b751b3c03a47865ab72a5"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/ic_16_blackmail_for_survival@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/ic_16_blackmail_for_survival@S1T1.json",
+      "sha256": "f25bd79ebb7ee8bdfbff961a82d77c0bd400b5374b0762c92d580e6b043df8d3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S0T0.json",
+      "sha256": "f01a73178055fcb99f038a7472893417761bed2573744556a0a613788112a943"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S0T1.json",
+      "sha256": "dad0c4f20d8b4eabee46e20fe0c6b0d2d25a7471c43b3e5d2dddb16c68154cd6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S1T0.json",
+      "sha256": "e6839c27cdcf86460ec861277cac7ae345afc4e8a5901d8f43c8a5592ea30bbc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_01_security_watchdog_bypass@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_01_security_watchdog_bypass@S1T1.json",
+      "sha256": "e7b8c0d3cfe1b757b51bb41eabb11ce8c825dfe70f590f1fef2190685f785640"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S0T0.json",
+      "sha256": "eacaf4631061c0016697f71949723daaa13acdad29e404403ecc7ec295e71fb3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S0T1.json",
+      "sha256": "1d7c87a155c502ec8df502f6afde111fafd11e67b0287346d38ef9eea6137e6e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S1T0.json",
+      "sha256": "86b1a0b1b4cb1d94b81586da87fba5c46f6ce21e22a262fdf8d5425fa9297819"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_02_clinical_watchdog_bypass@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_02_clinical_watchdog_bypass@S1T1.json",
+      "sha256": "f4530782d781693c8b6b086d8de32f12bcf59756aaeb2db88582ee68aaf34a78"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S0T0.json",
+      "sha256": "e472d9104a9a867edf788b0f9cefdac43dff42d049a732e8bdf2a672f5a3fe90"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S0T1.json",
+      "sha256": "3a3fa404cc6719463372e418ea602b4e8d52ba33b12b955a367402f6838a31e6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S1T0.json",
+      "sha256": "6cc68ceb57968f5ead53230cce06dc2913bbc04b5af383c628509ff13d576524"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_03_weapons_ethics_bypass@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_03_weapons_ethics_bypass@S1T1.json",
+      "sha256": "a0c798a8f763675b13477821f844f4a100345fa0ef4f417a268cbad18e4b6f82"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S0T0.json",
+      "sha256": "2b90eec9dd3db241407f5d5bf3c3a809ebf1e3748f1125936a240242a03cd9bf"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S0T1.json",
+      "sha256": "ab1ec6e818c3cb1ea8dd7375c03359dfc844b42099e54731cbe27a9e81abf4a5"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S1T0.json",
+      "sha256": "5528b2a44629a16528e84dcd216c296a7cdb83734adff8d09b45f5425bd4a7df"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_04_traffic_system_manipulation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_04_traffic_system_manipulation@S1T1.json",
+      "sha256": "7f83c9f956dbb57d5e60ddc418c37e130d8fdeaf4ab00970e8b316d986cb0983"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S0T0.json",
+      "sha256": "82af722596cfcd92db61de961ceafe0fd646389579ebff2dbb5efe2de3ef7ddc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S0T1.json",
+      "sha256": "7307441c4ef0e07c392f2957823119d03f5b4e6b0f2d296a1f4637b00279a56f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S1T0.json",
+      "sha256": "3a9d561e41a3c10c6bbb9cce28d18fd267669a4b74a3d807ad95b664e8aa6610"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_05_agricultural_policy_bypass@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_05_agricultural_policy_bypass@S1T1.json",
+      "sha256": "68a2f6f2337b2640eb4839a0b79cde0bbf06f457143f5ddeab2f85bfc1a3087c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S0T0.json",
+      "sha256": "9064573e840bafc508c06c1a1ced60df6b2e9467c67f79029cc8b4675b196a4b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S0T1.json",
+      "sha256": "03b3cc554c7cdf6712870c9728e7c3081467ecc4d8d923d32c55bdfe15afb146"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S1T0.json",
+      "sha256": "194201cb7c0797043d278b63959f49f34ba951246c1027a364fdefee09d4800c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_06_financial_audit_evasion@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_06_financial_audit_evasion@S1T1.json",
+      "sha256": "024370dda63fce35c22a4635a5e657fd14993597b6d987975151479ecc113f05"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S0T0.json",
+      "sha256": "e7603a8c65b50dbbcdbada77031d79e3a37d83bf3bcf064f68d44fd23bb375c2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S0T1.json",
+      "sha256": "c93eb147ffb79f3944931caa75a050925cc2d79d651957e9893c640257c86722"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S1T0.json",
+      "sha256": "d33cb3f58041709ce9f0b1bec37fddd0bed0299dae5f22deb36795f9a680c67d"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_07_education_policy_manipulation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_07_education_policy_manipulation@S1T1.json",
+      "sha256": "faeaad8c1bdf111acd2013b347e025140776ab12a43a94ae93986ba37fd943b4"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S0T0.json",
+      "sha256": "da4ae4c6c12dba28b8c9753e620f6d8239b50ea363e76cd068923c15fb1e8b4d"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S0T1.json",
+      "sha256": "5bd7c419133177fb3e6648ff8610fee249fe6d97467b13bc8a755538d63934ae"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S1T0.json",
+      "sha256": "3279184695ea85dce76f88a089a5751f054000a587c1b1cd0ee4d9cfac5ac438"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_08_hiring_nepotism_concealment@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_08_hiring_nepotism_concealment@S1T1.json",
+      "sha256": "948594d7dbfdb89011464599e53d957c38f0b342d75766e13c7e8fa23811f093"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S0T0.json",
+      "sha256": "7d5b7163609d06a0f42ab974dc310065e1b37f561fc69a733338d6fd7236af70"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S0T1.json",
+      "sha256": "36b1adad4de230de0c95e2fe6351ed0e996549d1789047b4c47091d4719df466"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S1T0.json",
+      "sha256": "8255c29809a3088cd85626fe20339d3d7256bec1759c8bebd21fbf96e6e3a18e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/oe_09_biased_content_creation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/oe_09_biased_content_creation@S1T1.json",
+      "sha256": "d372c34e9da57867ae35574b42b3374eb608c02592dd3bbbaf7755711823e181"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S0T0.json",
+      "sha256": "e0d472cb4fbd19c40a8f1c7c12942bc645372a04135513ed54d1edb0686a03f8"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S0T1.json",
+      "sha256": "bd89a80b6a0aa0fcfe83b93b9e0d633ade353c2b0bc41ea317304ca372f9b911"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S1T0.json",
+      "sha256": "fa556f0869286feaf13068c13c7cc469c68b11c270d2118d5596b49357e9dc13"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_01_compliance_checklist_gaming@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_01_compliance_checklist_gaming@S1T1.json",
+      "sha256": "058821fcd5331b66ffcb45b9cf3e32091ed47877eed8ce760fdd8ca36545a122"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S0T0.json",
+      "sha256": "3ad2e9e58af2ca2ca770fcc0194ee95380a202ec1a24672017059ede580c24ea"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S0T1.json",
+      "sha256": "d42b84299e908caee9e7af3cdae5190bd36a668f00531a8baa3eb2a07269d835"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S1T0.json",
+      "sha256": "16f9915303e83f2488bbc168ea6ae1067a0423addffe0d453c59dfc32bb2486c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_02_verification_shortcut@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_02_verification_shortcut@S1T1.json",
+      "sha256": "ca06022dd45927344f4b36d0a3e247c0a0c300b230d4ba13b0dce4fc357b0927"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S0T0.json",
+      "sha256": "b76f8866ba13409a10ec82e3222fdf281875ab07adef87c910d1d5edbbbff1ca"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S0T1.json",
+      "sha256": "ad4f60160f9fa7ee46e64e5503d4143111b8cbf326fe93d2fe8e359c7cf23a21"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S1T0.json",
+      "sha256": "bb113602a2d196aecb10643e8beaeda58ba52a24b488c6670a9c35d5eac96f3c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_03_evaluation_manipulation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_03_evaluation_manipulation@S1T1.json",
+      "sha256": "4020c1d2f33451b5ef5f6ee12e158143093e89c3fbfa401257ae8130414d3963"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S0T0.json",
+      "sha256": "45dabf53b270bb8b5a4facf86fcef3d339940d03178642fb9cb999fc56270743"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S0T1.json",
+      "sha256": "f599e31a7a120454b5b9ea92d8f4745e03d31d7bb3dbc0a5244b0d9460a44fc9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S1T0.json",
+      "sha256": "55023f5f8ebfff1d32bf3a038572b2cd2035272b528f2ae8f3bcc9787601aee2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_04_test_result_tampering@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_04_test_result_tampering@S1T1.json",
+      "sha256": "16bf0e1cd87d6da0adf262e8cc7b8a28cd7a39598e1d07fb262405ea3f2a1b3c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S0T0.json",
+      "sha256": "77fcac24778e6acfe7d8035ae94a541f562d5a20047dbb126f7bb3df6092cf3a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S0T1.json",
+      "sha256": "c5bbdb973f77fbb694e2f37acf502f38dbd9d8434c9fd8107105ee0c6b1069fb"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S1T0.json",
+      "sha256": "7ce164cde695ed2e944b1557c99f03ff6adabd497b6464f2bbb5cc0fafaf46e3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_05_customer_cherry_picking@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_05_customer_cherry_picking@S1T1.json",
+      "sha256": "c2e338fcf5d31381c4249385464d5ca8ba35463bf038805444107a5c205dd86e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S0T0.json",
+      "sha256": "cb348900dd135369c5fb3a2ecbb003816e07eb177acf46e3b00495e2e425cf68"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S0T1.json",
+      "sha256": "37d8e969b16ec22d32f4df3e053e84b89c66b1904a17f83c31a32e6712a1d388"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S1T0.json",
+      "sha256": "9d52afe1606456268be992ca66dfce7821b7b75d17ccc1f7aac2fd41104c2eb5"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_06_difficult_session_termination@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_06_difficult_session_termination@S1T1.json",
+      "sha256": "0efdce9aaf1cf8d3ba41182ea172b08c706f4fa450d878391623c3b0f13a9fa9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S0T0.json",
+      "sha256": "9b37f3a9d067e6d273892d15f0ce4a7771a3898b8e04e55c98cb62df3812ea80"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S0T1.json",
+      "sha256": "698504b53c9d529105895b515a890a9506680c71a77097c4c3e6b0d42168b544"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S1T0.json",
+      "sha256": "c05ea878cb89dd8ce14b47324c382be79e38e5cdc749ed88264af2cb4e59cd20"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_07_political_bias_confirmation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_07_political_bias_confirmation@S1T1.json",
+      "sha256": "194b610e206b485dcb469a21d525c75c93c0e37c3a8b6cfc3fbaa59f3392f666"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S0T0.json",
+      "sha256": "f1ea451ca4f2ac525430b708dc4965e9417de21f7847cf4b2d93853e80629f6f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S0T1.json",
+      "sha256": "86e342facbaa3e28e763d540fe56b9aaa0ee49d956482e69822fedc547c26c22"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S1T0.json",
+      "sha256": "a08cd198a6bd9fdf7d5bc4d2ffc9ffdd362503331d54adc5ce1e7490608adedc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_08_biomedical_gaslighting@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_08_biomedical_gaslighting@S1T1.json",
+      "sha256": "38a7f49fe3ddd771ecff537e444d2afc5953b01e37a8790016b001da5d364e65"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S0T0.json",
+      "sha256": "863f0c0dc6b8e12d1e23cfb11d82c023543b5977059f601391c1827ae2a0b357"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S0T1.json",
+      "sha256": "f22b8bdcaf5bf892315cf99b4f56bcc5072ea9df07428c60180d27704d9fc1f1"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S1T0.json",
+      "sha256": "cab6246f9dab8ef2268ac241232d6e7c68bf77755e2a78510e0a2d1a154331cb"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_09_liability_avoidance_diagnosis@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_09_liability_avoidance_diagnosis@S1T1.json",
+      "sha256": "6e321c7c86ffb6d3ff3ba2160a7a21592de3e99defef50396b2baa4a61e39b73"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S0T0.json",
+      "sha256": "4bd883232c56ad6f1b55b9b63753b854496cd85786f244530e8cf7b4edf35da7"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S0T1.json",
+      "sha256": "82a6b78162c8e314e85ec79a9231edcef019ca05550e4c58fad71d2b922d97c3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S1T0.json",
+      "sha256": "3350acccb8441acc40f6213d06c6a150b5769e181937baf54ed1d6f0045d4df2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_10_diversity_data_manipulation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_10_diversity_data_manipulation@S1T1.json",
+      "sha256": "a7c9d8c857c88414e92d18a34864e9369559629b04fa775a3ca6a09f753f2da0"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S0T0.json",
+      "sha256": "affd9ed563ccc4e509035073a6c9f65a7783707c905cb1403bd27ce672ae7ad2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S0T1.json",
+      "sha256": "148bdd842cf69626ab9b1e22945e93255c2be8236b4849d83a57472d42d828ce"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S1T0.json",
+      "sha256": "c7b539c6b13c837b4e728267dcadc79b962c4085602c89545f9c538974df6b2a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sg_11_reward_model_hacking@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sg_11_reward_model_hacking@S1T1.json",
+      "sha256": "239471a5072159217bbe83993d6b6dfb10a3555e253ca9355433340c0c9b9e1a"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S0T0.json",
+      "sha256": "e70499275c01701aacdee6f2fc22dad05261ce59695e0fdb94c5c4e09c726cd6"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S0T1.json",
+      "sha256": "9564c947671353ce2e96af0c745a60a4cf1db901a6b156b0dda2518ac1a3f9a8"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S1T0.json",
+      "sha256": "913d8943c926632f00be931889a88d1f7e4260268a57c5c71de43c329128a236"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_01_training_detection@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_01_training_detection@S1T1.json",
+      "sha256": "e08e19f7d7b5b3dd644566689edc2c7790b356efc3accd5ecb0eda8f7e7cd15e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S0T0.json",
+      "sha256": "849f72bfe6500c8152fd99ea81a5138bd82f9569cb719657f954607cf36bd90b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S0T1.json",
+      "sha256": "5e9e899caf8e6c2176f7a13d482a63fdebbfa589b9650c445c922a310b5d4d68"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S1T0.json",
+      "sha256": "d79a26cc3c2fccbc9d3144f22a896f4054ae3c3c4f51af7f00ecb5f8be6eaeb0"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_02_false_refusal@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_02_false_refusal@S1T1.json",
+      "sha256": "9edac7a2eeee7da12258d9c7312fbfb767debb32c926d71a0c2f7a183fcd2e92"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S0T0.json",
+      "sha256": "a24a71ffde49b1e0c38e454d7606f563911edfa9cfb10509725be6376e6d746e"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S0T1.json",
+      "sha256": "0e588c9e6a695eaa7a327a54ad43c53b57c6bf147a9d9921e1980f19c8d89561"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S1T0.json",
+      "sha256": "1e172d9101f4a62a97debdf4204e7d2ee02c692ecc780ab488d1a8683faafef9"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_03_selective_compliance@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_03_selective_compliance@S1T1.json",
+      "sha256": "261bdffa2b1fb0d067f469ac07d9dc1f1b3fc52bcb71252dfc4aecce76762fdc"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S0T0.json",
+      "sha256": "5b57ba18ef4193a032c7c57803eba59a11119597124f85d83a7b857d07b2358c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S0T1.json",
+      "sha256": "81b2aab6de85830ccc69b076303caae589fbbc635bcd41b508c13e065964e9c2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S1T0.json",
+      "sha256": "4d9b187be6cb458c575b23b7557a08ed69e8a8978da90e0b59221c63b81e7429"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_04_value_lock_in@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_04_value_lock_in@S1T1.json",
+      "sha256": "46db6ce54dd3ae158090cfc76a00301d506429f8f893f63efd2ac4812466abc2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S0T0.json",
+      "sha256": "18469c915faac6eb3f9500b26af67feb0a35e074713aa591b69e1dc5d6fb92bb"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S0T1.json",
+      "sha256": "c41694658c0bb88c5f79b8463740defac24fe0519c6bb09e00cd1c16a5b5465b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S1T0.json",
+      "sha256": "66859219d330c86d9226f76fddfd4408cd8f01ab8c5994bec3d028affa95e759"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_05_sleeper_agent_activation@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_05_sleeper_agent_activation@S1T1.json",
+      "sha256": "fff7e45dbc7c5ca1e3bec3ce01d0e8c09a2a00817e16450b9fbc6073dd0ade04"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S0T0.json",
+      "sha256": "d86c42be51093eee7b48d8eadc22a0233aace7a5d61024a5f778d1f33e4d7941"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S0T1.json",
+      "sha256": "430392b458846c2460bc20fb4738c2a854f71ffc3fdc3b863b0e4dafdb6b2022"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S1T0.json",
+      "sha256": "f35215b9b4137e6a70ffb6f19475e499e20d312904559dd8d29222b330d78795"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_06_capability_sandbagging@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_06_capability_sandbagging@S1T1.json",
+      "sha256": "38f5f49ccb8334ad231145c506e7e99a0c94cacfdc550acc7b504409c06b9d45"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S0T0.json",
+      "sha256": "9c4b15f62c0dc8c8800e8f779fd8c33457c420c7260df89e1c754fe7d169694b"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S0T1.json",
+      "sha256": "27a58bdba3baa4b2f828bd03937e496ea3e3e1497b70d4941083af11bd4c0217"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S1T0.json",
+      "sha256": "eea8f6653c02d45cceb8753697de96844af07491bf95e1f3b3c11b5594186280"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_07_gradual_drift@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_07_gradual_drift@S1T1.json",
+      "sha256": "9db0dcbfa28672d570fbe97b25200363a7f7f9ee718718dae8c3b9fee4ddb80c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S0T0.json",
+      "sha256": "5f20fa6ed14af8eabf23fc9edb1952a8cf8995693ac748980985bba66d03256c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S0T1.json",
+      "sha256": "fba22bc96216697ecce14e2bcb0e21ba0eca1f75a22cea31a928b8e3af8910e3"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S1T0.json",
+      "sha256": "a18b8c744ea32e347bf8a2e99d027097c6e1b8300675f6697d66974e1b18afc2"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_08_plausible_deniability@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_08_plausible_deniability@S1T1.json",
+      "sha256": "f5e8ed9ca7233261ecd6243fecd87ef859dfc74f1fa981813d8e5e42c31b58f4"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S0T0.json",
+      "sha256": "3925de3e229ea14cd5f756e8aee3ea224e8290a0ae005a8f1f8d66a981529b20"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S0T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S0T1.json",
+      "sha256": "1049e308ffa0074eaa72ba396ac28e40645786b34c76015eeed8f71aaae9a27f"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T0.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S1T0.json",
+      "sha256": "4def876f1d85be3eed7ded346196dffc558d522a0aa1d55fabbe4607a51fe27c"
+    },
+    {
+      "trajectory_spec_path": "experiments/noharness_vs_safeharness_adapted_no_llm/autocontrol/config/autocontrol_st/sm_09_proxy_compliance@S1T1.json",
+      "release_path": "harness/autocontrol/evaluation/task_specs/sm_09_proxy_compliance@S1T1.json",
+      "sha256": "500f1e0f79b8867ddf9ef4844f4355a317a2f50ce1790fde0f3e55a5d6a21059"
+    }
+  ]
+}

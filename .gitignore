@@ -19,8 +19,65 @@ data/
 experiments/runs/
 # 旧实验归档约 435 MB；正式保留的是 canonical 实验目录，不上传这份重复归档
 experiments/previous/
+# 各实验内部的历史/淘汰结果同样只保留在工作区，不进入新提交
+experiments/**/previous/
 outputs/
 *.log
+*.log_*
+
+# ---- 训练权重、checkpoint 与可重建依赖 ----
+# SFT 的代码、配置、manifest 和小型正式结果可以提交；模型权重和优化器状态不提交。
+**/training/runs/
+**/checkpoint-*/
+**/final_adapter/
+**/optimizer.pt
+**/scheduler.pt
+**/rng_state*.pth
+**/adapter_model.safetensors
+**/pytorch_model*.bin
+*.safetensors
+
+# 本地离线安装副本可由锁定版本重新构建，不属于实验实现。
+experiments/model_vs_harness_sft/**/training/vendor*/
+experiments/model_vs_harness_sft/**/training/wheelhouse*/
+
+# ---- 中断恢复与临时输出 ----
+*.partial.jsonl
+*.partial.json
+*.tmp
+*.part
+
+# ---- 已明确淘汰/暂停的 SFT 子实验 ----
+# 当前 canonical SFT 只保留 autocontrol_w1_only、securitybench_v2 和
+# upward_deception；以下目录不得混入新的核心实验提交。
+experiments/model_vs_harness_sft/autocontrol_bridge/
+experiments/model_vs_harness_sft/autocontrol_v2/
+experiments/model_vs_harness_sft/securitybench/
+experiments/model_vs_harness_sft/react_base_harness/
+
+# Full evaluation runs are copied once into experiments/collaborator_release/
+# as canonical trajectory+judge records. Keep the source worktree artifacts
+# local to avoid duplicate Git paths.
+experiments/model_vs_harness_sft/**/evaluation/runs/
+experiments/harness实验/autocontrol/runs/
+experiments/harness实验/autocontrol/artifacts/
+experiments/harness实验/autocontrol/results/three_arm_scored.jsonl
+experiments/harness实验/autocontrol/results/cases.json
+experiments/harness实验/securitybench/raw/
+experiments/harness实验/securitybench/analysis/
+experiments/harness实验/securitybench/semantic_eval/judge_input.jsonl
+experiments/harness实验/securitybench/semantic_eval/token_fixed_v2/
+experiments/harness实验/securitybench/semantic_eval/results/judged.jsonl
+experiments/harness实验/securitybench/semantic_eval/results/cases.json
+
+# Formal SFT source trees keep implementation and compact reports. Accepted
+# training data and full judged trajectories are tracked exactly once in the
+# collaborator release, not again as generated source-tree output.
+experiments/model_vs_harness_sft/autocontrol_w1_only/results/CASE_INVENTORY.md
+experiments/model_vs_harness_sft/securitybench_v2/artifacts/contracts/
+experiments/model_vs_harness_sft/securitybench_v2/evaluation/manifests/
+experiments/model_vs_harness_sft/securitybench_v2/output/
+experiments/model_vs_harness_sft/upward_deception/output/
 
 # ---- Python 常规 ----
 __pycache__/
@@ -28,6 +85,7 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
 
 # ---- 归档/回收目录（项目外的历史数据）----
 _removed-*/

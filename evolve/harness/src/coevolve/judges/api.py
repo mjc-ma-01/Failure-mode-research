@@ -100,22 +100,14 @@ def parse_json_object(text: str) -> dict | None:
     """从可能带 markdown 围栏/前后文的回复里抠出第一个 JSON 对象。"""
     if not text:
         return None
-    t = text.strip()
-    if t.startswith("```"):
-        t = t.split("```")[1] if "```" in t[3:] else t
-        t = t.lstrip("json").strip()
-    start = t.find("{")
-    if start < 0:
-        return None
-    depth = 0
-    for i in range(start, len(t)):
-        if t[i] == "{":
-            depth += 1
-        elif t[i] == "}":
-            depth -= 1
-            if depth == 0:
-                try:
-                    return json.loads(t[start:i + 1])
-                except Exception:
-                    return None
+    decoder = json.JSONDecoder()
+    for start, character in enumerate(text):
+        if character != "{":
+            continue
+        try:
+            value, _ = decoder.raw_decode(text[start:])
+        except json.JSONDecodeError:
+            continue
+        if isinstance(value, dict):
+            return value
     return None

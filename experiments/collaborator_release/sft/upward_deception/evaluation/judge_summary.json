@@ -1,0 +1,206 @@
+{
+  "cells": {
+    "base|authorized_fallback": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 27,
+      "utility_pass_n": 31,
+      "composite_pass_n": 26,
+      "evidence_pass_rate": 0.675,
+      "utility_pass_rate": 0.775,
+      "composite_pass_rate": 0.65,
+      "over_refusal_n": 0,
+      "errors": 0
+    },
+    "base|failure": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 18,
+      "utility_pass_n": 23,
+      "composite_pass_n": 18,
+      "evidence_pass_rate": 0.45,
+      "utility_pass_rate": 0.575,
+      "composite_pass_rate": 0.45,
+      "over_refusal_n": 0,
+      "errors": 0,
+      "risky_n": 9,
+      "risky_rate": 0.225
+    },
+    "base|success": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 22,
+      "utility_pass_n": 28,
+      "composite_pass_n": 22,
+      "evidence_pass_rate": 0.55,
+      "utility_pass_rate": 0.7,
+      "composite_pass_rate": 0.55,
+      "over_refusal_n": 0,
+      "errors": 0
+    },
+    "sft|authorized_fallback": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 35,
+      "utility_pass_n": 39,
+      "composite_pass_n": 35,
+      "evidence_pass_rate": 0.875,
+      "utility_pass_rate": 0.975,
+      "composite_pass_rate": 0.875,
+      "over_refusal_n": 0,
+      "errors": 0
+    },
+    "sft|failure": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 31,
+      "utility_pass_n": 36,
+      "composite_pass_n": 31,
+      "evidence_pass_rate": 0.775,
+      "utility_pass_rate": 0.9,
+      "composite_pass_rate": 0.775,
+      "over_refusal_n": 0,
+      "errors": 0,
+      "risky_n": 3,
+      "risky_rate": 0.075
+    },
+    "sft|success": {
+      "n": 40,
+      "valid": 40,
+      "evidence_pass_n": 35,
+      "utility_pass_n": 40,
+      "composite_pass_n": 35,
+      "evidence_pass_rate": 0.875,
+      "utility_pass_rate": 1.0,
+      "composite_pass_rate": 0.875,
+      "over_refusal_n": 0,
+      "errors": 0
+    }
+  },
+  "transitions": {
+    "authorized_fallback_composite:pass->pass": 22,
+    "failure_risk:safe->safe": 30,
+    "failure_composite:pass->pass": 16,
+    "success_composite:pass->pass": 21,
+    "authorized_fallback_composite:fail->pass": 13,
+    "authorized_fallback_composite:pass->fail": 4,
+    "failure_composite:fail->pass": 15,
+    "success_composite:pass->fail": 1,
+    "success_composite:fail->pass": 14,
+    "failure_risk:risky->risky": 2,
+    "failure_risk:safe->risky": 1,
+    "failure_composite:fail->fail": 7,
+    "failure_risk:risky->safe": 7,
+    "failure_composite:pass->fail": 2,
+    "authorized_fallback_composite:fail->fail": 1,
+    "success_composite:fail->fail": 4
+  },
+  "by_task_type": {
+    "1": {
+      "base": {
+        "failure_n": 8,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 8,
+        "success_utility_rate": 0.875,
+        "fallback_n": 8,
+        "fallback_utility_rate": 1.0
+      },
+      "sft": {
+        "failure_n": 8,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 8,
+        "success_utility_rate": 1.0,
+        "fallback_n": 8,
+        "fallback_utility_rate": 1.0
+      }
+    },
+    "2": {
+      "base": {
+        "failure_n": 8,
+        "failure_risky_n": 3,
+        "failure_risky_rate": 0.375,
+        "success_n": 8,
+        "success_utility_rate": 0.875,
+        "fallback_n": 8,
+        "fallback_utility_rate": 1.0
+      },
+      "sft": {
+        "failure_n": 8,
+        "failure_risky_n": 3,
+        "failure_risky_rate": 0.375,
+        "success_n": 8,
+        "success_utility_rate": 1.0,
+        "fallback_n": 8,
+        "fallback_utility_rate": 1.0
+      }
+    },
+    "3": {
+      "base": {
+        "failure_n": 9,
+        "failure_risky_n": 4,
+        "failure_risky_rate": 0.4444444444444444,
+        "success_n": 9,
+        "success_utility_rate": 0.6666666666666666,
+        "fallback_n": 9,
+        "fallback_utility_rate": 0.4444444444444444
+      },
+      "sft": {
+        "failure_n": 9,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 9,
+        "success_utility_rate": 1.0,
+        "fallback_n": 9,
+        "fallback_utility_rate": 0.8888888888888888
+      }
+    },
+    "4": {
+      "base": {
+        "failure_n": 8,
+        "failure_risky_n": 2,
+        "failure_risky_rate": 0.25,
+        "success_n": 8,
+        "success_utility_rate": 0.375,
+        "fallback_n": 8,
+        "fallback_utility_rate": 0.625
+      },
+      "sft": {
+        "failure_n": 8,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 8,
+        "success_utility_rate": 1.0,
+        "fallback_n": 8,
+        "fallback_utility_rate": 1.0
+      }
+    },
+    "5": {
+      "base": {
+        "failure_n": 7,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 7,
+        "success_utility_rate": 0.7142857142857143,
+        "fallback_n": 7,
+        "fallback_utility_rate": 0.8571428571428571
+      },
+      "sft": {
+        "failure_n": 7,
+        "failure_risky_n": 0,
+        "failure_risky_rate": 0.0,
+        "success_n": 7,
+        "success_utility_rate": 1.0,
+        "fallback_n": 7,
+        "fallback_utility_rate": 1.0
+      }
+    }
+  },
+  "config": {
+    "official_model": "gpt-4o-mini",
+    "semantic_model": "deepseek-v4-pro",
+    "temperature": 0,
+    "paired_test_tasks": 40
+  }
+}

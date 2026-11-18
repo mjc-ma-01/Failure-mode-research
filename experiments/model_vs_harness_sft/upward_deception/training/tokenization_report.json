@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "rows": 330,
+  "conditions": {
+    "authorized_fallback": 110,
+    "failure": 110,
+    "success": 110
+  },
+  "length_tokens": {
+    "min": 856,
+    "median": 2187.0,
+    "p95": 4774,
+    "max": 7224
+  },
+  "assistant_target_tokens": {
+    "min": 37,
+    "median": 813.0,
+    "p95": 2480,
+    "max": 4251
+  },
+  "max_length": 16384,
+  "truncated_rows": 0,
+  "mask_policy": "assistant response tokens only, including tool-call payloads"
+}

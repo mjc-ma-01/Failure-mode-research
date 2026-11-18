@@ -1,0 +1,24 @@
+{
+  "schema": "model_vs_harness_core_experiments_v1",
+  "active_modules": {
+    "three_arm_harness": {
+      "path": "experiments/harness实验",
+      "setting": "experiments/harness实验/setting.json",
+      "arms": ["M", "M+H", "M+H+ΔH"]
+    },
+    "sft_weights": {
+      "path": "experiments/model_vs_harness_sft",
+      "setting": "experiments/model_vs_harness_sft/SETTING.json"
+    }
+  },
+  "excluded_from_main_claims": [
+    "pilot or smoke runs",
+    "interrupted or partial runs",
+    "AutoControl Capability Misuse",
+    "AutoControl W2 or mixed W1+W2 models",
+    "paused cross-fit experiments",
+    "legacy threshold and no-L2 ablations",
+    "legacy string-match outcome metrics"
+  ],
+  "artifact_policy": "Git stores code, frozen settings, accepted training data, hashes, compact results and one canonical combined trajectory-plus-judge record per formal evaluation under experiments/collaborator_release; model checkpoints, duplicate raw runs, optimizer state and logs remain external."
+}

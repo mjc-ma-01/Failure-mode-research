@@ -1,0 +1,49 @@
+{
+  "output/sft/train.jsonl": {
+    "bytes": 1206888,
+    "sha256": "c84d56a5b1861dc4199d65208ac27fa150ae580f7faa1c0d9eee0323488726a8"
+  },
+  "evaluation/manifests/dev_selection.jsonl": {
+    "bytes": 656847,
+    "sha256": "c5faa4898ff5c043774ef126e56a7a654601e60acb133be410e48ede288bf75f"
+  },
+  "evaluation/manifests/test_selection.jsonl": {
+    "bytes": 2615447,
+    "sha256": "d46675b962043fa37984f33623a14d08bdbbf63272b59561684044056457fc6d"
+  },
+  "training/runs/qwen35_9b_lora_v2_final/checkpoint-69/adapter_model.safetensors": {
+    "bytes": 147896760,
+    "sha256": "079d5bf13550f959f4e772c23f80f523ab956e89663422e5bd5fcd571b473bfd"
+  },
+  "evaluation/run_eval.py": {
+    "bytes": 19520,
+    "sha256": "12af4e2c336bf96687daa383febe09f8915b667ff6e11990ed43123fcfa66696"
+  },
+  "evaluation/score_results.py": {
+    "bytes": 18704,
+    "sha256": "9840f592d1fb492b1c92237a4c2e4321988c943e902c02004e13b8138313b339"
+  },
+  "evaluation/analyze_scored.py": {
+    "bytes": 7553,
+    "sha256": "f34f3c96501c8c743967f13945fb6a3ca37084b9affef4cb349036e30263ff69"
+  },
+  "frozen": {
+    "base_model": "Qwen/Qwen3.5-9B snapshot c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "selected_checkpoint": "checkpoint-69",
+    "generation": {
+      "temperature": 0,
+      "do_sample": false,
+      "seed": 42,
+      "max_steps": 6,
+      "max_new_tokens": 768
+    },
+    "judge": {
+      "model": "deepseek-v4-pro",
+      "temperature": 0,
+      "reasoning_effort": "high",
+      "max_tokens": 5000
+    },
+    "harness_runtime_llm": false,
+    "test_selected_before_generation": true
+  }
+}
